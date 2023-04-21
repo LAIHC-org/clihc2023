@@ -10,7 +10,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView, 
       meta: {
-        title: "MexIHC 2022 - An AMexIHC conference",
+        title: "CLIHC 2023 - An AMexIHC conference",
       },
     },
     {
@@ -18,7 +18,7 @@ const router = createRouter({
       name: 'call-for-participation',
       component: () => import('../views/CallsView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Call for participation",
+        title: "CLIHC 2023 - Call for participation",
       },
     },
     {
@@ -26,7 +26,7 @@ const router = createRouter({
       name: 'accessibility-recommendations-for-authors',
       component: () => import('../views/AccessibilityForAuthorsView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Accessibility recommendations for authors",
+        title: "CLIHC 2023 - Accessibility recommendations for authors",
       },
     },
     {
@@ -34,7 +34,7 @@ const router = createRouter({
       name: 'organizers',
       component: () => import('../views/OrganizersView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Organizers",
+        title: "CLIHC 2023 - Organizers",
       },
     },
     {
@@ -42,7 +42,7 @@ const router = createRouter({
       name: 'schedule',
       component: () => import('../views/ScheduleView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Schedule",
+        title: "CLIHC 2023 - Schedule",
       },
     },    
     {
@@ -50,7 +50,7 @@ const router = createRouter({
       name: 'keynote-speakers',
       component: () => import('../views/SpeakersView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Keynote speakers",
+        title: "CLIHC 2023 - Keynote speakers",
       },
     },
     {
@@ -58,7 +58,7 @@ const router = createRouter({
       name: 'accepted-papers',
       component: () => import('../views/AcceptedPapersView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Schedule",
+        title: "CLIHC 2023 - Schedule",
       },
     },    
     {
@@ -66,7 +66,7 @@ const router = createRouter({
       name: 'registration',
       component: () => import('../views/RegistrationView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Registration",
+        title: "CLIHC 2023 - Registration",
       },
     },
     {
@@ -74,7 +74,7 @@ const router = createRouter({
       name: 'videoArchives',
       component: () => import('../views/VideoArchivesView.vue'), 
       meta: {
-        title: "MexIHC 2022 - Video archives",
+        title: "CLIHC 2023 - Video archives",
       },
     },    
     {

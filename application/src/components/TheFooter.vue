@@ -107,12 +107,14 @@
                 
                 <div class="col-12 my-4">
                     <div class="text-center">
-                        <p class="my-1 text-sm">
-                            © 2022 Mexican Conference on Human-Computer Interaction, an AMexIHC conference.
-                        <div class="text-center">
-                            <img class="w-10 opacity-6" src="/assets/img/logos/amexihc.svg" alt="AMexIHC">
-                        </div>
-                        <div class="text-center text-sm mt-1"><a class="uline" href="CHANGELOG.md">v2.1.32</a></div>
+                        <p class="my-0 text-sm">
+                            © 2023 Latin American Conference on Human Computer Interaction, a LAIHC conference.
+                        </p>
+                        <p class="my-0  text-sm">
+                            Foto de <a class="uline" href="https://unsplash.com/@igniggo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aldo González</a> en <a class="uline" href="https://unsplash.com/es/fotos/KR9EvVM13Go?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                        </p>
+                        <p class="my-0  text-sm">
+                            <a class="uline" href="CHANGELOG.md">v2023.0.0.0</a>
                         </p>
                     </div>
                 </div>
