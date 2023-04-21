@@ -5,10 +5,10 @@
 				style="background-image: url('./assets/img/banner-1.png')">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-8 z-index-2 border-radius-xl mx-auto py-3 blur shadow-blur">
+						<div class="col-lg-8 z-index-2 border-radius-xl mx-auto py-3 blur blur-dark shadow">
 							<div class="row">
-								<div class="col-md-12 text-center">
-									<h1 class="pt-3">
+								<div class="col-md-12 text-center text-white">
+									<h1 class="pt-3 text-white">
 										<img src="/assets/img/logos/clihc2023.svg" height="55" alt=""
 											style="position: relative; top: -2px;">
 										CLIHC 2023

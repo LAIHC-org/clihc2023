@@ -47,5 +47,17 @@
   <body class="presentation-page">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      var myNav = document.getElementsByClassName('navbar-color-on-scroll');
+      
+      window.onscroll = function () { 
+          if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+              myNav[0].classList.add("scrolled");
+          } 
+          else {
+              myNav[0].classList.remove("scrolled");
+          }
+      };
+    </script>
   </body>
 </html>

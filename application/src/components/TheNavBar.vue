@@ -4,9 +4,9 @@
 		<div class="row">
 			<div class="col-12">
 				<nav
-					class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+					class="navbar navbar-expand-lg  blur blur-dark blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4 navbar-color-on-scroll">
 					<div class="container-fluid">
-						<a class="navbar-brand font-weight-bolder ms-sm-3" href="./" rel="tooltip"
+						<a class="navbar-brand font-weight-bolder ms-sm-3 text-white" href="./" rel="tooltip"
 							title="Ninth Mexican International Conference on Human-Computer Interaction" data-placement="bottom"
 							tabindex="0">
 							<img src="/assets/img/logos/clihc2023.svg" height="25" alt="CLIHC Logo">
@@ -25,14 +25,14 @@
 							<ul class="navbar-nav navbar-nav-hover w-100">
 
 								<li class="nav-item mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center active"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white active"
 										aria-current="page" href="./">
 										Home
 									</a>
 								</li>
 
 								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white" href="#"
 										id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
 										Authors
@@ -107,7 +107,7 @@
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white" href="#"
 										id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
 										Attend
@@ -165,7 +165,7 @@
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white" href="#"
 										id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
 										Program
@@ -217,14 +217,14 @@
 								</li>
 								
 								<li class="nav-item mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white"
 										href="./video-archives">
 										Video archives
 									</a>
 								</li>
 
 								<li class="nav-item mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center text-white"
 										href="./organizers">
 										Organizers
 									</a>
