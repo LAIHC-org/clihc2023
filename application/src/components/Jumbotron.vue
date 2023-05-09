@@ -7,8 +7,8 @@
 					<div class="row">
 						<div class="col-lg-8 z-index-2 border-radius-xl mx-auto py-3 mt-7 mb-4 blur shadow-blur">
 							<div class="row">
-								<div class="col-md-12 text-center text-white">
-									<h1 class="pt-3 text-white">
+								<div class="col-md-12 text-center">
+									<h1 class="pt-3">
 										<img src="/assets/img/logos/clihc2023.svg" height="55" alt=""
 											style="position: relative; top: -2px;"><br>
 										CLIHC 2023
