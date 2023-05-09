@@ -1,59 +1,53 @@
 <template>
-		<section class="">
-			<div class="container">
-				<div class="row">
-					<div class="row justify-content-center my-3">
-						<div class="col-lg-8">
-							<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
-							<h2 class="text-primary text-gradient text-center">About CLIHC</h2>
-							<p>
-								The Latin American Conference on Human-Computer Interaction (CLIHC) is managed by the SIGCHI Latin American HCI Community (LAIHC). CLIHC is a premier conference that brings together the Latin American and international HCI research communities to discuss and exchange ideas, methods, approaches, and techniques for designing interactive user experiences and encourages intercultural exchange and cooperation between people with different backgrounds and needs. This conference has its origin in Rio de Janeiro 2003 (Brazil), following editions in Cuernavaca 2005 (Mexico), Rio de Janeiro 2007 (Brazil), Merida 2009 (Mexico), Porto de Galinhas 2011 (Brazil), Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), and Panama City 2019 (Panama).
-							</p>
-							<p>
-								The main objective of MexIHC is to enable the exchange of scientific results, their
-								application in industry, and its
-								application in evaluation, interface design, industry, education, videogames, mobile,
-								interactive applications, and
-								related areas. This time, MexIHC 2022 is organized by lecturers and researchers in the
-								community of HCI in Mexico.
-
-							</p>
-							<p>
-								Join us in MexIHC 2022 and get ready to have an unforgettable experience and share ideas
-								that will advance the state
-								of the art in Human-Computer Interaction in Mexico.
-							</p>
-						</div>
+	<section class="">
+		<div class="container">
+			<div class="row">
+				<div class="row justify-content-center my-3">
+					<div class="col-lg-8">
+						<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
+						<h2 class="text-primary text-gradient text-center">About CLIHC</h2>
+						<p>
+							The Latin American Conference on Human-Computer Interaction (CLIHC) is managed by the SIGCHI
+							Latin American HCI Community (LAIHC). CLIHC is a premier conference that brings together the
+							Latin American and international HCI research communities to discuss and exchange ideas,
+							methods, approaches, and techniques for designing interactive user experiences and encourages
+							intercultural exchange and cooperation between people with different backgrounds and needs. This
+							conference has its origin in Rio de Janeiro 2003 (Brazil), following editions in Cuernavaca 2005
+							(Mexico), Rio de Janeiro 2007 (Brazil), Merida 2009 (Mexico), Porto de Galinhas 2011 (Brazil),
+							Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), and Panama
+							City 2019 (Panama).
+						</p>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="container">
-				<div class="row">
-					<div class="row justify-content-center my-3">
-						<div class="col-lg-6">
-							<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
-							<table class="table table-striped">
-								<tr>
-									<th scope="row"><a href="./call-for-participation" class="uline">Call for participation</a></th>
-									<td><span class="text-bold">Closed</span></td>
-								</tr>
-								<tr>
-									<th scope="row"><a href="./registration" class="uline">Registration</a></th>
-									<td><span class="text-bold">Closed</span></td>
-								</tr>
-								<tr>
-									<th scope="row">Proceedings</th>
-									<td>Pending</td>
-								</tr>
-								<tr>
-									<th scope="row"><a href="./video-archives" class="uline">Video archives</a></th>
-									<td><strong class="text-primary text-gradient">Published</strong></td>
-								</tr>
-							</table>
-						</div>
-					</div>
+		<div class="container">
+			<div class="row">
+				<div class="row justify-content-center my-3">
+					<div class="col-lg-6">
+						<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
+						<table class="table table-striped">
+							<tr>
+								<th scope="row"><a href="./call-for-participation" class="uline">Call for participation</a>
+								</th>
+								<td><span class="text-bold">Closed</span></td>
+							</tr>
+							<tr>
+								<th scope="row"><a href="./registration" class="uline">Registration</a></th>
+								<td><span class="text-bold">Closed</span></td>
+							</tr>
+							<tr>
+								<th scope="row">Proceedings</th>
+								<td>Pending</td>
+							</tr>
+							<tr>
+								<th scope="row"><a href="./video-archives" class="uline">Video archives</a></th>
+								<td><strong class="text-primary text-gradient">Published</strong></td>
+						</tr>
+					</table>
 				</div>
 			</div>
-		</section>
-</template>
+		</div>
+	</div>
+</section></template>
