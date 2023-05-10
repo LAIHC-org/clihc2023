@@ -50,12 +50,13 @@
 															Call for papers
 														</span>
 														<span class="text-sm text-dark">
-															Deadline: <del class="text-muted">July 1st</del> July 15th, 2022 EXTENDED
+															Abstract submission: May 29th, 2023
 														</span>
 													</div>
 												</div>
 											</a>
 										</li>
+										<!--
 										<li>
 											<a class="dropdown-item border-radius-md"
 												href="./call-for-participation#gc-call">
@@ -87,7 +88,8 @@
 													</div>
 												</div>
 											</a>
-										</li>										
+										</li>
+										
 										<li>
 											<a class="dropdown-item border-radius-md"
 												href="./accessibility-recommendations-for-authors">
@@ -104,8 +106,10 @@
 												</div>
 											</a>
 										</li>
+										-->
 									</ul>
 								</li>
+								<!--
 								<li class="nav-item dropdown dropdown-hover mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
 										id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
@@ -116,7 +120,6 @@
 									</a>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown2">
-										<!--
 										<li>
 											<a class="dropdown-item border-radius-md" href="#">
 												<div class="d-flex">
@@ -132,7 +135,6 @@
 												</div>
 											</a>
 										</li>
-										-->
 										<li>
 											<a class="dropdown-item border-radius-md" href="./registration">
 												<div class="d-flex">
@@ -148,7 +150,6 @@
 												</div>
 											</a>
 										</li>
-										<!--
 										<li>
 											<a class="dropdown-item border-radius-md" href="#">
 												<div class="d-flex">
@@ -161,7 +162,6 @@
 												</div>
 											</a>
 										</li>
-										-->
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">
@@ -222,7 +222,7 @@
 										Video archives
 									</a>
 								</li>
-
+								-->
 								<li class="nav-item mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
 										href="./organizers">

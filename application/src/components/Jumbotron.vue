@@ -18,12 +18,12 @@
 									</p>
 									<p class="lead mt-2">
 										<strong>
-											November 16-18, 2022 <br>
+											Oct 30 - 31, Nov 1 <br>
 											Puebla, México<br>
 										</strong>
 									</p>
 									<p class="lead pt-2">
-										<a href="./video-archives" class="btn btn-lg  bg-gradient-yellow  btn-round">
+										<a href="./call-for-participation" class="btn btn-lg  bg-gradient-yellow  btn-round">
 											Call for papers
 										</a>
 									</p>
