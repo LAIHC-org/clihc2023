@@ -241,18 +241,18 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                             <li>Identify the .SRT file for that particular video, for further use.</li>
                         </ol>
                         <!-- end Accessible video author recommendations -->
-                        <h2>Accesibility & Web Chair</h2>
+                        <h2>Web Chairs</h2>
                         <div class="row">
 
-                            <div class="col-md-6 mt-md-0 mt-4">
+                            <div class="col-md-4 mt-md-0 mt-4">
                                 <OrganizerItem>
                                     <template #image>
                                         <div class="d-block blur-shadow-image">
-                                            <img src="/assets/img/people/mike.png" alt=""
+                                            <img src="/assets/img/nophoto.png" alt=""
                                                 class="img-fluid shadow rounded-3">
                                         </div>
                                         <div class="colored-shadow"
-                                            style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
+                                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                         </div>
                                     </template>
                                     <template #name>
@@ -262,11 +262,30 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                         Universidad de Colima
                                     </template>
                                     <template #email>
-                                        <a class="uline" href="mailto:web.2022@mexihc.org">web.2022@mexihc.org</a>
                                     </template>
                                 </OrganizerItem>
                             </div>
-
+                            <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                <OrganizerItem>
+                                    <template #image>
+                                        <div class="d-block blur-shadow-image">
+                                            <img src="/assets/img/nophoto.png" alt=""
+                                                class="img-fluid shadow rounded-3">
+                                        </div>
+                                        <div class="colored-shadow"
+                                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                        </div>
+                                    </template>
+                                    <template #name>
+                                        Arlem Castillo Avila
+                                    </template>
+                                    <template #institution>
+                                        BUAP, MX
+                                    </template>
+                                    <template #email>
+                                    </template>
+                                </OrganizerItem>
+                            </div>
                         </div>
                     </div>
                 </div>
