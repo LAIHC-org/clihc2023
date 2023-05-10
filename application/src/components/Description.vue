@@ -13,10 +13,13 @@
                             conference brings together leading experts to explore innovative approaches and emerging trends
                             in the field.
                         </p>
-
+                        
+                        <!--
                         <a href="./accepted-papers" class="btn bg-gradient-yellow btn-round btn-lg">Accepted papers</a>
                         <a href="./schedule" class="btn bg-gradient-yellow btn-round btn-lg">Schedule</a>
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
+                        -->
+                        <a href="./call-for-participation" class="btn bg-gradient-yellow btn-round btn-lg">Call for papers</a>
 
                     </div>
                 </div>
