@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-12">
 				<nav
-					class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+					class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4 navbar-color-on-scroll">
 					<div class="container-fluid">
 						<a class="navbar-brand font-weight-bolder ms-sm-3" href="./" rel="tooltip"
 							title="Ninth Mexican International Conference on Human-Computer Interaction" data-placement="bottom"
@@ -49,7 +49,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Call for papers
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															Deadline: <del class="text-muted">July 1st</del> July 15th, 2022 EXTENDED
 														</span>
 													</div>
@@ -65,7 +65,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Graduate Consortium
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															Deadline: <del class="text-muted">August 15th</del> August 31st, 2022 EXTENDED
 														</span>
 													</div>
@@ -81,7 +81,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Poster track
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															Deadline: <del class="text-muted">September 27th</del> October 4th, 2022 EXTENDED
 														</span>
 													</div>
@@ -97,7 +97,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Accessibility recommendations for authors
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															Help us to maximize the experience for everyone
 														</span>
 													</div>
@@ -141,7 +141,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Rates & Registration
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															First step to attend
 														</span>														
 													</div>
@@ -194,7 +194,7 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															Keynote speakers
 														</span>
-														<span class="text-sm">
+														<span class="text-sm text-dark">
 															From the international HCI community
 														</span>
 													</div>

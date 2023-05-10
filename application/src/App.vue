@@ -17,4 +17,5 @@ import TheFooter from '@/components/TheFooter.vue'
 
 <style>
   @import '@/assets/base.css';
+  @import '@/assets/style.css';
 </style>
