@@ -35,11 +35,11 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             <SpeakerLargeItem>
               <template #image>
                 <img id="cleotilde-gonzalez" class="img border-radius-lg max-width-200 w-100 position-relative z-index-2"
-                  src="/assets/img/people/cleotilde-gonzalez.jpg" alt="Cleotilde (Coty) Gonzalez" />
+                  src="/assets/img/nophoto.png" alt="" />
               </template>
               <template #image-shadow>
                 <div class="colored-shadow"
-                  style="background-image: url(&quot;./assets/img/people/cleotilde-gonzalez.jpg&quot;);">
+                  style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                 </div>
               </template>
               <template #name>
@@ -61,11 +61,11 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             <SpeakerLargeItem>
               <template #image>
                 <img id="sergio-lujan" class="img border-radius-lg max-width-200 w-100 position-relative z-index-2"
-                  src="/assets/img/people/sergiolujan.jpg" alt="Sergio Luján Mora"/>
+                  src="/assets/img/nophoto.png" alt=""/>
               </template>
               <template #image-shadow>
                   <div class="colored-shadow"
-                      style="background-image: url(&quot;./assets/img/people/sergiolujan.jpg&quot;);">
+                      style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                   </div>
               </template>               
               <template #name>

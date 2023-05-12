@@ -89,7 +89,7 @@
 												</div>
 											</a>
 										</li>
-										
+										-->
 										<li>
 											<a class="dropdown-item border-radius-md"
 												href="./accessibility-recommendations-for-authors">
@@ -106,7 +106,7 @@
 												</div>
 											</a>
 										</li>
-										-->
+										
 									</ul>
 								</li>
 								<!--

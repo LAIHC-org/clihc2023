@@ -4,9 +4,9 @@
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /2022/
+  RewriteBase /
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /2022/index.html [L]
+  RewriteRule . /index.html [L]
 </IfModule>

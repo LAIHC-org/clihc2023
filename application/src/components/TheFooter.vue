@@ -31,7 +31,7 @@
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./#about_clihc">
-                                    About MexIHC
+                                    About CLIHC
                                 </a>
                                 <a class="nav-link uline" href="./organizers">
                                     Organizers
