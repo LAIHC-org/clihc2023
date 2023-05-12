@@ -231,7 +231,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         </ol>
                         
                         <!-- end Accessible video author recommendations -->
-                        <h3 class="my-4">Program (Paper) Chairs</h3>
+                        <h3 class="my-4">Web Chairs</h3>
                         <div class="row">
                             <div class="col-md-4">
                                 <OrganizerItem>
