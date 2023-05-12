@@ -163,7 +163,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                             </div>
                                         </template>
                                         <template #name>
-                                            Marisol Wong Villacres
+                                            Marisol Wong-Villacres
                                         </template>
                                         <template #institution>
                                             ESPOL, EC

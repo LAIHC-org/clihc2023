@@ -58,11 +58,11 @@ import SponsorItem from '@/components/SponsorItem.vue'
 
                         <SponsorItem>
                             <template #image>
-                                <img src="/assets/img/logos/sperientia.png" alt="" class="img-fluid shadow rounded-3">
+                                <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/logos/sperientia.png&quot;);">
+                                    style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                 </div>
                             </template>                                
                             <template #name>
@@ -72,11 +72,11 @@ import SponsorItem from '@/components/SponsorItem.vue'
 
                         <SponsorItem>
                             <template #image>
-                                <img src="/assets/img/logos/amphorahealth.png" alt="" class="img-fluid shadow rounded-3">
+                                <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/logos/amphorahealth.png&quot;);">
+                                    style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                 </div>
                             </template>                                
                             <template #name>

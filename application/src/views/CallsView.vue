@@ -45,8 +45,8 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             <h2 id="cfp-call" class="text-primary text-gradient text-center py-4">Call for papers</h2>
 
             <p>
-              The 10th Latin American Conference on Human-Computer Interaction (CLIHC 2023), aims to provide a premier
-              forum that brings together the Latin American and international Human-Computer Interaction (HCI) research
+              The XI Latin American Conference on Human-Computer Interaction (CLIHC 2023), aims to provide a premier forum
+              that brings together the Latin American and international Human-Computer Interaction (HCI) research
               communities to discuss and share ideas, methods, approaches, and techniques for designing, implementing, and
               evaluating interactive user experiences. In accordance with previous editions, we believe that HCI must
               foster the production of technology that can be used by and benefit as many people as possible, enabling
@@ -94,9 +94,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             <h3>Submission and Important Dates</h3>
             <p>
               All manuscripts must be submitted fully anonymized (to anonymize your paper, please consider the <a
-                href="https://chi2021.acm.org/for-authors/presenting/papers/chi-anonymization-policy">guidelines
+                href="https://chi2021.acm.org/for-authors/presenting/papers/chi-anonymization-policy"
+                class="uline">guidelines
                 provided by CHI</a>). Please consider an international audience: e.g., avoid local terms, and use the
-              international system of units.
+              international system of units. In addition, consider following <a
+                href="./accessibility-recommendations-for-authors" class="uline">accessibility guidelines</a>.
             </p>
 
             <h4 id="cpf-dates">Important dates (full and short papers)</h4>
@@ -111,13 +113,22 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <h3>Code of Ethics</h3>
             <p>
-              We abide by the <a href="https://www.acm.org/code-of-ethics">ACM Code of Ethics</a>. We expect that all
+              We abide by the <a href="https://www.acm.org/code-of-ethics" class="uline">ACM Code of Ethics</a>. We expect
+              that all
               submissions, underlying research, and behavior during
               the review process and conference comply with the principles and responsibilities outlined by the code.
             </p>
 
+            <h3>Submission process</h3>
             <p>
-              Submission format to be used for each category will follow the new ACM Master Article format. Authors may
+              Full and short paper submissions are to be made through <a
+                href="https://easychair.org/conferences/?conf=clihc2023" class="uline">EasyChair Conference System</a>.
+            </p>
+
+            <p>
+              Submission format to be used for each category will follow the <a
+                href="https://www.acm.org/publications/taps/word-template-workflow" class="uline">new ACM Master Article
+                format</a>. Authors may
               choose to work in one of the following formats:
             </p>
 
@@ -150,50 +161,60 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               submitted articles must be anonymized, including references to the authors’ own previous work.
             </p>
 
+            <p>
+              Accepted papers will be published in the <a href="https://dl.acm.org/" class="uline">ACM Digital Library</a>. Authors of a select set of accepted papers
+              will be invited to submit their work to a special issue in the prestigious <a href="https://academic.oup.com/iwc" class="uline">Journal Interacting with
+              Computers</a> (JCR IF: 1.036).
+            </p>
+
+            <p>
+              Accepted papers will be published in the <a href="https://dl.acm.org/" class="uline">ACM Digital Library</a>. Best papers will be recommended for
+              publication in a special edition book of the prestigious Human–Computer Interaction Series
+              (https://www.springer.com/series/6033), published by Springer and regularly indexed in the master book list
+              of the Web of Science.
+            </p>
+
             <h3 class="my-4">Program (Paper) Chairs</h3>
             <div class="row">
               <div class="col-md-4">
                 <OrganizerItem>
-                    <template #image>
-                        <div class="d-block blur-shadow-image">
-                            <img src="/assets/img/nophoto.png" alt=""
-                                class="img-fluid shadow rounded-3">
-                        </div>
-                        <div class="colored-shadow"
-                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                        </div>
-                    </template>
-                    <template #name>
-                        Pablo Torres
-                    </template>
-                    <template #institution>
-                        UTPL, EC
-                    </template>
-                    <template #email>
-                    </template>
+                  <template #image>
+                    <div class="d-block blur-shadow-image">
+                      <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                    </div>
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                    </div>
+                  </template>
+                  <template #name>
+                    Pablo Torres
+                  </template>
+                  <template #institution>
+                    UTPL, EC
+                  </template>
+                  <template #email>
+                  </template>
                 </OrganizerItem>
-            </div>
+              </div>
 
-            <div class="col-md-4">
+              <div class="col-md-4">
                 <OrganizerItem>
-                    <template #image>
-                        <div class="d-block blur-shadow-image">
-                            <img src="/assets/img/nophoto.png" alt=""
-                                class="img-fluid shadow rounded-3">
-                        </div>
-                        <div class="colored-shadow"
-                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);"></div>
-                    </template>
-                    <template #name>
-                        Vanessa Agredo Delgado
-                    </template>
-                    <template #institution>
-                        FUNAD, CO
-                    </template>
-                    <template #email>
-                    </template>
+                  <template #image>
+                    <div class="d-block blur-shadow-image">
+                      <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                    </div>
+                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                    </div>
+                  </template>
+                  <template #name>
+                    Vanessa Agredo Delgado
+                  </template>
+                  <template #institution>
+                    FUNAD, CO
+                  </template>
+                  <template #email>
+                  </template>
                 </OrganizerItem>
-            </div>              
+              </div>
             </div>
             <br>
             <p><a class="uline" href="./call-for-participation#top">Back to top of page</a></p>
@@ -202,13 +223,10 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
         </div>
       </div>
     </div>
-  </section>
-</template>
+  </section></template>
 
-<style>
-dt {
+<style>dt {
   display: list-item;
   list-style-type: disc;
   list-style-position: inside;
-}
-</style>
+}</style>
