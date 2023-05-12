@@ -14,3 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Landing page content
 - Call for papers
 - Organizers page
+
+## [2023.0.0.2] - 2023-05-12
+
+### Changed
+
+- Cambios solicitados por Marisol Wong-Villacres en CFP, Accesibility recomendations y Organizers.
