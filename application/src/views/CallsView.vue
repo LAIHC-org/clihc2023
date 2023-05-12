@@ -162,16 +162,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             </p>
 
             <p>
-              Accepted papers will be published in the <a href="https://dl.acm.org/" class="uline">ACM Digital Library</a>. Authors of a select set of accepted papers
-              will be invited to submit their work to a special issue in the prestigious <a href="https://academic.oup.com/iwc" class="uline">Journal Interacting with
-              Computers</a> (JCR IF: 1.036).
-            </p>
-
-            <p>
-              Accepted papers will be published in the <a href="https://dl.acm.org/" class="uline">ACM Digital Library</a>. Best papers will be recommended for
-              publication in a special edition book of the prestigious Human–Computer Interaction Series
-              (https://www.springer.com/series/6033), published by Springer and regularly indexed in the master book list
-              of the Web of Science.
+              We are working to ensure that accepted papers will be published in the ACM Digital Library. In addition, best papers will be recommended for publication in a special edition book of the prestigious <a href="https://www.springer.com/series/6033" class="uline">Human–Computer Interaction Series</a>, published by Springer and regularly indexed in the master book list of the Web of Science.
             </p>
 
             <h3 class="my-4">Program (Paper) Chairs</h3>
