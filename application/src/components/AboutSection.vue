@@ -15,7 +15,7 @@
 							conference has its origin in Rio de Janeiro 2003 (Brazil), following editions in Cuernavaca 2005
 							(Mexico), Rio de Janeiro 2007 (Brazil), Merida 2009 (Mexico), Porto de Galinhas 2011 (Brazil),
 							Guanacaste 2013 (Costa Rica), Córdoba 2015 (Argentina), Antigua 2017 (Guatemala), and Panama
-							City 2019 (Panama).
+							City 2019 (Panama) and Virtual Conference 2021 (Online).
 						</p>
 					</div>
 				</div>
