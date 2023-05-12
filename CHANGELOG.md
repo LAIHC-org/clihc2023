@@ -28,3 +28,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cambia posicion de cards de responsables en Accesibility Recommendations
 - Agrega link a las recomendaciones de accesibilidad en el footer
 
+## [2023.0.0.4] - 2023-05-12
+
+### Changed
+
+- Cambia texto "About CLIHC" del landing page para mencionar la conferencia virtual del 2021
+- Cambia parrafos del CFP sobre la publicación de los artículos

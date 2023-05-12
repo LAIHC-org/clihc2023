@@ -123,7 +123,7 @@
                             Foto de <a class="uline" href="https://unsplash.com/@igniggo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aldo González</a> en <a class="uline" href="https://unsplash.com/es/fotos/KR9EvVM13Go?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.0.0.3</a>
+                            <a class="uline" href="CHANGELOG.md">v2023.0.0.4</a>
                         </p>
                     </div>
                 </div>
