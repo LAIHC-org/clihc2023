@@ -231,47 +231,45 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         </ol>
                         
                         <!-- end Accessible video author recommendations -->
-                        <h2 class="mt-5">Web Chairs</h2>
+                        <h3 class="my-4">Program (Paper) Chairs</h3>
                         <div class="row">
-
-                            <div class="col-md-4 mt-md-0 mt-4">
+                            <div class="col-md-4">
                                 <OrganizerItem>
-                                    <template #image>
-                                        <div class="d-block blur-shadow-image">
-                                            <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
-                                        </div>
-                                        <div class="colored-shadow"
-                                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                        </div>
-                                    </template>
-                                    <template #name>
-                                        Miguel Angel Rodríguez Ortiz
-                                    </template>
-                                    <template #institution>
-                                        Universidad de Colima
-                                    </template>
-                                    <template #email>
-                                    </template>
+                                <template #image>
+                                    <div class="d-block blur-shadow-image">
+                                    <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                                    </div>
+                                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                    </div>
+                                </template>
+                                <template #name>
+                                    Miguel Angel Rodríguez Ortiz
+                                </template>
+                                <template #institution>
+                                    Universidad de Colima, MX
+                                </template>
+                                <template #email>
+                                </template>
                                 </OrganizerItem>
                             </div>
-                            <div class="col-md-4 ms-auto mt-md-0 mt-4">
+
+                            <div class="col-md-4">
                                 <OrganizerItem>
-                                    <template #image>
-                                        <div class="d-block blur-shadow-image">
-                                            <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
-                                        </div>
-                                        <div class="colored-shadow"
-                                            style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                        </div>
-                                    </template>
-                                    <template #name>
-                                        Arlem Castillo Avila
-                                    </template>
-                                    <template #institution>
-                                        BUAP, MX
-                                    </template>
-                                    <template #email>
-                                    </template>
+                                <template #image>
+                                    <div class="d-block blur-shadow-image">
+                                    <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                                    </div>
+                                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                    </div>
+                                </template>
+                                <template #name>
+                                    Arlem Castillo Avila
+                                </template>
+                                <template #institution>
+                                    BUAP, MX
+                                </template>
+                                <template #email>
+                                </template>
                                 </OrganizerItem>
                             </div>
                         </div>
