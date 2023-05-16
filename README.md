@@ -1,4 +1,4 @@
-# CLIHC Versión 2023.0.0.5
+# CLIHC Versión 2023.0.0.6
 
 ## Sitio web para el CLIHC 2023
 
