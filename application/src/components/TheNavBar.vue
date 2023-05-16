@@ -50,7 +50,7 @@
 															Call for papers
 														</span>
 														<span class="text-sm text-dark">
-															Abstract submission: May 29th, 2023
+															Abstract submission: June 12th , 2023
 														</span>
 													</div>
 												</div>
