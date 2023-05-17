@@ -2,7 +2,7 @@
 		<!-- Jumbotron -->
 		<header class="header-2">
 			<div class="page-header section-height-75 relative"
-				style="background-image: url('./assets/img/banner-1.png')">
+				style="background-image: url('./assets/img/banner-2.png')">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 z-index-2 border-radius-xl mx-auto py-3 mt-7 mb-4 blur shadow-blur">
