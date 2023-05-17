@@ -19,12 +19,12 @@ import SpeakerItem from './SpeakerItem.vue'
 
                         <SpeakerItem>
                             <template #image>
-                                <img src="/assets/img/people/cleotilde-gonzalez.jpg" alt="Cleotilde (Coty) Gonzalez"
+                                <img src="/assets/img/nophoto.png" alt=""
                                     class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/people/cleotilde-gonzalez.jpg&quot;);">
+                                    style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                 </div>
                             </template>
                             <template #name>
@@ -42,12 +42,12 @@ import SpeakerItem from './SpeakerItem.vue'
 
                         <SpeakerItem>
                             <template #image>
-                                <img src="/assets/img/people/sergiolujan.jpg" alt="Sergio Luján Mora"
+                                <img src="/assets/img/nophoto.png" alt=""
                                     class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/people/sergiolujan.jpg&quot;);">
+                                    style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
                                 </div>
                             </template>
                             <template #name>

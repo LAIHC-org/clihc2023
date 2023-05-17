@@ -50,55 +50,44 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         </ol>
 
                         <p>
-                            MexIHC 2022 will be a fully virtual online event. We are doing our best effort to
-                            provide an accessible environment, and as the primary producers of information, we
-                            have some accessibility recommendations that we encourage you to follow, to help us
-                            to maximize the experience for everyone.
+                            We are committed to providing an inclusive environment and maximizing the experience for
+                            everyone. As the primary producers of information, we encourage all participants to follow our
+                            accessibility recommendations.
                         </p>
 
                         <!-- Language recommendations-->
-                        <h2 id="language-recommendations">Language recommendations</h2>
+                        <h2 id="language-recommendations">Language Recommendations</h2>
 
                         <p>
-                            As one of the leading research activities is to present and transmit your ideas
-                            through writing, we invite you to read the
-                            <a class="uline"
+                            Effective communication of research ideas through writing is a crucial aspect of our conference.
+                            We invite you to read the <a class="uline"
                                 href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/">Accessible
-                                Writing Guide</a> and the
-                            <a class="uline"
-                                href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">Accessible
-                                Presentation Guide</a>, published by
-                            <a class="uline" href="http://www.sigaccess.org/">ACM
-                                SIGACCESS</a>, where you can find
-                            recommendations in the current thinking on language for writing in the academic
-                            accessibility community, as well as the nine guidelines for preparing a conference
-                            presentation, made by
-                            <a class="uline" href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a>, to better
-                            communicate your message to every
-                            audience member.
+                                Writing Guide</a> and <a class="uline"
+                                href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">the
+                                Accessible Presentation Guide</a> published by <a class="uline"
+                                href="http://www.sigaccess.org/">ACM SIGACCESS</a>. These guides provide up-to-date
+                            recommendations for writing and presenting in the academic accessibility community, as well as
+                            nine guidelines for preparing a conference presentation by <a class="uline"
+                                href="https://cs.uiowa.edu/people/kyle-rector">Kyle Rector</a> to better communicate your
+                            message to all audience members.
                         </p>
                         <!-- end Language recommendations -->
 
                         <!-- Accessible document author recommendations -->
-                        <h2 id="accessible-document-author-recommendations">Accessible document author recommendations
+                        <h2 id="accessible-document-author-recommendations">Accessible Document Author Recommendations
                         </h2>
 
                         <p>
-                            Every accessible document should offer perception and interaction alternatives,
-                            besides facilitating comprehension for everyone. Here you have
-                            <a class="uline"
-                                href="https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">
-                                how to make your Microsoft Word document accessible to people with
-                                disabilities</a>
-                            or, if you work with
-                            Google Docs, they have published
-                            <a class="uline" href="https://support.google.com/docs/answer/6199477?hl=en">how to make
-                                your
-                                document or presentation more
-                                accessible</a>.
+                            Accessible documents should be designed with perception and interaction alternatives in mind to
+                            ensure comprehension for all readers. If you use Microsoft Word, we recommend following <a
+                                class="uline"
+                                href="https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d">the guide
+                                to making your document accessible</a>. Alternatively, Google Docs has published <a
+                                class="uline" href="https://support.google.com/docs/answer/6199477?hl=en">tips on making
+                                your document or presentation more accessible</a>.
                         </p>
                         <p>
-                            As a minimum, we recommend you to consider:
+                            At a minimum, we suggest:
                         </p>
                         <ol>
                             <li>
@@ -165,7 +154,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         <h2 id="accessible-slide-author-recommendations">Accessible slide author recommendations</h2>
                         <p>
                             Your presentations will be available as part of the digital products generated at
-                            MexIHC 2022, therefore is possible that people who will read them, use a screen
+                            CLIHC 2023, therefore is possible that people who will read them, use a screen
                             reader, so we encourage you to consult the <a class="uline"
                                 href="http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/">Accessible
                                 Presentation Guide</a>, published
@@ -240,37 +229,52 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                             <li><strong>Use simple language</strong>, as possible.</li>
                             <li>Identify the .SRT file for that particular video, for further use.</li>
                         </ol>
+                        
                         <!-- end Accessible video author recommendations -->
-                        <h2>Accesibility & Web Chair</h2>
+                        <h3 class="my-4">Web Chairs</h3>
                         <div class="row">
-
-                            <div class="col-md-6 mt-md-0 mt-4">
+                            <div class="col-md-4">
                                 <OrganizerItem>
-                                    <template #image>
-                                        <div class="d-block blur-shadow-image">
-                                            <img src="/assets/img/people/mike.png" alt=""
-                                                class="img-fluid shadow rounded-3">
-                                        </div>
-                                        <div class="colored-shadow"
-                                            style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
-                                        </div>
-                                    </template>
-                                    <template #name>
-                                        Miguel Angel Rodríguez Ortiz
-                                    </template>
-                                    <template #institution>
-                                        Universidad de Colima
-                                    </template>
-                                    <template #email>
-                                        <a class="uline" href="mailto:web.2022@mexihc.org">web.2022@mexihc.org</a>
-                                    </template>
+                                <template #image>
+                                    <div class="d-block blur-shadow-image">
+                                    <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                                    </div>
+                                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                    </div>
+                                </template>
+                                <template #name>
+                                    Miguel Angel Rodríguez Ortiz
+                                </template>
+                                <template #institution>
+                                    Universidad de Colima, MX
+                                </template>
+                                <template #email>
+                                </template>
                                 </OrganizerItem>
                             </div>
 
+                            <div class="col-md-4">
+                                <OrganizerItem>
+                                <template #image>
+                                    <div class="d-block blur-shadow-image">
+                                    <img src="/assets/img/nophoto.png" alt="" class="img-fluid shadow rounded-3">
+                                    </div>
+                                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                    </div>
+                                </template>
+                                <template #name>
+                                    Arlem Castillo Avila
+                                </template>
+                                <template #institution>
+                                    BUAP, MX
+                                </template>
+                                <template #email>
+                                </template>
+                                </OrganizerItem>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
-    </section>
-</template>
+    </div>
+</section></template>
