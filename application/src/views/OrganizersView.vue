@@ -466,7 +466,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                             Adriana Iñiguez
                                         </template>
                                         <template #institution>
-                                            UdG, MX
+                                            Universidad de Guadalajara, MX
                                         </template>
                                         <template #email>
                                         </template>
