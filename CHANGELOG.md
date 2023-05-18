@@ -56,3 +56,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style: 🎨 Cambia banner a opcion 1 diseñada por Arlem
+
+## [2023.0.0.8] - 2023-05-18
+
+### Changed
+
+- style: Cambia la foto de Alfredo y Christian de los Organizers
+
+### Fixed
+
+- fix(Content): 💬 Cambia UdG (Adriana) e Universidad de Guadalajara en Organizers
