@@ -72,3 +72,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style: 💄 Cambia el banner de la Landing-page y su altura (100%)
+
+## [2023.0.0.10] - 2023-05-18
+
+### Changed
+
+- style: 💄 Cambia foto de Pablo
