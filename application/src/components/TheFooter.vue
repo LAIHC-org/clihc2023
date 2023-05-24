@@ -120,7 +120,7 @@
                             © 2023 Latin American Conference on Human Computer Interaction, a LAIHC conference.
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.0.0.10</a>
+                            <a class="uline" href="CHANGELOG.md">v2023.0.0.11</a>
                         </p>
                     </div>
                 </div>

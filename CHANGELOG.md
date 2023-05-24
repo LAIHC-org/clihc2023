@@ -78,3 +78,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style: 💄 Cambia foto de Pablo
+
+## [2023.0.0.11] - 2023-05-24
+
+### Changed
+
+- style: 💄 Agrega foto de Vanessa en Organizers y CFP
