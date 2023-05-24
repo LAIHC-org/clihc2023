@@ -1,7 +1,7 @@
 <template>
 		<!-- Jumbotron -->
 		<header class="header-2">
-			<div class="page-header section-height-75 relative"
+			<div class="page-header section-height-100 relative"
 				style="background-image: url('./assets/img/banner-2.png')">
 				<div class="container">
 					<div class="row">
