@@ -222,7 +222,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                             Vanessa Agredo Delgado
                                         </template>
                                         <template #institution>
-                                            FUNAD, CO
+                                            UNICOMFACAUCA, CO
                                         </template>
                                         <template #email>
                                         </template>
