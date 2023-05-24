@@ -84,3 +84,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style: 💄 Agrega foto de Vanessa en Organizers y CFP
+
+
+## [2023.0.0.12] - 2023-05-24
+
+### Fixed
+
+- fix(Content): Institución de Vanessa a UNICOMFACAUCA, CO. En organizers
+- fix: Deja la altura del jumbotron al 100%
