@@ -92,3 +92,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - fix(Content): Institución de Vanessa a UNICOMFACAUCA, CO. En organizers
 - fix: Deja la altura del jumbotron al 100%
+
+## [2023.0.0.13] - 2023-05-25
+
+### Changed
+
+- style(Content): 💄 Cambia las fotografías de Arlem, Mike, Marisol, Josefina, Luciana y Jaime
