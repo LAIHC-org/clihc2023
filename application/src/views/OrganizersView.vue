@@ -50,93 +50,6 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
     <section class="container">
         <div class="row">
             <div class="col-lg-12 mx-auto">
-                <div class="container mt-4 px-5" id="general-chairs">
-                    <div class="row">
-                        <div class="col-xl-3">
-                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                                <h3>Steering committee</h3>
-                                <p class="text-secondary font-weight-normal pe-3">
-                                    Leadership team overseeing the organization and direction of the conference.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-9">
-                            <div class="row p-0">
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Laura Sanely Gaytán Lugo
-                                        </template>
-                                        <template #institution>
-                                            Universidad de Colima, MX
-                                        </template>
-                                        <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Yazmín Magallanes
-                                        </template>
-                                        <template #institution>
-                                            UXPA, MX
-                                        </template>
-                                        <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
-                                        </template>
-                                    </OrganizerItem>
-                                </div>
-
-                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
-                                    <OrganizerItem>
-                                        <template #image>
-                                            <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
-                                                    class="img-fluid shadow rounded-3">
-                                            </div>
-                                            <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
-                                            </div>
-                                        </template>
-                                        <template #name>
-                                            Soraia Prietch
-                                        </template>
-                                        <template #institution>
-                                            U. Federal de Rondonópolis, BR
-                                        </template>
-                                        <template #email>
-                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
-                                        </template>
-                                    </OrganizerItem>
-                                </div>  
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="container mt-4 px-5 mt-6" id="program-chairs">
                     <div class="row">
@@ -277,11 +190,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/pablo.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/pablo.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -299,17 +212,17 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/vanessa.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);"></div>
+                                                style="background-image: url(&quot;./assets/img/people/vanessa.png&quot;);"></div>
                                         </template>
                                         <template #name>
                                             Vanessa Agredo Delgado
                                         </template>
                                         <template #institution>
-                                            FUNAD, CO
+                                            UNICOMFACAUCA, CO
                                         </template>
                                         <template #email>
                                         </template>
@@ -337,11 +250,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/christian.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/christian.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -420,11 +333,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/carolina.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/carolina.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -459,11 +372,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/cesar.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/cesar.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -542,18 +455,18 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/adriana.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/adriana.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
                                             Adriana Iñiguez
                                         </template>
                                         <template #institution>
-                                            UdG, MX
+                                            Universidad de Guadalajara, MX
                                         </template>
                                         <template #email>
                                         </template>
@@ -581,11 +494,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/fernando.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/fernando.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -682,11 +595,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/alfredo.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/alfredo.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -722,11 +635,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/victor.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/victor.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -744,6 +657,94 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         </div>
                     </div>
                 </div>
+
+                <div class="container mt-4 px-5" id="general-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>Steering committee</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    Leadership team overseeing the organization and direction of the conference.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row p-0">
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Laura Sanely Gaytán Lugo
+                                        </template>
+                                        <template #institution>
+                                            Universidad de Colima, MX
+                                        </template>
+                                        <template #email>
+                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/nophoto.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Yazmín Magallanes
+                                        </template>
+                                        <template #institution>
+                                            UXPA, MX
+                                        </template>
+                                        <template #email>
+                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/people/soraia.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/people/soraia.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Soraia Prietch
+                                        </template>
+                                        <template #institution>
+                                            U. Federal de Rondonópolis, BR
+                                        </template>
+                                        <template #email>
+                                            <!--<a class="uline" href="mailto:tpc.2022@mexihc.org">tpc.2022@mexihc.org</a>-->
+                                        </template>
+                                    </OrganizerItem>
+                                </div>  
+
+                            </div>
+                        </div>
+                    </div>
+                </div>                
 
             </div>
         </div>

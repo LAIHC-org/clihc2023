@@ -1,7 +1,7 @@
 <template>
     <header class="header-2">
         <div class="page-header section-height-40 relative"
-            style="background-image: url('./assets/img/banner-1.png')">
+            style="background-image: url('./assets/img/banner-2.png')">
             <span class="mask bg-gradient-primary opacity-8"></span>
             <div class="container">
                 <div class="row text-center">
