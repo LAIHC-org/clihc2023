@@ -98,3 +98,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style(Content): 💄 Cambia las fotografías de Arlem, Mike, Marisol, Josefina, Luciana y Jaime
+
+## [2023.0.0.14] - 2023-05-25
+
+### Changed
+
+- style(Content): 💄 Cambia la fotografía de Sanely
