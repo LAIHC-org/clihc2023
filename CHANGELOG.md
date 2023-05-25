@@ -104,3 +104,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style(Content): 💄 Cambia la fotografía de Sanely
+
+
+## [2023.0.0.15] - 2023-05-25
+
+### Changed
+
+- fix(Content): Corrige la URL de la foto de Jaime

@@ -437,7 +437,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/jaime.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/jaime.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
