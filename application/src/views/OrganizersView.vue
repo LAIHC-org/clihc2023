@@ -394,11 +394,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/luciana.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/luciana.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
@@ -433,11 +433,11 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/Jaime.png" alt=""
+                                                <img src="/assets/img/jaime.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/Jaime.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/jaime.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
