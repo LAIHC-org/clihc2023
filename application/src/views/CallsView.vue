@@ -60,7 +60,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <ul>
               <li>Full papers</li>
-              <li>Short papers (Poster)</li>
+              <li>Short papers</li>
             </ul>
 
             <p>
@@ -127,7 +127,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <p>
               Submission format to be used for each category will follow the <a
-                href="https://www.acm.org/publications/taps/word-template-workflow" class="uline">new ACM Master Article
+                href="https://www.acm.org/publications/proceedings-template" class="uline">new ACM Master Article 
                 format</a>. Authors may
               choose to work in one of the following formats:
             </p>
@@ -162,7 +162,8 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             </p>
 
             <p>
-              We are working to ensure that accepted papers will be published in the ACM Digital Library. In addition, best papers will be recommended for publication in a special edition book of the prestigious <a href="https://www.springer.com/series/6033" class="uline">Human–Computer Interaction Series</a>, published by Springer and regularly indexed in the master book list of the Web of Science.
+              We are working to ensure that accepted papers will be published in the ACM Digital Library. 
+              In addition, best papers will be recommended for submitting an extended version and be published in a special edition book of the prestigious <a href="https://www.springer.com/series/6033" class="uline">Human–Computer Interaction Series</a>, published by Springer and regularly indexed in the master book list of the Web of Science.
             </p>
 
             <h3 class="my-4">Program (Paper) Chairs</h3>
