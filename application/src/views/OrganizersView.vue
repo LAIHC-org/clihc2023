@@ -618,6 +618,45 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                     </div>
                 </div>
 
+                <div class="container mt-4 px-5 mt-6" id="publicity-chairs">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
+                                <h3>Accessibility Chairs</h3>
+                                <p class="text-secondary font-weight-normal pe-3">
+                                    Responsible for overseeing comprehensive accessibility measures during the conference.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-9">
+                            <div class="row">
+                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/people/mike.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/people/mike.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Miguel A. Rodríguez Ortiz
+                                        </template>
+                                        <template #institution>
+                                            Universidad de Colima, MX
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="container mt-4 px-5 mt-6" id="accesibility-chairs">
                     <div class="row">
                         <div class="col-xl-3">
