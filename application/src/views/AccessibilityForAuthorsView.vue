@@ -231,7 +231,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         </ol>
                         
                         <!-- end Accessible video author recommendations -->
-                        <h3 class="my-4">Web Chairs</h3>
+                        <h3 class="my-4">Accessibility Chairs</h3>
                         <div class="row">
                             <div class="col-md-4">
                                 <OrganizerItem>
@@ -253,25 +253,6 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                 </OrganizerItem>
                             </div>
 
-                            <div class="col-md-4">
-                                <OrganizerItem>
-                                <template #image>
-                                    <div class="d-block blur-shadow-image">
-                                    <img src="/assets/img/people/arlem.png" alt="" class="img-fluid shadow rounded-3">
-                                    </div>
-                                    <div class="colored-shadow" style="background-image: url(&quot;./assets/img/people/arlem.png&quot;);">
-                                    </div>
-                                </template>
-                                <template #name>
-                                    Arlem Castillo Avila
-                                </template>
-                                <template #institution>
-                                    BUAP, MX
-                                </template>
-                                <template #email>
-                                </template>
-                                </OrganizerItem>
-                            </div>
                         </div>
                     </div>
             </div>
