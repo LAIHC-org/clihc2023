@@ -16,7 +16,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pe-1" href="https://twitter.com/clihc2021" target="_blank">
+                                <a class="nav-link pe-1" href="https://twitter.com/clihc2023" target="_blank">
                                     <i class="fab fa-twitter text-lg opacity-8"></i>
                                     <span class="sr-only">Cuenta de Twitter</span>
                                 </a>
@@ -68,12 +68,22 @@
                                     Graduate Consortium
                                 </a>
                             </li>
+                            -->
                             <li class="nav-item">
-                                <a class="nav-link uline" href="./call-for-participation#pt-call">
-                                    Poster Track
+                                <a class="nav-link uline" href="./call-for-participation#cpt-call">
+                                    Call for poster track
+                                </a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link uline" href="./call-for-participation#cwt-call">
+                                    Call for workshops and tutorials
                                 </a>
                             </li>
-                            -->
+                            <li class="nav-item">
+                                <a class="nav-link uline" href="./call-for-participation#sdc-call">
+                                    Student Design Competition (SDC)
+                                </a>
+                            </li>                            
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./accessibility-recommendations-for-authors">
                                     Accessibility recommendations for authors
@@ -120,7 +130,7 @@
                             © 2023 Latin American Conference on Human Computer Interaction, a LAIHC conference.
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.0.1.1</a>
+                            <a class="uline" href="CHANGELOG.md">v2023.0.2.0</a>
                         </p>
                     </div>
                 </div>
