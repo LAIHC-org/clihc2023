@@ -80,6 +80,11 @@
                                 </a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link uline" href="./call-for-participation#sdc-call">
+                                    Student Design Competition (SDC)
+                                </a>
+                            </li>                            
+                            <li class="nav-item">
                                 <a class="nav-link uline" href="./accessibility-recommendations-for-authors">
                                     Accessibility recommendations for authors
                                 </a>

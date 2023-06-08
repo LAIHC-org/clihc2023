@@ -105,6 +105,22 @@
 													</div>
 												</div>
 											</a>
+										</li>
+										<li>
+											<a class="dropdown-item border-radius-md"
+												href="./call-for-participation#sdc-call">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															Student Design Competition (SDC)
+														</span>
+														<span class="text-sm text-dark">
+															Deadline: July 31th, 2023
+														</span>
+													</div>
+												</div>
+											</a>
 										</li>										
 										<li>
 											<a class="dropdown-item border-radius-md"
