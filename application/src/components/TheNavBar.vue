@@ -73,23 +73,39 @@
 												</div>
 											</a>
 										</li>
+										-->
 										<li>
 											<a class="dropdown-item border-radius-md"
-												href="./call-for-participation#pt-call">
+												href="./call-for-participation#cpt-call">
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Poster track
+															Call for poster track
 														</span>
 														<span class="text-sm text-dark">
-															Deadline: <del class="text-muted">September 27th</del> October 4th, 2022 EXTENDED
+															Deadline: July 31th, 2023
 														</span>
 													</div>
 												</div>
 											</a>
 										</li>
-										-->
+										<li>
+											<a class="dropdown-item border-radius-md"
+												href="./call-for-participation#cwt-call">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															Call for workshops and tutorials
+														</span>
+														<span class="text-sm text-dark">
+															Deadline: July 31th, 2023
+														</span>
+													</div>
+												</div>
+											</a>
+										</li>										
 										<li>
 											<a class="dropdown-item border-radius-md"
 												href="./accessibility-recommendations-for-authors">

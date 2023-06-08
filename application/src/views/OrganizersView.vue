@@ -444,7 +444,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                             Jaime Muñoz Arteaga
                                         </template>
                                         <template #institution>
-                                            U. Aguascalientes, MX
+                                            Universidad Autónoma de Aguascalientes, MX
                                         </template>
                                         <template #email>
                                         </template>
