@@ -27,7 +27,7 @@
                 
                 <div class="col-sm-4 col-md-3 mb-4">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">About this conference</h3>
+                        <h3 class="text-gradient text-primary text-sm">About This Conference</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./#about_clihc">
@@ -55,7 +55,7 @@
                 
                 <div class="col-sm-4 col-md-3 mb-4">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">For authors</h3>
+                        <h3 class="text-gradient text-primary text-sm">For Authors</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./call-for-participation#cfp-call">
@@ -96,7 +96,7 @@
 
                 <div class="col-sm-4 col-md-3 mb-4">
                     <div>
-                        <h3 class="text-gradient text-primary text-sm">For attendees</h3>
+                        <h3 class="text-gradient text-primary text-sm">For Attendees</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <span class="nav-link">Pending</span>

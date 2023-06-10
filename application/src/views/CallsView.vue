@@ -72,7 +72,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             <!-- call for papers-->
 
             <!-- <h2 id="cfp-call">Call for papers</h2> -->
-            <h2 id="cfp-call" class="text-primary text-gradient text-center py-4">Call for papers</h2>
+            <h2 id="cfp-call" class="text-primary text-gradient text-center py-4">Call for Papers</h2>
 
             <p>
               The XI Latin American Conference on Human-Computer Interaction (CLIHC 2023), aims to provide a premier forum
@@ -131,7 +131,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                 href="./accessibility-recommendations-for-authors" class="uline">accessibility guidelines</a>.
             </p>
 
-            <h4 id="cpf-dates">Important dates (full and short papers)</h4>
+            <h4 id="cpf-dates">Important Dates (Full and Short Papers)</h4>
             <ul>
               <li>Abstract submission: June 12th</li>
               <li>Paper submission: June 19th</li>
@@ -149,7 +149,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               the review process and conference comply with the principles and responsibilities outlined by the code.
             </p>
 
-            <h3>Submission process</h3>
+            <h3>Submission Process</h3>
             <p>
               Full and short paper submissions are to be made through <a
                 href="https://easychair.org/conferences/?conf=clihc2023" class="uline">EasyChair Conference System</a>.
@@ -169,7 +169,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <h3>Submission Categories</h3>
 
-            <h4>Full papers (10 pages)</h4>
+            <h4>Full Papers (10 Pages)</h4>
             <p>
               Research projects that have achieved a mature stage and present an original contribution to the state of the
               art are welcome to submit in the full paper category. Submissions must be relevant to the subject of the
@@ -178,7 +178,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               Portuguese, or Spanish.
             </p>
 
-            <h4>Short papers (4 pages)</h4>
+            <h4>Short Papers (4 Pages)</h4>
             <p>
               Research projects wishing to report original preliminary, partial, or complementary results may submit their
               papers to the short paper category which has a maximum length of 4 pages including references. Submitted
@@ -249,7 +249,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <!-- Poster track-->
             <hr>
-            <h2 id="cpt-call" class="text-primary text-gradient text-center py-4">Call for poster track</h2>
+            <h2 id="cpt-call" class="text-primary text-gradient text-center py-4">Call for Poster Track</h2>
             <p>
               We invite practitioners, researchers, and students to submit their work to the poster track at CLIHC 2023.
               Posters provide a great opportunity for academics and practitioners to get valuable feedback on early-stage
@@ -260,7 +260,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               in the form of self-contained short research papers.
             </p>
 
-            <h3 id="cpt-dates">Important dates (posters)</h3>
+            <h3 id="cpt-dates">Important Dates (Posters)</h3>
             <ul>
               <li>Submission of poster papers: July 31th</li>
               <li>Notification: August 28th</li>
@@ -268,7 +268,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               <li>Event Oct 30 - 31, Nov 1</li>
             </ul>
 
-            <h3>Submission details</h3>
+            <h3>Submission Details</h3>
 
             <P>
               Authors wishing to submit a paper must:
@@ -306,7 +306,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                 your original submission to either Spanish or English.</li>
             </ul>
 
-            <h3>Review process</h3>
+            <h3>Review Process</h3>
             <p>
               Papers will be blind peer-reviewed by members of the CLIHC 2023 Poster Track Program Subcommittee (TBD).
               Submissions will be evaluated based on their originality, significance of the contribution to the field,
@@ -373,7 +373,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <!-- Workshops and Tutorials-->
             <hr>
-            <h2 id="cwt-call" class="text-primary text-gradient text-center py-4">Call for workshops and tutorials</h2>
+            <h2 id="cwt-call" class="text-primary text-gradient text-center py-4">Call for Workshops and Tutorials</h2>
             <p>
               CLIHC tutorials and workshops are in-depth presentations of fundamental or state-of-the-art topics presented
               by researchers or practitioners within the field of HCI. The tutorials and workshops empower attendees to
@@ -396,7 +396,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               experiment design, instrument and metric adoption and conclusions.
             </p>
 
-            <h3 id="cwt-dates">Important dates</h3>
+            <h3 id="cwt-dates">Important Dates</h3>
             <ul>
               <li>Submission deadline: July 31th</li>
               <li>Notification: August 28th</li>
@@ -404,7 +404,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               <li>Event Oct 30 - 31, Nov 1</li>
             </ul>
 
-            <h3>Submission platform</h3>
+            <h3>Submission Platform</h3>
 
             <p>
               All materials must be submitted electronically to the <a
@@ -412,7 +412,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
               the Workshop and Tutorials’ track, by the deadline.
             </p>
 
-            <h3>Submission format and length</h3>
+            <h3>Submission Format and Length</h3>
 
             <ul>
               <li>
@@ -541,7 +541,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
             <hr>
             <h2 id="sdc-call" class="text-primary text-gradient text-center py-4">Student Design Competition</h2>
 
-            <h3 id="sdc-dates">Important dates</h3>
+            <h3 id="sdc-dates">Important Dates</h3>
             <ul>
               <li>Submission deadline: July 31th</li>
               <li>Notification: August 28th</li>
