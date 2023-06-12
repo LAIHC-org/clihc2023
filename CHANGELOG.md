@@ -129,3 +129,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - feat(Content): New call for poster track
 - feat(Content): Call for workshops and tutorials
 - feat(Content): Student Design Competition Call
+
+## [2023.0.2.1] - 2023-06-12
+
+### Changed
+
+- Actualizacion titulos y subtitulos
+- fix(Content): Agrega cambios de deadline para CFP
