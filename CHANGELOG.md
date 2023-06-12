@@ -136,3 +136,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Actualizacion titulos y subtitulos
 - fix(Content): Agrega cambios de deadline para CFP
+
+## [2023.0.2.2] - 2023-06-12
+
+### Changed
+
+- style: 💄 Cambia estilo de alert de camio de deadlines
