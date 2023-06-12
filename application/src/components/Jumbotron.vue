@@ -26,6 +26,13 @@
 										<a href="./call-for-participation" class="btn btn-lg  bg-gradient-yellow  btn-round">
 											Call for papers
 										</a>
+										<div class="alert alert-warning col-md-8 m-auto" role="alert">
+											<p>Important Submission Deadline Updates:</p>
+											<p>
+												Abstract submission: <strong>June 26th (EXTENDED)</strong><br>
+												Paper submission: <strong>July 3rd (EXTENDED)</strong>
+											</p>
+										</div>
 									</p>
 								</div>
 							</div>

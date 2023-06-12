@@ -43,7 +43,7 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
                 </div>
               </li>              
             </ol>
-            <h2 class="mt-5 mb-3 text-center">Bank account information</h2>
+            <h2 class="mt-5 mb-3 text-center">Bank Account Information</h2>
             <p>To register to the event, please follow the next steps:</p>
             <ol>
               <li>Filling out the form with your information using the <a href="https://conferencias.app/" class="uline">registration system</a></li>
@@ -55,7 +55,7 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             <div class="text-center mt-4">
               <a href="https://conferencias.app/" class="btn btn-lg bg-gradient-primary btn-round">Register</a>
             </div>
-            <h3 class="my-3 text-center">From payments from Mexican bank accounts, please use:</h3>
+            <h3 class="my-3 text-center">From Payments from Mexican Bank Accounts, Please Use:</h3>
             <p>
               (Only <strong>spanish</strong> at the moment)<br><br>
               <span class="text-primary text-gradient">Nombre:</span> <strong>ASOCIACION MEXICANA DE INTERACCION HUMANO COMPUTADORA AC</strong><br>
