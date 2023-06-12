@@ -120,4 +120,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- fix(Content): Cambios solicitados por Marisol en CFP 
+- fix(Content): Cambios solicitados por Marisol en CFP
+
+## [2023.0.2.0] - 2023-06-08
+
+### Added
+
+- feat(Content): New call for poster track
+- feat(Content): Call for workshops and tutorials
+- feat(Content): Student Design Competition Call

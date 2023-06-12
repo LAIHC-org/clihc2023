@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="row justify-content-center my-3">
 					<div class="col-lg-8">
-						<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
+						<!-- <h2 class="text-dark mb-0">Titulo Negro</h2> -->
 						<h2 id="about_clihc" class="text-primary text-gradient text-center">About CLIHC</h2>
 						<p>
 							The Latin American Conference on Human-Computer Interaction (CLIHC) is managed by the SIGCHI
@@ -26,7 +26,7 @@
 			<div class="row">
 				<div class="row justify-content-center my-3">
 					<div class="col-lg-6">
-						<!-- <h2 class="text-dark mb-0">Titulo negro</h2> -->
+						<!-- <h2 class="text-dark mb-0">Titulo Negro</h2> -->
 						<table class="table table-striped">
 							<tr>
 								<th scope="row"><a href="./call-for-participation" class="uline">Call for participation</a>
