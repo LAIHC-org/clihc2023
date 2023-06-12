@@ -8,7 +8,7 @@ import SpeakerItem from './SpeakerItem.vue'
             <div class="row">
                 <div class="col-lg-3">
                     <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                        <h3>Keynote speakers</h3>
+                        <h3>Keynote Speakers</h3>
                         <p class="text-secondary font-weight-normal pe-3">
                             The conference program includes great speakers from the international HCI community.
                         </p>

@@ -5,7 +5,7 @@ import TheHeader from '@/components/Header.vue'
 <template>
     <TheHeader>
         <template #page-name>
-            Accepted papers
+            Accepted Papers
         </template>
     </TheHeader>
 
@@ -43,14 +43,14 @@ import TheHeader from '@/components/Header.vue'
                         </li>
                     </ol>
 
-                    <h2 id="full-papers" class="text-primary text-gradient text-center py-4">Full papers</h2>
+                    <h2 id="full-papers" class="text-primary text-gradient text-center py-4">Full Papers</h2>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <h3 class="h5">Caring through Conversations: Voice User Interfaces For Everyday Stress Care</h3>
                             <p>Adriana Navarro Sainz, Annu Prabhakar</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">What is a User Interface, again? A Survey of Definitions of User Interface</h3>
+                            <h3 class="h5">What is a User Interface, Again? A Survey of Definitions of User Interface</h3>
                             <p>Leonel Vinicio Morales Díaz</p>
                         </li>
                         <li class="list-group-item">
@@ -58,7 +58,7 @@ import TheHeader from '@/components/Header.vue'
                             <p>Aubrey Patrick, Andrew Burris, Sanchari Das</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">SmartTasko: Supporting short and spontaneous activities of daily living of ADHD individuals</h3>
+                            <h3 class="h5">SmartTasko: Supporting Short and Spontaneous Activities of Daily Living of ADHD Individuals</h3>
                             <p>Hector Osuna, Marcos Moroyoqui, David Espina, Lizbeth Escobedo</p>
                         </li>                        
                     </ul>
@@ -66,11 +66,11 @@ import TheHeader from '@/components/Header.vue'
                     <h2 id="short-papers" class="text-primary text-gradient text-center py-4">Short papers</h2>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <h3 class="h5">Interactive application for training orthopedic residents to perform knee arthroscopy procedure</h3>
+                            <h3 class="h5">Interactive Application for Training Orthopedic Residents to Perform Knee Arthroscopy Procedure</h3>
                             <p>Julian Nuñez de Villavicencio Castiñeyra, Silvia Rodriguez Chaparro, Luis Bautista Rojas, Lola Bautista Rozo</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Global Plaza: Creating an inclusive and equitable space at high-level conferences</h3>
+                            <h3 class="h5">Global Plaza: Creating an Inclusive and Equitable Space at High-Level Conferences</h3>
                             <p>Cuauhtemoc Rivera-Loaiza, Marisol Wong-Villacres</p>
                         </li>
                     </ul>
@@ -78,19 +78,19 @@ import TheHeader from '@/components/Header.vue'
                     <h2 id="posters" class="text-primary text-gradient text-center py-4">Posters</h2>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <h3 class="h5">Una crítica de la atribución de agencias, intenciones y capacidades de la IA en los medios</h3>
+                            <h3 class="h5">Una Crítica de la Atribución de Agencias, Intenciones y Capacidades de la IA en los Medios</h3>
                             <p>Ariel Guersenzvaig, Ramón Sangüesa</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">A tangible interface approach to the codesign of a literacy platform for deaf users</h3>
+                            <h3 class="h5">A Tangible Interface Approach to the Codesign of a Literacy Platform for Deaf Users</h3>
                             <p>J. Alfredo Sánchez, Soraia Prietch, Silvia B. Fajardo-Flores, Laura S. Gaytán-Lugo</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Multimedia principles applied to a virtual reality application design for procedural learning</h3>
+                            <h3 class="h5">Multimedia Principles Applied to a Virtual Reality Application Design for Procedural Learning</h3>
                             <p>Luis Bautista, José Guerrero, Carmen Plata</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Augmenting interoceptive awareness with off-the-shelf sensors using visuo-haptic emotional stimulus</h3>
+                            <h3 class="h5">Augmenting Interoceptive Awareness with off-the-shelf Sensors Using Visuo-Haptic Emotional Stimulus</h3>
                             <p>David Antonio Gomez Jauregui</p>
                         </li>
                         <li class="list-group-item">
@@ -98,15 +98,15 @@ import TheHeader from '@/components/Header.vue'
                             <p>J Guadalupe Ramos Díaz</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Using design thinking process to design an electronic Kardex: a case study from a self-access center</h3>
+                            <h3 class="h5">Using Design Thinking Process to Design an Electronic Kardex: a Case Study From a Self-Access Center</h3>
                             <p>Luz Marisol Falfán Hernández, José-Guillermo Hernández-Calderón, Luis Gerardo Montané-Jiménez</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Quality Sessions: a mechanism for evaluating design quality in a large-scale organization</h3>
+                            <h3 class="h5">Quality Sessions: a Mechanism for Evaluating Design Quality in a Large-Scale Organization</h3>
                             <p>Víctor Manuel García Luna</p>
                         </li>
                         <li class="list-group-item">
-                            <h3 class="h5">Interactive games for deaf children: An exploratory literature review</h3>
+                            <h3 class="h5">Interactive Games for Deaf Children: An Exploratory Literature Review</h3>
                             <p>Alfredo Sánchez Nava, Pablo Adrián Ramos Aguirre, Pedro C. Santana-Mancilla, Laura Sanely Gaytán Lugo</p>
                         </li>                        
                     </ul>

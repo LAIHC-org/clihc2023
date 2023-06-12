@@ -6,7 +6,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 <template>
     <TheHeader>
         <template #page-name>
-            Accessibility recommendations for authors
+            Accessibility Recommendations for Authors
         </template>
     </TheHeader>
 
@@ -151,7 +151,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         <!-- end Accessible document author recommendations -->
 
                         <!-- Accessible slide author recommendations -->
-                        <h2 id="accessible-slide-author-recommendations">Accessible slide author recommendations</h2>
+                        <h2 id="accessible-slide-author-recommendations">Accessible Slide Author Recommendations</h2>
                         <p>
                             Your presentations will be available as part of the digital products generated at
                             CLIHC 2023, therefore is possible that people who will read them, use a screen
@@ -206,7 +206,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                         <!-- end Accessible slide author recommendations -->
 
                         <!-- Accessible video author recommendations -->
-                        <h2 id="accessible-video-author-recommendations">Accessible video author recommendations</h2>
+                        <h2 id="accessible-video-author-recommendations">Accessible Video Author Recommendations</h2>
 
                         <p>
                             If you need to publish a video, <strong>we suggest you generate closed
