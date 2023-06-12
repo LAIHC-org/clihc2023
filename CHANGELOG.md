@@ -111,3 +111,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - fix(Content): Corrige la URL de la foto de Jaime
+
+## [2023.0.1.1] - 2023-06-01
+
+### Added
+
+- Accessibility Chairs (Mike)
+
+### Fixed
+
+- fix(Content): Cambios solicitados por Marisol en CFP
+
+## [2023.0.2.0] - 2023-06-08
+
+### Added
+
+- feat(Content): New call for poster track
+- feat(Content): Call for workshops and tutorials
+- feat(Content): Student Design Competition Call

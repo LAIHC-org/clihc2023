@@ -47,7 +47,7 @@ import SponsorItem from '@/components/SponsorItem.vue'
             <div class="row">
                 <div class="col-lg-3">
                     <div class="position-sticky pb-lg-5 pb-3 ps-2" style="top: 100px">
-                        <h3>Special thanks</h3>
+                        <h3>Special Thanks</h3>
                         <p class="text-secondary font-weight-normal pe-3">
                             We want to thank to our sponsors.
                         </p>
