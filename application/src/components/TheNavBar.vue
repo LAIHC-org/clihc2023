@@ -50,7 +50,7 @@
 															Call for papers
 														</span>
 														<span class="text-sm text-dark">
-															Abstract submission: June 12th , 2023
+															Abstract deadline: <del>June 12th</del> <strong class="text-danger">June 26th, 2023 EXTENDED</strong>
 														</span>
 													</div>
 												</div>
@@ -113,7 +113,7 @@
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Student Design Competition (SDC)
+															Student design competition
 														</span>
 														<span class="text-sm text-dark">
 															Deadline: July 31th, 2023

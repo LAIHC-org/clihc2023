@@ -6,7 +6,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 <template>
     <TheHeader>
         <template #page-name>
-            Accessibility recommendations for authors
+            Accessibility Recommendations for Authors
         </template>
     </TheHeader>
 

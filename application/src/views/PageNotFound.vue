@@ -5,7 +5,7 @@ import TheHeader from '@/components/Header.vue'
 <template>
     <TheHeader>
         <template #page-name>
-            404 Page not found
+            404 Page not Found
         </template>
     </TheHeader>
 

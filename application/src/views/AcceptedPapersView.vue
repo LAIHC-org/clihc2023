@@ -5,7 +5,7 @@ import TheHeader from '@/components/Header.vue'
 <template>
     <TheHeader>
         <template #page-name>
-            Accepted papers
+            Accepted Papers
         </template>
     </TheHeader>
 

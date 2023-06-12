@@ -6,7 +6,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 <template>
   <TheHeader>
     <template #page-name>
-      Call for participation
+      Call for Participation
     </template>
   </TheHeader>
 
@@ -21,7 +21,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                 <div class="ms-2 me-auto">
                   <div class="fw-bold"><a href="./call-for-participation#cfp-call" class="uline">Call for papers
                       (CFP)</a></div>
-                  <strong class="text-primary text-gradient">Deadline for Abstract submission:</strong> June 12th
+                  <strong class="text-primary text-gradient">Deadline for Abstract submission:</strong> <del>June 12th</del><strong class="text-danger"> June 26th EXTENDED</strong>
                   <br><a class="uline" href="./call-for-participation#cpf-dates">See all CFP important dates</a>
                 </div>
               </li>
@@ -133,8 +133,8 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 
             <h4 id="cpf-dates">Important Dates (Full and Short Papers)</h4>
             <ul>
-              <li>Abstract submission: June 12th</li>
-              <li>Paper submission: June 19th</li>
+              <li>Abstract submission: <del>June 12th</del> <strong class="text-danger">June 26th EXTENDED</strong></li>
+              <li>Paper submission: <del>June 19th</del> <strong class="text-danger">July 3rd EXTENDED</strong></li>
               <li>Notification: July 31st</li>
               <li>Camera ready: August 25th</li>
               <li>Event Oct 30 - 31, Nov 1</li>

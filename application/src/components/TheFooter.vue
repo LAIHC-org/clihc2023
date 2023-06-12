@@ -59,7 +59,7 @@
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./call-for-participation#cfp-call">
-                                    Call for Papers
+                                    Call for papers
                                 </a>
                             </li>
                             <!--
@@ -81,7 +81,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./call-for-participation#sdc-call">
-                                    Student Design Competition (SDC)
+                                    Student design competition
                                 </a>
                             </li>                            
                             <li class="nav-item">
