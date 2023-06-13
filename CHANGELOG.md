@@ -142,3 +142,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - style: 💄 Cambia estilo de alert de camio de deadlines
+
+## [2023.0.2.3] - 2023-06-12
+
+### Changed
+
+- feat(Content): 💄 Agrega fotos de organizadores: huzilopostli, ivan, juan y yasmin
