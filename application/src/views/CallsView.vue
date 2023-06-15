@@ -33,7 +33,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                     </a>
                   </div>
                   <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                  July 31th<br>
+                  July 31st<br>
                   <a class="uline" href="./call-for-participation#cpt-dates">See all CPT important dates</a>
                 </div>
               </li>
@@ -45,7 +45,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                     </a>
                   </div>
                   <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                  July 31th<br>
+                  July 31st<br>
                   <a class="uline" href="./call-for-participation#cwt-dates">See all CWT important dates</a>
                 </div>
               </li>
@@ -57,14 +57,19 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                     </a>
                   </div>
                   <strong class="text-primary text-gradient">Deadline for submission:</strong>
-                  July 31th<br>
+                  July 31st<br>
                   <a class="uline" href="./call-for-participation#sdc-dates">See all SDC important dates</a>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
-                  <div class="fw-bold">Graduate Colloquium (GC)</div>
-                  <strong class="text-primary text-gradient">Deadline for submission:</strong> Pending<br>
+                  <div class="fw-bold">
+                    <a href="./call-for-participation#cgc-call" class="uline">
+                      Graduate Colloquium (GC)
+                    </a>
+                  </div>
+                  <strong class="text-primary text-gradient">Deadline for submission:</strong> July 31st<br>
+                  <a class="uline" href="./call-for-participation#cgc-dates">See all GC important dates</a>
                 </div>
               </li>
             </ol>
@@ -777,7 +782,7 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
 		
 		<!-- Graduate colloquium-->
 		<hr>
-		<h2 id="cgc-call" class="text-primary text-gradient text-center py-4">Call for participation: Graduate Colloquium</h2>
+		<h2 id="cgc-call" class="text-primary text-gradient text-center py-4">Graduate Colloquium</h2>
 		<p>
 		  CLIHC 2023 is the bi-ennial conference that aims to bring together the Latin American HCI community. The CLIHC 2023 Graduate Colloquium provides an opportunity for Latin American graduate students working in HCI and its related fields to explore and develop their research interests in an interdisciplinary workshop, under the guidance of a panel of prominent researchers.
 		</p>
