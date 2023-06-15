@@ -62,13 +62,6 @@
                                     Call for papers
                                 </a>
                             </li>
-                            <!--
-                            <li class="nav-item">
-                                <a class="nav-link uline" href="./call-for-participation#gc-call">
-                                    Graduate Consortium
-                                </a>
-                            </li>
-                            -->
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./call-for-participation#cpt-call">
                                     Call for poster track
@@ -83,7 +76,12 @@
                                 <a class="nav-link uline" href="./call-for-participation#sdc-call">
                                     Student design competition
                                 </a>
-                            </li>                            
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link uline" href="./call-for-participation#cgc-call">
+                                    Graduate colloquium
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./accessibility-recommendations-for-authors">
                                     Accessibility recommendations for authors
