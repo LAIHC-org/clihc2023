@@ -272,15 +272,15 @@ import OrganizerItem from '@/components/OrganizerItem.vue';
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
-                                                <img src="/assets/img/nophoto.png" alt=""
+                                                <img src="/assets/img/people/iyubanit.png" alt=""
                                                     class="img-fluid shadow rounded-3">
                                             </div>
                                             <div class="colored-shadow"
-                                                style="background-image: url(&quot;./assets/img/nophoto.png&quot;);">
+                                                style="background-image: url(&quot;./assets/img/people/iyubanit.png&quot;);">
                                             </div>
                                         </template>
                                         <template #name>
-                                            Lyubanit Rodriguez
+                                            Iyubanit Rodriguez
                                         </template>
                                         <template #institution>
                                             CR
