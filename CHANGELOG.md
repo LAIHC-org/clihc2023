@@ -154,3 +154,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Se agregó el CFP del Graduate Colloquium.
+
+## [2023.0.3.1] - 2023-06-15
+
+### Fixed
+
+- fix(Content): Foto y correción de nombre de Iyubanit
