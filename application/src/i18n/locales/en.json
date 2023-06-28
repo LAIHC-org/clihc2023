@@ -1,0 +1,29 @@
+{
+    "locale": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português"
+    },
+    "nav": {
+        "home": "Home",
+        "for_authors": "For authors",
+        "organizers": "Organizers",
+        "cfp": "Call for papers",
+        "cfp_message": "Abstract deadline: June 26th, 2023 EXTENDED",
+        "cpt": "Call for poster track",
+        "cpt_message": "Deadline: July 31st, 2023",
+        "cwt": "Call for workshops and tutorials",
+        "cwt_message": "Deadline: July 31st, 2023",
+        "sdc": "Student design competition",
+        "sdc_message": "Deadline: July 31st, 2023",
+        "cgc": "Graduate colloquium",
+        "cgc_message": "Deadline: July 31st, 2023",
+        "accessibility_for_autors": "Accessibility recommendations for authors",
+        "accessibility_for_autors_message": "Help us to maximize the experience for everyone"
+    },
+    "jumbotron":{
+        "conference": "XI Latin American Conference on Human Computer Interaction",
+        "date": "October 30th, 31st, and November 1st",
+        "button": "Call for papers"
+    }
+}

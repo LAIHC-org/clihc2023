@@ -1,0 +1,29 @@
+{
+    "locale": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português"
+    },
+    "nav": {
+        "home": "Inicio",
+        "for_authors": "Para autores",
+        "organizers": "Organizadores",
+        "cfp": "Convocatoria de trabajos",
+        "cfp_message": "Fecha límite de resúmenes: 26 de junio de 2023 (AMPLIADO)",
+        "cpt": "Convocatoria de pósteres",
+        "cpt_message": "Fecha límite: 31 de julio de 2023",
+        "cwt": "Convocatoria de talleres y tutoriales",
+        "cwt_message": "Fecha límite: 31 de julio de 2023",
+        "sdc": "Competencia de diseño para estudiantes",
+        "sdc_message": "Fecha límite: 31 de julio de 2023",
+        "cgc": "Coloquio de graduados",
+        "cgc_message": "Fecha límite: 31 de julio de 2023",
+        "accessibility_for_autors": "Recomendaciones de accesibilidad para autores",
+        "accessibility_for_autors_message": "Ayúdanos a maximizar la experiencia para todos"
+    },
+    "jumbotron":{
+        "conference": "XI Conferencia Latinoamericana de Interacción Humano-Computadora.",
+        "date": "30, 31 de octubre y 1 de noviembre",
+        "button": "Convocatoria de trabajos"
+    }
+}

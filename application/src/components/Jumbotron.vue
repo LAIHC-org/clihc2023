@@ -14,17 +14,17 @@
 										CLIHC 2023
 									</h1>
 									<p class="lead mt-3">
-										XI Latin American Conference on Human Computer Interaction
+										{{ $t("jumbotron.conference") }}
 									</p>
 									<p class="lead mt-2">
 										<strong>
-											Oct 30 - 31, Nov 1 <br>
+											{{ $t("jumbotron.date") }} <br>
 											Puebla, México<br>
 										</strong>
 									</p>
 									<p class="lead pt-2">
 										<a href="./call-for-participation" class="btn btn-lg  bg-gradient-yellow  btn-round">
-											Call for papers
+											{{ $t("jumbotron.button") }}
 										</a>
 										<div class="alert alert-warning col-md-8 m-auto" role="alert">
 											<p>Important Submission Deadline Updates:</p>
