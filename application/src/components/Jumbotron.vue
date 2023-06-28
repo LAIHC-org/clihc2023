@@ -27,10 +27,10 @@
 											{{ $t("jumbotron.button") }}
 										</a>
 										<div class="alert alert-warning col-md-8 m-auto" role="alert">
-											<p>Important Submission Deadline Updates:</p>
+											<p>Time is running out!</p>
 											<p>
-												Abstract submission: <strong>June 26th (EXTENDED)</strong><br>
-												Paper submission: <strong>July 3rd (EXTENDED)</strong>
+												Submit your full and short papers by <strong>July 3rd</strong>!<br>
+												<strong>No abstract required</strong>!
 											</p>
 										</div>
 									</p>
