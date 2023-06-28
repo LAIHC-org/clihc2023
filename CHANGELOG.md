@@ -160,3 +160,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - fix(Content): Foto y correción de nombre de Iyubanit
+
+## [2023.0.3.2] - 2023-06-28
+
+### Changed
+
+- feat(Content): Cambia mensaje en jumbotrón.
