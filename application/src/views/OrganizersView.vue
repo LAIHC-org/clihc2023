@@ -642,7 +642,29 @@ export default {
 
                         <div class="col-xl-9">
                             <div class="row">
-                                <div class="col-md-4 mx-auto mt-md-0 mt-4">
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
+                                    <OrganizerItem>
+                                        <template #image>
+                                            <div class="d-block blur-shadow-image">
+                                                <img src="/assets/img/people/selene.png" alt=""
+                                                    class="img-fluid shadow rounded-3">
+                                            </div>
+                                            <div class="colored-shadow"
+                                                style="background-image: url(&quot;./assets/img/people/selene.png&quot;);">
+                                            </div>
+                                        </template>
+                                        <template #name>
+                                            Alba Selene Leon Arenas
+                                        </template>
+                                        <template #institution>
+                                            MX
+                                        </template>
+                                        <template #email>
+                                        </template>
+                                    </OrganizerItem>
+                                </div>
+                                                                
+                                <div class="col-md-4 ms-auto mt-md-0 mt-4">
                                     <OrganizerItem>
                                         <template #image>
                                             <div class="d-block blur-shadow-image">
@@ -663,6 +685,7 @@ export default {
                                         </template>
                                     </OrganizerItem>
                                 </div>
+
                             </div>
                         </div>
                     </div>
