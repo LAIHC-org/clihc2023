@@ -316,9 +316,9 @@ import { RouterLink } from 'vue-router';
 									</li>
 									-->
 							</ul>
+							<LanguageSwitcher/>
 						</div>
 					</div>
-					<LanguageSwitcher/>
 				</nav>
 			</div>
 		</div>

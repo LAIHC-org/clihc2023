@@ -1,3 +1,38 @@
+<script>
+import { /*ref*/shallowRef, watch, defineAsyncComponent } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+export default {
+  setup() {
+    const { locale } = useI18n()
+    const currentComponent = shallowRef(null)
+
+    const loadComponent = async (newLocale) => {
+      currentComponent.value = await getComponentForLocale(newLocale)
+    }
+
+    watch(locale, loadComponent, { immediate: true })
+
+    async function getComponentForLocale(locale) {
+      switch (locale) {
+        case 'en':
+          return defineAsyncComponent(() => import('@/components/locales/en/Message.vue'))
+        case 'es':
+          return defineAsyncComponent(() => import('@/components/locales/es/Message.vue'))
+        case 'pt':
+          return defineAsyncComponent(() => import('@/components/locales/pt/Message.vue'))
+        default:
+          return null
+      }
+    }
+
+    return {
+      currentComponent
+    }
+  }
+}
+</script>
+
 <template>
 		<!-- Jumbotron -->
 		<header class="header-2">
@@ -26,13 +61,10 @@
 										<a href="./call-for-participation" class="btn btn-lg  bg-gradient-yellow  btn-round">
 											{{ $t("jumbotron.button") }}
 										</a>
-										<div class="alert alert-warning col-md-8 m-auto" role="alert">
-											<p>Time is running out!</p>
-											<p>
-												Submit your full and short papers by <strong>July 3rd</strong>!<br>
-												<strong>No abstract required</strong>!
-											</p>
-										</div>
+										
+										<template v-if="currentComponent">
+											<component :is="currentComponent" />
+										</template>
 									</p>
 								</div>
 							</div>

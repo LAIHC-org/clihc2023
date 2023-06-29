@@ -3,7 +3,6 @@ import { nextTick } from "vue"
 
 const Trans = {
     get supportedLocales() {
-        console.log(import.meta.env.VITE_SUPPORT_LOCALES)
         return import.meta.env.VITE_SUPPORTED_LOCALES.split(",")
     },
 
@@ -19,8 +18,7 @@ const Trans = {
         i18n.global.locale.value = newLocale
     },
 
-    isLocaleSupported(/*newLocale*/ locale) {
-        //i18n.global.locale.value = newLocale
+    isLocaleSupported(locale) {
         return Trans.supportedLocales.includes(locale)
     },
 
@@ -37,8 +35,6 @@ const Trans = {
 
     getPersistedLocale(){
         const persistedLocale = localStorage.getItem("user-locale")
-        console.log(persistedLocale)
-        console.log(Trans.isLocaleSupported(persistedLocale))
         if(Trans.isLocaleSupported(persistedLocale)) {
             return persistedLocale
         } else {

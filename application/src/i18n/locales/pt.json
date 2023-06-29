@@ -5,11 +5,17 @@
         "pt": "Português"
     },
     "nav": {
+        "sitemap": "Mapa do site",
+        "facebook": "Página do Facebook",
+        "twitter": "Perfil do Twitter",
+        "about_title": "Sobre esta conferência",
+        "about": "Sobre o CLIHC",
         "home": "Início",
+        "for_authors_title": "Para autores",
         "for_authors": "Para autores",
         "organizers": "Organizadores",
-        "cfp": "Convocatoria de trabajos",
-        "cfp_message": "Prazo para resumos: 26 de junho de 2023 (PRORROGADO)",
+        "cfp": "Chamada de trabalhos",
+        "cfp_message": "Prazo: 3 de julho de 2023",
         "cpt": "Chamada para pôsteres",
         "cpt_message": "Prazo: 31 de julho de 2023",
         "cwt": "Chamada para workshops e tutoriais",
@@ -19,11 +25,23 @@
         "cgc": "Colóquio de pós-graduação",
         "cgc_message": "Prazo: 31 de julho de 2023",
         "accessibility_for_autors": "Recomendações de acessibilidade para autores",
-        "accessibility_for_autors_message": "Ajude-nos a maximizar a experiência para todos"
+        "accessibility_for_autors_message": "Ajude-nos a maximizar a experiência para todos",
+        "for_attendees_title": "Para os participantes",
+        "for_attendees": "Para os participantes",
+        "pending": "Pendente",
+        "copyright": "© 2023 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC."
     },
     "jumbotron":{
         "conference": "XI Conferência Latino-Americana de Interação Humano-Computador",
         "date": "30, 31 de outubro e 1 de novembro",
         "button": "Chamada de trabalhos"
+    },
+    "about":{
+        "about_title": "Sobre o CLIHC",
+        "about_text": "A Conferência Latino-Americana de Interação Humano-Computador (CLIHC) é gerenciada pela Comunidade Latino-Americana de HCI do SIGCHI (LAIHC). A CLIHC é uma conferência de destaque que reúne as comunidades de pesquisa de HCI da América Latina e internacional para discutir e trocar ideias, métodos, abordagens e técnicas para projetar experiências de usuário interativas, incentivando o intercâmbio intercultural e a cooperação entre pessoas com diferentes origens e necessidades. Esta conferência teve sua origem no Rio de Janeiro em 2003 (Brasil), com edições subsequentes em Cuernavaca em 2005 (México), Rio de Janeiro em 2007 (Brasil), Mérida em 2009 (México), Porto de Galinhas em 2011 (Brasil), Guanacaste em 2013 (Costa Rica), Córdoba em 2015 (Argentina), Antigua em 2017 (Guatemala), Cidade do Panamá em 2019 (Panamá) e Conferência Virtual em 2021 (Online).",
+        "call": "Chamada para participação",
+        "registration": "Registro",
+        "proceedings": "Proceedings",
+        "open": "Aberta"
     }
 }

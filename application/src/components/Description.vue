@@ -1,3 +1,40 @@
+<script>
+import { /*ref*/shallowRef, watch, defineAsyncComponent } from 'vue'
+import Tr from '@/i18n/translation'
+import { useI18n } from 'vue-i18n'
+
+export default {
+  setup() {
+    const { locale } = useI18n()
+    const currentComponent = shallowRef(null)
+
+    const loadComponent = async (newLocale) => {
+      currentComponent.value = await getComponentForLocale(newLocale)
+    }
+
+    watch(locale, loadComponent, { immediate: true })
+
+    async function getComponentForLocale(locale) {
+      switch (locale) {
+        case 'en':
+          return defineAsyncComponent(() => import('@/components/locales/en/Description.vue'))
+        case 'es':
+          return defineAsyncComponent(() => import('@/components/locales/es/Description.vue'))
+        case 'pt':
+          return defineAsyncComponent(() => import('@/components/locales/pt/Description.vue'))
+        default:
+          return null
+      }
+    }
+
+    return {
+      currentComponent,
+      Tr
+    }
+  }
+}
+</script>
+
 <template>
     <section class="py-5 container" id="download-soft-ui">
         <div class="bg-gradient-dark position-relative border-radius-xl overflow-hidden">
@@ -5,21 +42,16 @@
             <div class="container py-7 postion-relative z-index-2 position-relative">
                 <div class="row">
                     <div class="col-md-7 mx-auto text-center">
-                        <h3 class="text-white mb-0">LAIHC Invites You to Join CLIHC, the Premier Forum for HCI Researchers and Practitioners in Latin America.</h3>
-
-                        <p class="text-white mt-3 mb-3">The CLIHC is the premier forum for researchers and practitioners in
-                            Latin America to present and discuss the latest advances in Human-Computer Interaction.
-                            Organized by the Latin American Association on Human-Computer Interaction (<a href="http://www.laihc.org/" class="uline lightLink">LAIHC</a>), this biennial
-                            conference brings together leading experts to explore innovative approaches and emerging trends
-                            in the field.
-                        </p>
                         
+                        <template v-if="currentComponent">
+                            <component :is="currentComponent" />
+                        </template>                        
                         <!--
                         <a href="./accepted-papers" class="btn bg-gradient-yellow btn-round btn-lg">Accepted papers</a>
                         <a href="./schedule" class="btn bg-gradient-yellow btn-round btn-lg">Schedule</a>
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
                         -->
-                        <a href="./call-for-participation" class="btn bg-gradient-yellow btn-round btn-lg">Call for papers</a>
+                        <a :href="Tr.i18nRoute({ name: 'call-for-participation'})"  class="btn bg-gradient-yellow btn-round btn-lg">{{ $t("about.call") }}</a>
 
                     </div>
                 </div>
