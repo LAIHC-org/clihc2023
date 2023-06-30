@@ -78,5 +78,12 @@
         "industry_session_chair_description" : "Industry Session Chair",
         "steering_committee_title": "Steering committee",
         "steering_committee_description": "Steering committee"
+    },
+    "accessibility": {
+        "title": "Accessibility Recommendations for Authors",
+        "language_recommendations": "Language recommendations",
+        "accessible_document": "Accessible document author recommendations",
+        "accessible_slide": "Accessible slide author recommendations",
+        "accessible_video": "Accessible video author recommendations"
     }
 }
