@@ -85,5 +85,8 @@
         "accessible_document": "Accessible document author recommendations",
         "accessible_slide": "Accessible slide author recommendations",
         "accessible_video": "Accessible video author recommendations"
+    },
+    "calls": {
+        "title": "Call for Participation"
     }
 }

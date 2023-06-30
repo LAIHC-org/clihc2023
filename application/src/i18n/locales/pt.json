@@ -58,12 +58,12 @@
         "local_chairs_description": "Responsáveis por supervisionar os arranjos locais e a logística da conferência.",
         "program_chairs_title": "Responsáveis pelo programa",
         "program_chairs_description": "Responsáveis pelo programa da conferência e pelo processo de seleção de papers.",
-        "student_design_competition_title": "Competição de design para estudantes",
+        "student_design_competition_title": "Responsáveis pela competição de design para estudantes",
         "student_design_competition_description": "Encarregados de organizar a Competição de Design para Estudantes.",
         "graduate_colloquium_chairs_title": "Responsáveis pelo colóquio de pós-graduação",
         "graduate_colloquium_chairs_description": "Supervisiona a organização do track do colóquio de pós-graduação.",
-        "workshops_and_tutorials_chairs_title": "Responsáveis por oficinas e tutoriais",
-        "workshops_and_tutorials_chairs_description": "Responsáveis por coordenar e supervisionar as sessões de oficinas e tutoriais.",
+        "workshops_and_tutorials_chairs_title": "Responsáveis por workshops e tutoriais",
+        "workshops_and_tutorials_chairs_description": "Responsáveis por coordenar e supervisionar as sessões de workshops e tutoriais.",
         "posters_chairs_title": "Responsáveis por pôsteres",
         "posters_chairs_description": "Responsáveis por supervisionar todos os aspectos relacionados à sessão de pôsteres.",
         "publicity_chair_title": "Responsável por publicidade",
@@ -85,5 +85,8 @@
         "accessible_document": "Recomendações para a criação de documentos acessíveis",
         "accessible_slide": "Recomendações para a criação de slides acessíveis",
         "accessible_video": "Recomendações para a criação de vídeos acessíveis"
+    },
+    "calls": {
+        "title": "Convocatória de participação"
     }
 }

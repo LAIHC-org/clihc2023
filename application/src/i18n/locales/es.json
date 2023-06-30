@@ -85,5 +85,8 @@
         "accessible_document": "Recomendaciones para la creación de documentos accesibles",
         "accessible_slide": "Recomendaciones para la creación de diapositivas accesibles",
         "accessible_video": "Recomendaciones para la creación de videos accesibles"
+    },
+    "calls": {
+        "title": "Convocatoria de participación"
     }
 }
