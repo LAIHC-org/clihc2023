@@ -16,6 +16,14 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Prazo de submissão:</strong> 31 de julho<br>
+        </div>
+        </li>
+    </ol>
+
     <h3 id="sdc-dates">Datas Importantes</h3>
     <ul>
         <li>Prazo de submissão: 31 de julho</li>

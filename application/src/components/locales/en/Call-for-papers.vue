@@ -16,6 +16,17 @@
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 3rd EXTENDED</del><strong class="text-danger"> Closed</strong><br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers', hash: '#cpf-dates'})" class="uline">
+                See all important dates
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>  
+
     <p>
         The XI Latin American Conference on Human-Computer Interaction (CLIHC 2023), aims to provide a premier forum
         that brings together the Latin American and international Human-Computer Interaction (HCI) research

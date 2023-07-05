@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 31 de julio<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
+                Ver todas las fechas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         Los talleres y tutoriales de CLIHC son presentaciones en profundidad sobre temas fundamentales o de vanguardia
         presentados por investigadores o profesionales en el campo de la Interacción Humano-Computadora (HCI, por sus siglas

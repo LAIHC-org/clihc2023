@@ -51,8 +51,10 @@ export default {
                         <a href="./schedule" class="btn bg-gradient-yellow btn-round btn-lg">Schedule</a>
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
                         -->
-                        <a :href="Tr.i18nRoute({ name: 'call-for-participation'})"  class="btn bg-gradient-yellow btn-round btn-lg">{{ $t("about.call") }}</a>
-
+                        
+                        <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation'})" class="btn bg-gradient-yellow btn-round btn-lg">
+											    {{ $t("about.call") }}
+										    </RouterLink>
                     </div>
                 </div>
             </div>

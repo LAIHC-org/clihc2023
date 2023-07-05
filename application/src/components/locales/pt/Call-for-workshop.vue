@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 31 de julho<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
+                Veja todas as datas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         Os tutoriais e workshops do CLIHC são apresentações aprofundadas de tópicos fundamentais ou de ponta apresentados
         por pesquisadores ou praticantes no campo de IHC. Os tutoriais e workshops capacitam os participantes a aprender

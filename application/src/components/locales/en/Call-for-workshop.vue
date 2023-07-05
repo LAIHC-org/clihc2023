@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> July 31st<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
+                See all important dates
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         CLIHC tutorials and workshops are in-depth presentations of fundamental or state-of-the-art topics presented
         by researchers or practitioners within the field of HCI. The tutorials and workshops empower attendees to

@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> July 31st<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-dates'})" class="uline">
+                See all important dates
+            </RouterLink>            
+        </div>
+        </li>
+    </ol> 
+
     <p>
         We invite practitioners, researchers, and students to submit their work to the poster track at CLIHC 2023.
         Posters provide a great opportunity for academics and practitioners to get valuable feedback on early-stage

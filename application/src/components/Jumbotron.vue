@@ -1,6 +1,7 @@
 <script>
 import { /*ref*/shallowRef, watch, defineAsyncComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
+import Tr from '@/i18n/translation'
 
 export default {
   setup() {
@@ -27,7 +28,8 @@ export default {
     }
 
     return {
-      currentComponent
+      currentComponent,
+	  Tr
     }
   }
 }
@@ -58,13 +60,14 @@ export default {
 										</strong>
 									</p>
 									<p class="lead pt-2">
-										<a href="./call-for-participation" class="btn btn-lg  bg-gradient-yellow  btn-round">
-											{{ $t("jumbotron.button") }}
-										</a>
-										
+										<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation' })" 
+										class="btn btn-lg  bg-gradient-yellow  btn-round"
+										>{{ $t("jumbotron.button") }}</RouterLink>
+										<!--
 										<template v-if="currentComponent">
 											<component :is="currentComponent" />
 										</template>
+										-->
 									</p>
 								</div>
 							</div>

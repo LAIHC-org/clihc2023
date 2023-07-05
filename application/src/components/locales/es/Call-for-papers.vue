@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> <del>3 de julio PRORROGADA</del> <strong class="text-danger">Cerrada</strong><br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers', hash: '#cpf-dates'})" class="uline">
+                Ver todas las fechas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         La XI Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC 2023) tiene como objetivo proporcionar un
         foro destacado que reúna a las comunidades de investigación latinoamericanas e internacionales de Interacción

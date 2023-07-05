@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> 31 de julho<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-dates'})" class="uline">
+                Veja todas as datas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         Convidamos praticantes, pesquisadores e estudantes a submeter seus trabalhos para a trilha de pôsteres no CLIHC
         2023. Os pôsteres proporcionam uma ótima oportunidade para acadêmicos e praticantes obterem um feedback valioso
