@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cpt-call" class="text-primary text-gradient text-center py-4">Chamada para sessão de pôsteres</h2>
     <p>
         Convidamos praticantes, pesquisadores e estudantes a submeter seus trabalhos para a trilha de pôsteres no CLIHC
         2023. Os pôsteres proporcionam uma ótima oportunidade para acadêmicos e praticantes obterem um feedback valioso

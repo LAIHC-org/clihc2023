@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cpt-call" class="text-primary text-gradient text-center py-4">Convocatoria de pósteres</h2>
     <p>
         Invitamos a profesionales, investigadores y estudiantes a presentar sus trabajos en la pista de pósters de CLIHC
         2023. Los pósters brindan una excelente oportunidad para que académicos y profesionales obtengan comentarios

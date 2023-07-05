@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cpt-call" class="text-primary text-gradient text-center py-4">Call for Poster Track</h2>
     <p>
         We invite practitioners, researchers, and students to submit their work to the poster track at CLIHC 2023.
         Posters provide a great opportunity for academics and practitioners to get valuable feedback on early-stage

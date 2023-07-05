@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cwt-call" class="text-primary text-gradient text-center py-4">Call for Workshops and Tutorials</h2>
     <p>
         CLIHC tutorials and workshops are in-depth presentations of fundamental or state-of-the-art topics presented
         by researchers or practitioners within the field of HCI. The tutorials and workshops empower attendees to

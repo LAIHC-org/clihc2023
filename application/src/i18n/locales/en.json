@@ -87,6 +87,11 @@
         "accessible_video": "Accessible video author recommendations"
     },
     "calls": {
-        "title": "Call for Participation"
+        "title": "Call for Participation",
+        "cfp": "Call for Papers",
+        "cpt": "Call for Poster Track",
+        "cwt": "Call for Workshops and Tutorials",
+        "sdc": "Student Design Competition",
+        "cgc": "Graduate Colloquium"
     }
 }

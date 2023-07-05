@@ -16,8 +16,6 @@
 </script>
 
 <template>
-    <h2 id="cfp-call" class="text-primary text-gradient text-center py-4">Call for Papers</h2>
-
     <p>
         The XI Latin American Conference on Human-Computer Interaction (CLIHC 2023), aims to provide a premier forum
         that brings together the Latin American and international Human-Computer Interaction (HCI) research

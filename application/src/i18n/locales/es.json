@@ -87,6 +87,11 @@
         "accessible_video": "Recomendaciones para la creación de videos accesibles"
     },
     "calls": {
-        "title": "Convocatoria de participación"
+        "title": "Convocatoria de participación",
+        "cfp": "Convocatoria de trabajos",
+        "cpt": "Convocatoria de pósteres",
+        "cwt": "Convocatoria de talleres y tutoriales",
+        "sdc": "Competencia de diseño para estudiantes",
+        "cgc": "Coloquio de graduados"
     }
 }

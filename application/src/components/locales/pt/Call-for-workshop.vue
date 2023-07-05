@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cwt-call" class="text-primary text-gradient text-center py-4">Chamada para workshops e tutoriais</h2>
     <p>
         Os tutoriais e workshops do CLIHC são apresentações aprofundadas de tópicos fundamentais ou de ponta apresentados
         por pesquisadores ou praticantes no campo de IHC. Os tutoriais e workshops capacitam os participantes a aprender

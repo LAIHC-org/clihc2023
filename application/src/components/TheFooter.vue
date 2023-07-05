@@ -69,27 +69,27 @@
                         <h3 class="text-gradient text-primary text-sm">{{ $t("nav.for_authors_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cfp-call'})" class="nav-link uline">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers' })" class="nav-link uline">
                                     {{ $t("nav.cfp") }}
                                 </RouterLink>
                             </li>
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cpt-call'})" class="nav-link uline">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters' })" class="nav-link uline">
                                     {{ $t("nav.cpt") }}
                                 </RouterLink>                                
                             </li>                            
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cwt-call'})" class="nav-link uline">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials' })" class="nav-link uline">
                                     {{ $t("nav.cwt") }}
                                 </RouterLink>
                             </li>
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#sdc-call'})" class="nav-link uline">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'student-design-competition' })" class="nav-link uline">
                                     {{ $t("nav.sdc") }}
                                 </RouterLink>
                             </li> 
                             <li class="nav-item">
-                                <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cgc-call'})" class="nav-link uline">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium' })" class="nav-link uline">
                                     {{ $t("nav.cgc") }}
                                 </RouterLink>
                             </li>

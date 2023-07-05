@@ -18,7 +18,7 @@ const router = createRouter({
           meta: {
             title: "CLIHC 2023 - A LAIHC conference",
           },
-        },
+        },        
         {
           path: 'call-for-participation',
           name: 'call-for-participation',
@@ -27,6 +27,48 @@ const router = createRouter({
             title: "CLIHC 2023 - Call for participation",
           },
         },
+        /*Begin: Nuevos */
+        {
+          path: 'call-for-papers',
+          name: 'call-for-papers',
+          component: () => import('../views/CallsForPapersView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Call for papers",
+          },
+        },
+        {
+          path: 'call-for-posters',
+          name: 'call-for-posters',
+          component: () => import('../views/CallsForPostersView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Call for poster track",
+          },
+        },
+        {
+          path: 'call-for-workshops-and-tutorials',
+          name: 'call-for-workshops-and-tutorials',
+          component: () => import('../views/CallsForWorkshopsAndTutorialsView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Call for poster track",
+          },
+        },
+        {
+          path: 'student-design-competition',
+          name: 'student-design-competition',
+          component: () => import('../views/CallsForCompetitionView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Call for poster track",
+          },
+        },
+        {
+          path: 'graduate-colloquium',
+          name: 'graduate-colloquium',
+          component: () => import('../views/CallsForColloquiumView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Call for poster track",
+          },
+        },
+        /*End: Nuevos */      
         {
           path: 'accessibility-recommendations-for-authors',
           name: 'accessibility-recommendations-for-authors',

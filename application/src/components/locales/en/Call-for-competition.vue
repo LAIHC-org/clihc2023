@@ -16,7 +16,6 @@
 </script>
 
 <template>
-    <h2 id="sdc-call" class="text-primary text-gradient text-center py-4">Student Design Competition</h2>
     <h3 id="sdc-dates">Important Dates</h3>
     <ul>
         <li>Submission deadline: July 31th</li>

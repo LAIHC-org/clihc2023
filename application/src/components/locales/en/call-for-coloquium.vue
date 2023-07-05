@@ -16,7 +16,6 @@
 </script>
 
 <template>
-    <h2 id="cgc-call" class="text-primary text-gradient text-center py-4">Graduate Colloquium</h2>
     <p>
         CLIHC 2023 is the bi-ennial conference that aims to bring together the Latin American HCI community. The CLIHC 2023 Graduate Colloquium provides an opportunity for Latin American graduate students working in HCI and its related fields to explore and develop their research interests in an interdisciplinary workshop, under the guidance of a panel of prominent researchers.
     </p>
