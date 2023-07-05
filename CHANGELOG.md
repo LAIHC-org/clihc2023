@@ -166,3 +166,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - feat(Content): Cambia mensaje en jumbotrón.
+
+## [2023.1.0.0] - 2023-07-05
+
+### Added
+
+- feat: 🚧 Hace multlingue el home y la navegación
+- feat: 🚧 Hace multilingüe la pagina de organizers
+- feat(Content): Agrega a Selene como Accessibility Chair en Organizadores
+- feat: 🚧 Hace las recomendaciones de accesibilidad para autores multiligüe
+- feat: 🚧 Hace la pagina de calls for participation multilingüe
+- feat: Incluye la sección call for participation
+
+### Fixed
+
+- fix: Val iniio al cambiar de pagina
+- fix: 🐛 Corrige la navegación a los diferentes calls
