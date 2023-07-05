@@ -37,7 +37,7 @@
 									<th scope="row">
 										<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation'})" class="uline">
 											{{ $t("about.call") }}
-										</RouterLink>									
+										</RouterLink>								
 									</th>
 									<td><span class="text-bold text-primary text-gradient">{{ $t("about.open") }}</span></td>
 								</tr>

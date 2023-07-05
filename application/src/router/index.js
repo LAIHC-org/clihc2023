@@ -141,11 +141,14 @@ const router = createRouter({
           console.log('savedPosition')
           return savedPosition;
       }
+
       if (to.hash) {
-          console.log('hash')
-          return { el: to.hash };
+          return { el: to.hash,
+            behavior: 'smooth',
+            top: 80
+          };
       }
-      console.log('cero')
+
       return {left: 0, top: 0};
   },
 })

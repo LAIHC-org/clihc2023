@@ -16,9 +16,17 @@
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> July 31st<br>
+        </div>
+        </li>
+    </ol>
+
     <h3 id="sdc-dates">Important Dates</h3>
     <ul>
-        <li>Submission deadline: July 31th</li>
+        <li>Submission deadline: July 31st</li>
         <li>Notification: August 28th</li>
         <li>Camera ready: September 14th (for English publication in ACM DL or Spanish publication in “Avances en
             Interacción Humano-Computadora”)</li>

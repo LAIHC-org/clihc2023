@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 31 de julio<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-dates'})" class="uline">
+                Ver todas las fechas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol>
+
     <p>
         Invitamos a profesionales, investigadores y estudiantes a presentar sus trabajos en la pista de pósters de CLIHC
         2023. Los pósters brindan una excelente oportunidad para que académicos y profesionales obtengan comentarios

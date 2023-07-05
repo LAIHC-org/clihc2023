@@ -16,6 +16,17 @@ export default {
 </script>
 
 <template>
+    <ol class="list-group list-group-numbered my-3">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 31 de julio<br>
+            <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates'})" class="uline">
+                Ver todas las fechas importantes
+            </RouterLink>            
+        </div>
+        </li>
+    </ol> 
+
     <p>
         El CLIHC 2023 es la conferencia bienal que tiene como objetivo reunir a la comunidad latinoamericana de HCI. El
         Coloquio de Graduados del CLIHC 2023 brinda la oportunidad a estudiantes latinoamericanos de posgrado que trabajan
