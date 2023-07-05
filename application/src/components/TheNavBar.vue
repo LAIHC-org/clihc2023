@@ -39,7 +39,6 @@
 								<li class="nav-item mx-2">
 									<RouterLink :to="Tr.i18nRoute({ name: 'home'})" 
 										class="nav-link ps-2 d-flex cursor-pointer align-items-center"
-										aria-current="page"
 									>{{ $t("nav.home") }}</RouterLink>
 								</li>
 
@@ -276,7 +275,6 @@
 								<li class="nav-item mx-2">
 									<RouterLink :to="Tr.i18nRoute({ name: 'organizers'})" 
 										class="nav-link ps-2 d-flex cursor-pointer align-items-center"
-										aria-current="page"
 									>{{ $t("nav.organizers") }}</RouterLink>
 								</li>
 								<!--
