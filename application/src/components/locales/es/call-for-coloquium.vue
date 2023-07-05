@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cgc-call" class="text-primary text-gradient text-center py-4">Coloquio de graduados</h2>
     <p>
         El CLIHC 2023 es la conferencia bienal que tiene como objetivo reunir a la comunidad latinoamericana de HCI. El
         Coloquio de Graduados del CLIHC 2023 brinda la oportunidad a estudiantes latinoamericanos de posgrado que trabajan

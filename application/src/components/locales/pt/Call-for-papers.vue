@@ -16,8 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cfp-call" class="text-primary text-gradient text-center py-4">Chamada de trabalhos</h2>
-
     <p>
         A XI Conferência Latino-Americana de Interação Humano-Computador (CLIHC 2023) tem como objetivo fornecer um fórum de
         excelência que reúna as comunidades de pesquisa em Interação Humano-Computador (IHC) da América Latina e

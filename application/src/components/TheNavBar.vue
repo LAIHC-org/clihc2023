@@ -54,7 +54,7 @@
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown1">
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cfp-call' })" 
+											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-papers' })" 
 												class="dropdown-item border-radius-md"
 											>
 												<div class="d-flex">
@@ -71,7 +71,7 @@
 											</RouterLink>											
 										</li>
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cpt-call' })" 
+											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters' })" 
 												class="dropdown-item border-radius-md"
 											>
 												<div class="d-flex">
@@ -88,7 +88,7 @@
 											</RouterLink>											
 										</li>
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cwt-call' })" 
+											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials' })" 
 												class="dropdown-item border-radius-md"
 											>
 												<div class="d-flex">
@@ -105,7 +105,7 @@
 											</RouterLink>
 										</li>
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#sdc-call' })" 
+											<RouterLink :to="Tr.i18nRoute({ name: 'student-design-competition' })" 
 												class="dropdown-item border-radius-md"
 											>
 												<div class="d-flex">
@@ -122,7 +122,7 @@
 											</RouterLink>
 										</li>
 										<li>
-											<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation', hash: '#cgc-call' })" 
+											<RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium' })" 
 												class="dropdown-item border-radius-md"
 											>
 												<div class="d-flex">

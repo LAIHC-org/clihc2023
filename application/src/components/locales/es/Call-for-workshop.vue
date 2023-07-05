@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cwt-call" class="text-primary text-gradient text-center py-4">Convocatoria de talleres y tutoriales</h2>
     <p>
         Los talleres y tutoriales de CLIHC son presentaciones en profundidad sobre temas fundamentales o de vanguardia
         presentados por investigadores o profesionales en el campo de la Interacción Humano-Computadora (HCI, por sus siglas

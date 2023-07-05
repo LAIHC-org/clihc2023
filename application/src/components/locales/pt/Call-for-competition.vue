@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="sdc-call" class="text-primary text-gradient text-center py-4">Competição de design para estudantes</h2>
     <h3 id="sdc-dates">Datas Importantes</h3>
     <ul>
         <li>Prazo de submissão: 31 de julho</li>

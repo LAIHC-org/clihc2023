@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-    <h2 id="cgc-call" class="text-primary text-gradient text-center py-4">Colóquio de Pós-Graduação</h2>
     <p>
         O CLIHC 2023 é a conferência bienal que tem como objetivo reunir a comunidade de HCI da América Latina. O Colóquio
         de Pós-Graduação do CLIHC 2023 oferece uma oportunidade para estudantes de pós-graduação latino-americanos que
