@@ -49,13 +49,18 @@
     <script type="module" src="/src/main.js"></script>
     <script>
       var myNav = document.getElementsByClassName('navbar-color-on-scroll');
-      
-      window.onscroll = function () { 
-          if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+      var myIcon = document.getElementsByClassName('icon-language');
+
+      window.onscroll = function() {
+          var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+          var scrollThreshold = 200;
+          
+          if (scrollTop >= scrollThreshold) {
               myNav[0].classList.add("scrolled");
-          } 
-          else {
+              myIcon[0].classList.add("text-white");
+          } else {
               myNav[0].classList.remove("scrolled");
+              myIcon[0].classList.remove("text-white");
           }
       };
     </script>
