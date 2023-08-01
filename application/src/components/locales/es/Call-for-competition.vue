@@ -19,14 +19,14 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 31 de julio<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> <del>31 de julio</del> 7 de agosto EXTENDIDA<br>
         </div>
         </li>
     </ol>
 
     <h3 id="sdc-dates">Fechas Importantes</h3>
     <ul>
-        <li>Fecha límite de envío: 31 de julio</li>
+        <li>Fecha límite de envío: <del>31 de julio</del> 7 de agosto EXTENDIDA</li>
         <li>Notificación: 28 de agosto</li>
         <li>Versión final: 14 de septiembre (para publicación en inglés en ACM DL o en español en "Avances en Interacción
             Humano-Computadora")</li>

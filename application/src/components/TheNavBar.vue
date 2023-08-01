@@ -63,9 +63,9 @@
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
 															{{ $t("nav.cfp") }}
 														</span>
-														<span class="text-sm text-dark">
-															{{ $t("nav.cfp_message") }}
-														</span>
+														<i18n path="nav.cfp_message" tag="span" class="text-sm text-dark">
+															<strong class="text-danger">{{ $t("about.closed") }}</strong>
+														</i18n>
 													</div>
 												</div>
 											</RouterLink>											

@@ -1,9 +1,8 @@
 <template>
     <div class="alert alert-warning col-md-8 m-auto" role="alert">
-        <p>Time is running out!</p>
+        <p>Attention to all interested participants in CLIHC 2023!</p>
         <p>
-            Submit your full and short papers by <strong>July 3rd</strong>!<br>
-            <strong>No abstract required</strong>!
+            We want to inform you that we have extended the submission deadline for works until <strong>August 7th.</strong> 
         </p>
     </div>
 </template>
