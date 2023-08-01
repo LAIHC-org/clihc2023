@@ -1,9 +1,8 @@
 <template>
     <div class="alert alert-warning col-md-8 m-auto" role="alert">
-        <p>¡El tiempo se agota!</p>
+        <p>¡Atención a todos los interesados en participar en el CLIHC 2023! </p>
         <p>
-            ¡Envía tus artículos completos y artículos breves antes del <strong>3 de julio</strong>!<br>
-            <strong>¡No se requiere resumen!</strong>!
+            Queremos informarles que hemos ampliado el plazo para la recepción de trabajos hasta el <strong>7 de agosto</strong>.
         </p>
     </div>
 </template>

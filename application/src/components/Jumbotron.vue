@@ -63,11 +63,11 @@ export default {
 										<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation' })" 
 										class="btn btn-lg  bg-gradient-yellow  btn-round"
 										>{{ $t("jumbotron.button") }}</RouterLink>
-										<!--
+										
 										<template v-if="currentComponent">
 											<component :is="currentComponent" />
 										</template>
-										-->
+										
 									</p>
 								</div>
 							</div>

@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> July 31st<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 7th EXTENDED<br>
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
                 See all important dates
             </RouterLink>            
@@ -51,7 +51,7 @@ export default {
 
     <h3 id="cwt-dates">Important Dates</h3>
     <ul>
-        <li>Submission deadline: July 31th</li>
+        <li>Submission deadline: <del>July 31st</del> August 7th EXTENDED</li>
         <li>Notification: August 28th</li>
         <li>Camera ready: September 14th</li>
         <li>Event Oct 30 - 31, Nov 1</li>
