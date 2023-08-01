@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> 31 de julho<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> 7 de agosto PRORROGADA<br>
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
                 Veja todas as datas importantes
             </RouterLink>            
@@ -51,7 +51,7 @@ export default {
 
     <h3 id="cwt-dates">Datas Importantes</h3>
     <ul>
-        <li>Prazo de submissão: 31 de julho</li>
+        <li>Prazo de submissão: <del>31 de julho</del> 7 de agosto PRORROGADA</li>
         <li>Notificação: 28 de agosto</li>
         <li>Versão final: 14 de setembro</li>
         <li>Evento: 30 a 31 de outubro, 1 de novembro</li>

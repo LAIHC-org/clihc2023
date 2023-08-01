@@ -1,9 +1,8 @@
 <template>
     <div class="alert alert-warning col-md-8 m-auto" role="alert">
-        <p>O tempo está se esgotando!</p>
+        <p>Atenção a todos os interessados em participar do CLIHC 2023!</p>
         <p>
-            Envie seus artigos completos e resumidos até o dia <strong>3 de julho</strong>!<br>
-            <strong>Não é necessário enviar resumo!</strong>!
+            Queremos informar que estendemos o prazo de recebimento dos trabalhos até <strong>7 de agosto.</strong>
         </p>
     </div>
 </template>
