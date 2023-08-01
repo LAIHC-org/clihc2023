@@ -182,3 +182,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - fix: Val iniio al cambiar de pagina
 - fix: 🐛 Corrige la navegación a los diferentes calls
+
+## [2023.1.0.1] - 2023-08-01
+
+### Changed
+
+- fix: Update deadlines August 7th
