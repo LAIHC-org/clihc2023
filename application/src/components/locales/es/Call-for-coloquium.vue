@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 31 de julio<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> <del>31 de julio</del> 7 de agosto EXTENDIDA<br>
             <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates'})" class="uline">
                 Ver todas las fechas importantes
             </RouterLink>            
@@ -158,7 +158,7 @@ export default {
 
     <h3 id="cgc-dates">Fechas importantes (CG)</h3>
     <ul>
-        <li>Envío de propuestas para el CG: 31 de julio</li>
+        <li>Envío de propuestas para el CG: <del>31 de julio</del> 7 de agosto EXTENDIDA</li>
         <li>Notificación: 28 de agosto</li>
         <li>Versión final: 11 de septiembre</li>
         <li>Coloquio de Graduados: Por determinar</li>
