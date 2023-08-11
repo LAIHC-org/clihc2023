@@ -188,3 +188,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - fix: Update deadlines August 7th
+
+## [2023.1.0.2] - 2023-08-11
+
+### Changed
+
+- fix: Update deadlines August 11th
