@@ -27,7 +27,7 @@
                     Convocatoria de pósteres (CPT)
                 </RouterLink>                
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong>7 de agosto EXTENDIDA<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong>11 de agosto EXTENDIDA<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -37,7 +37,7 @@
                 Convocatoria de talleres y tutoriales (CWT)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 7 de agosto EXTENDIDA<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 11 de agosto EXTENDIDA<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -47,7 +47,7 @@
                 Competencia de diseño para estudiantes (SDC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 7 de agosto EXTENDIDA<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 11 de agosto EXTENDIDA<br>
         </div>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -57,7 +57,7 @@
                 Coloquio de graduados (GC)
             </RouterLink>
             </div>
-            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 7 de agosto EXTENDIDA<br>
+            <strong class="text-primary text-gradient">Fecha límite de envío:</strong> 11 de agosto EXTENDIDA<br>
         </div>
         </li>
     </ol>    

@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> 7 de agosto PRORROGADA<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> 11 de agosto PRORROGADA<br>
             <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates'})" class="uline">
                 Veja todas as datas importantes
             </RouterLink>            
@@ -156,7 +156,7 @@ export default {
 
     <h3 id="cgc-dates">Datas Importantes (Colóquio de Pós-Graduação)</h3>
     <ul>
-        <li>Envio de propostas do Colóquio de Pós-Graduação: <del>31 de julho</del> 7 de agosto PRORROGADA</li>
+        <li>Envio de propostas do Colóquio de Pós-Graduação: <del>31 de julho</del> 11 de agosto PRORROGADA</li>
         <li>Notificação: 28 de agosto</li>
         <li>Versão final: 11 de setembro</li>
         <li>Colóquio de Pós-Graduação: A ser determinado</li>
