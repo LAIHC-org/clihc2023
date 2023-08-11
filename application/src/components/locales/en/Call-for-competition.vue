@@ -19,14 +19,14 @@
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 7th EXTENDED<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 11th EXTENDED<br>
         </div>
         </li>
     </ol>
 
     <h3 id="sdc-dates">Important Dates</h3>
     <ul>
-        <li>Submission deadline: <del>July 31st</del> August 7th EXTENDED</li>
+        <li>Submission deadline: <del>July 31st</del> August 11th EXTENDED</li>
         <li>Notification: August 28th</li>
         <li>Camera ready: September 14th (for English publication in ACM DL or Spanish publication in “Avances en
             Interacción Humano-Computadora”)</li>
