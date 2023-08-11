@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 7th EXTENDED<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 11th EXTENDED<br>
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-dates'})" class="uline">
                 See all important dates
             </RouterLink>            
@@ -39,7 +39,7 @@ export default {
 
     <h3 id="cpt-dates">Important Dates (Posters)</h3>
     <ul>
-        <li>Submission of poster papers: <del>July 31st</del> August 7th EXTENDED</li>
+        <li>Submission of poster papers: <del>July 31st</del> August 11th EXTENDED</li>
         <li>Notification: August 28th</li>
         <li>Camera ready: September 14th</li>
         <li>Event Oct 30 - 31, Nov 1</li>

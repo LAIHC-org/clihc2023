@@ -19,14 +19,14 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de submissão:</strong> <del>31 de julho</del> 7 de agosto PRORROGADA<br>
+            <strong class="text-primary text-gradient">Prazo de submissão:</strong> <del>31 de julho</del> 11 de agosto PRORROGADA<br>
         </div>
         </li>
     </ol>
 
     <h3 id="sdc-dates">Datas Importantes</h3>
     <ul>
-        <li>Prazo de submissão: <del>31 de julho</del> 7 de agosto PRORROGADA</li>
+        <li>Prazo de submissão: <del>31 de julho</del> 11 de agosto PRORROGADA</li>
         <li>Notificação: 28 de agosto</li>
         <li>Versão final: 14 de setembro (para publicação em inglês no ACM DL ou em espanhol no "Avances en Interacción
             Humano-Computadora")</li>
