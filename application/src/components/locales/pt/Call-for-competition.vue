@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de submissão:</strong> <del>31 de julho</del> 11 de agosto PRORROGADA<br>
+            <strong class="text-primary text-gradient">Prazo de submissão:</strong> <del>31 de julho</del> <del>11 de agosto PRORROGADA</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
         </div>
         </li>
     </ol>

@@ -52,9 +52,9 @@ export default {
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
                         -->
                         
-                        <RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation'})" class="btn bg-gradient-yellow btn-round btn-lg">
-											    {{ $t("about.call") }}
-										    </RouterLink>
+                        <a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
+                          {{ $t("jumbotron.button") }}
+                        </a>
                     </div>
                 </div>
             </div>

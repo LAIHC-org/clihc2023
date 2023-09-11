@@ -64,7 +64,7 @@
 															{{ $t("nav.cfp") }}
 														</span>
 														<i18n path="nav.cfp_message" tag="span" class="text-sm text-dark">
-															<strong class="text-danger">{{ $t("about.closed") }}</strong>
+															{{ $t("about.closed") }}
 														</i18n>
 													</div>
 												</div>
@@ -81,7 +81,7 @@
 															{{ $t("nav.cpt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cpt_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -98,7 +98,7 @@
 															{{ $t("nav.cwt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cwt_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -115,7 +115,7 @@
 															{{ $t("nav.sdc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.sdc_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -132,7 +132,7 @@
 															{{ $t("nav.cgc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cgc_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
