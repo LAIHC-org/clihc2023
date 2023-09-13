@@ -110,6 +110,14 @@ const router = createRouter({
           },
         },    
         {
+          path: 'getting-started',
+          name: 'getting-started',
+          component: () => import('../views/GettingStartedView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Getting started",
+          },
+        },
+        {
           path: 'registration',
           name: 'registration',
           component: () => import('../views/RegistrationView.vue'), 
@@ -117,6 +125,14 @@ const router = createRouter({
             title: "CLIHC 2023 - Registration",
           },
         },
+        {
+          path: 'accessibility-FAQ',
+          name: 'accessibility-FAQ',
+          component: () => import('../views/AccessibilityFAQView.vue'), 
+          meta: {
+            title: "CLIHC 2023 - Accessibility FAQs",
+          },
+        },        
         {
           path: 'video-archives',
           name: 'videoArchives',

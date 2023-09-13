@@ -158,61 +158,67 @@
 										
 									</ul>
 								</li>
-								<!--
 								<li class="nav-item dropdown dropdown-hover mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
 										id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
-										Attend
+										{{ $t("nav.for_attendees") }}
 										<img src="/assets/img/down-arrow-dark.svg"
 											class="arrow ms-1" alt="">
 									</a>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown2">
 										<li>
-											<a class="dropdown-item border-radius-md" href="#">
+											<RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Getting started
+															{{ $t("nav.getting_started") }}
 														</span>
 														<span class="text-sm">
-															All you need to know to attend the conference
+															{{ $t("nav.getting_started_message") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
 										<li>
-											<a class="dropdown-item border-radius-md" href="./registration">
+											<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="dropdown-item border-radius-md"
+											>											
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Rates & Registration
+															{{ $t("nav.rates_and_registration") }}
 														</span>
 														<span class="text-sm text-dark">
-															First step to attend
+															{{ $t("nav.rates_and_registration_message") }}
 														</span>														
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
 										<li>
-											<a class="dropdown-item border-radius-md" href="#">
+											<RouterLink :to="Tr.i18nRoute({ name: 'accessibility-FAQ' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Accesibility FAQ
+															{{ $t("nav.accessibility_faqs") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
 									</ul>
 								</li>
+								<!--
 								<li class="nav-item dropdown dropdown-hover mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
 										id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
@@ -264,7 +270,6 @@
 										</li>
 									</ul>
 								</li>
-								
 								<li class="nav-item mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
 										href="./video-archives">
