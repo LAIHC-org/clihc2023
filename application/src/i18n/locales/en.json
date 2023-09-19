@@ -101,5 +101,8 @@
         "cwt": "Call for Workshops and Tutorials",
         "sdc": "Student Design Competition",
         "cgc": "Graduate Colloquium"
+    },
+    "register": {
+        "register_button": "Register your payment receipt"
     }
 }
