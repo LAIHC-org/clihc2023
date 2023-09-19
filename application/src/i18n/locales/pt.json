@@ -101,5 +101,8 @@
         "cwt": "Chamada para workshops e tutoriais",
         "sdc": "Competição de design para estudantes",
         "cgc": "Colóquio de pós-graduação"
+    },
+    "register": {
+        "register_button": "Registre seu comprovante de pagamento"
     }
 }

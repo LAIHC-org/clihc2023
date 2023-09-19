@@ -129,7 +129,7 @@
                 <div class="row">
                     <div class="col-md-7 mx-auto text-center">                        
                         <a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
-                          {{ $t("jumbotron.button") }}
+                          {{ $t("register.register_button") }}
                         </a>
                     </div>
                 </div>
