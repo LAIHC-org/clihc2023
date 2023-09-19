@@ -205,3 +205,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - feat: Cierra todos los calls
+
+## [2023.1.0.4] - 2023-09-19
+
+## Fixed
+
+- fix(Content): Corribe el texto del call to action para regsitrar el comprobante de pago
