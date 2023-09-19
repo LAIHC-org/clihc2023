@@ -28,6 +28,13 @@
         "accessibility_for_autors_message": "Ajude-nos a maximizar a experiência para todos",
         "for_attendees_title": "Para os participantes",
         "for_attendees": "Para os participantes",
+        "getting_started_title": "Primeiros Passos",
+        "getting_started": "Primeiros passos",
+        "getting_started_message": "Tudo o que você precisa saber para participar da conferência.",
+        "rates_and_registration_title": "Taxas e Registro",
+        "rates_and_registration": "Taxas e registro",
+        "rates_and_registration_message": "Primeiro passo para participar.",
+        "accessibility_faqs": "Perguntas frequentes sobre acessibilidade",
         "pending": "Pendente",
         "copyright": "© 2023 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
@@ -35,13 +42,13 @@
     "jumbotron":{
         "conference": "XI Conferência Latino-Americana de Interação Humano-Computador",
         "date": "30, 31 de outubro e 1 de novembro",
-        "button": "Convocatória de participação"
+        "button": "Registrar-se agora"
     },
     "about":{
         "about_title": "Sobre o CLIHC",
         "about_text": "A Conferência Latino-Americana de Interação Humano-Computador (CLIHC) é gerenciada pela Comunidade Latino-Americana de HCI do SIGCHI (LAIHC). A CLIHC é uma conferência de destaque que reúne as comunidades de pesquisa de HCI da América Latina e internacional para discutir e trocar ideias, métodos, abordagens e técnicas para projetar experiências de usuário interativas, incentivando o intercâmbio intercultural e a cooperação entre pessoas com diferentes origens e necessidades. Esta conferência teve sua origem no Rio de Janeiro em 2003 (Brasil), com edições subsequentes em Cuernavaca em 2005 (México), Rio de Janeiro em 2007 (Brasil), Mérida em 2009 (México), Porto de Galinhas em 2011 (Brasil), Guanacaste em 2013 (Costa Rica), Córdoba em 2015 (Argentina), Antigua em 2017 (Guatemala), Cidade do Panamá em 2019 (Panamá) e Conferência Virtual em 2021 (Online).",
         "call": "Chamada para participação",
-        "registration": "Registro",
+        "registration": "Chamada para registro",
         "proceedings": "Proceedings",
         "open": "Aberta",
         "closed": "Fechada"

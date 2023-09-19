@@ -60,14 +60,16 @@ export default {
 										</strong>
 									</p>
 									<p class="lead pt-2">
-										<RouterLink :to="Tr.i18nRoute({ name: 'call-for-participation' })" 
-										class="btn btn-lg  bg-gradient-yellow  btn-round"
-										>{{ $t("jumbotron.button") }}</RouterLink>
-										
+										<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="btn btn-lg  bg-gradient-yellow  btn-round"
+											>
+											{{ $t("jumbotron.button") }}
+										</RouterLink>
+										<!--
 										<template v-if="currentComponent">
 											<component :is="currentComponent" />
 										</template>
-										
+										-->
 									</p>
 								</div>
 							</div>

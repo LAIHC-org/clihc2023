@@ -15,19 +15,19 @@ export default {
     const contentComponent = shallowRef(null)
 
     const loadComponents = async (newLocale) => {
-      contentComponent.value = await getContentForLocale(newLocale)
+      contentComponent.value = await getTableForLocale(newLocale)
     }
 
     watch(locale, loadComponents, { immediate: true })
 
-    async function getContentForLocale(locale) {
+    async function getTableForLocale(locale) {
       switch (locale) {
         case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/en/Accessibility-faq.vue'))
         case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/es/Accessibility-faq.vue'))
         case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/pt/Accessibility-faq.vue'))
         default:
           return null
       }
@@ -43,8 +43,8 @@ export default {
 
 <template>
   <TheHeader>
-    <template #page-name>      
-      {{ $t("nav.rates_and_registration_title") }}
+    <template #page-name>
+      {{ $t("calls.title") }}
     </template>
   </TheHeader>
 
@@ -63,5 +63,12 @@ export default {
       </div>
     </div>
   </section>
-
 </template>
+
+<style>
+dt {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+</style>
