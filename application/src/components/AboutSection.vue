@@ -43,9 +43,11 @@
 								</tr>
 								<tr>
 									<th scope="row">
-										<a href="https://true-werewolf-eternal.ngrok-free.app/" class="uline">
+										<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="uline"
+											>
 											{{ $t("about.registration") }}
-										</a>
+										</RouterLink>										
 									</th>
 									<td><span class="text-bold text-primary text-gradient">{{ $t("about.open") }}</span></td>
 								</tr>

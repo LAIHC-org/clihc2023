@@ -1,69 +1,139 @@
 <script>
-import Tr from '@/i18n/translation'
+	import Tr from '@/i18n/translation'
 
-export default {
-    setup() {
-        return { Tr }
-    }
-}
+	export default {
+		setup() {
+			return { Tr }
+		}
+	}
 </script>
 
 <template>
-    <ol class="list-group list-group-numbered">
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold">
-                    <strong class="text-primary text-gradient">Papers and Short Papers</strong> $3,500.00 Mexican pesos
-                </div>
-            </div>
-        </li>
+    <h2 class="">To attend the entire conference</h2>
 
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold">
-                    <strong class="text-primary text-gradient">Posters and Graduate Consortium</strong> $1,500.00 Mexican
-                    pesos
-                </div>
-            </div>
-        </li>
+	<table class="table table-striped">
+		<caption>Cost table for attending the entire conference</caption>
+		<thead>
+			<tr>
+				<th scope="col">Description</th>
+				<th scope="col">MX</th>
+				<th scope="col">USD</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>In-person for professionals</td>
+				<td>$2500</td>
+				<td>$145</td>
+			</tr>
+			<tr>
+				<td>In-person for student authors</td>
+				<td>$1400</td>
+				<td>$87</td>
+			</tr>
+			<tr>
+				<td>In-person for non-author students</td>
+				<td>$500</td>
+				<td>$30</td>
+			</tr>
+			<tr>
+				<td>Virtual for professionals</td>
+				<td>$880</td>
+				<td>$55</td>
+			</tr>
+			<tr>
+				<td>Virtual for students</td>
+				<td>$270</td>
+				<td>$15</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td span="3"><strong>Note:</strong> Gala dinner and meals are not included in the registration fee.</td>
+			</tr>
+		</tfoot>
+	</table>
 
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-                <div>
-                    <span class="fw-bold"><strong class="text-primary text-gradient">Attendance to the conference for
-                            general public</strong>
-                        is completely free.</span> Pick <strong><em>Attendee</em></strong> to obtain a free registration (If
-                    you need an attendance
-                    certificate, you may select it right there as well).
+	<h2 class="">To attend Tutorials/Workshops (limited seats)</h2>
+
+	<table class="table table-striped">
+		<caption>Cost table for attending Tutorials/Workshops (limited seats)</caption>
+		<thead>
+			<tr>
+				<th scope="col">Description</th>
+				<th scope="col">MX</th>
+				<th scope="col">USD</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>In-person for professionals </td>
+				<td>$690 </td>
+				<td>$40</td>
+			</tr>
+			<tr>
+				<td>In-person for students</td>
+				<td>$270</td>
+				<td>$15</td>
+			</tr>
+			<tr>
+				<td>Virtual for professionals</td>
+				<td>$345</td>
+				<td>$20</td>
+			</tr>
+			<tr>
+				<td>Virtual for students</td>
+				<td>$85</td>
+				<td>$5</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td span="3"><strong>Note:</strong> Conference registration is a prerequisite for Tutorial and Workshop registration.</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<h2 class="">About author registration</h2>
+
+	<ol>
+		<li>
+			For publications with at least one professional author
+			<ol type="a">
+				<li>Each paper to be presented must have at least one professional author registered either in-person or virtually.</li>
+				<li>If multiple papers are associated with the same professional author, then for each additional publication, the registered author must pay (cancel) the publication fee (880 pesos), or alternatively, another professional author must register at least in the virtual mode.</li>
+			</ol>
+		</li>
+		<li>
+			For publications where all authors are students
+			<ol type="a">
+				<li>Each paper to be presented must have at least one author registered either in-person or virtually.</li>
+			</ol>
+		</li>
+		<li>
+			About discounts
+			<ol type="a">
+				<li>Registrants between September 15 and October 1 can register for Tutorials and Workshops at no additional cost.</li>
+				<li>50% discount for in-person registration of professors who register 5 students in the in-person mode.</li>
+				<li>100% discount for in-person registration of professors who register 10 students in this mode.</li>
+				<li>50% discount for in-person registration of professors who register 10 students in the virtual mode.</li>
+				<li>100% if they register 20 students in the virtual mode.</li>
+			</ol>
+		</li>
+	</ol>
+
+    <section class="py-5 container" id="download-soft-ui">
+        <div class="bg-gradient-dark position-relative border-radius-xl overflow-hidden">
+            <img src="/assets/img/shapes/waves-white.svg" alt="" class="position-absolute start-0 top-md-0 w-100 opacity-6">
+            <div class="container py-7 postion-relative z-index-2 position-relative">
+                <div class="row">
+                    <div class="col-md-7 mx-auto text-center">                        
+                        <a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
+                          {{ $t("jumbotron.button") }}
+                        </a>
+                    </div>
                 </div>
             </div>
-        </li>
-    </ol>
-    <h2 class="mt-5 mb-3 text-center">Bank Account Information</h2>
-    <p>To register to the event, please follow the next steps:</p>
-    <ol>
-        <li>Filling out the form with your information using the <a href="https://conferencias.app/"
-                class="uline">registration system</a></li>
-        <li>Make the payment (bank transfer preferably or deposit below) using the bank details provided and the
-            Registration Code provided by the registration system.</li>
-        <li>Send a copy of payment invoice to <a href="mailto:registration.2022@mexihc.org"
-                class="uline">registration.2022@mexihc.org</a> (especially deposits at the bank)</li>
-        <li>Also, if you need a fiscal invoice (factura), you can request it through the system and it will be emailed to
-            you.</li>
-        <li>Payments made from outside Mexico can use PayPal to complete the registration. Instructions will appear in the
-            confirmation page.</li>
-    </ol>
-    <div class="text-center mt-4">
-        <a href="https://conferencias.app/" class="btn btn-lg bg-gradient-primary btn-round">Register</a>
-    </div>
-    <h3 class="my-3 text-center">From Payments from Mexican Bank Accounts, Please Use:</h3>
-    <p>
-        (Only <strong>spanish</strong> at the moment)<br><br>
-        <span class="text-primary text-gradient">Nombre:</span> <strong>ASOCIACION MEXICANA DE INTERACCION HUMANO
-            COMPUTADORA AC</strong><br>
-        <span class="text-primary text-gradient">Banco:</span> <strong>BANCO DEL BAJIO</strong><br>
-        <span class="text-primary text-gradient">Clabe interbancaria:</span> <strong>030767900000120128</strong><br>
-        <span class="text-primary text-gradient">Cuenta:</span> <strong>88823590201</strong><br>
-        <span class="text-primary text-gradient">Concepto:</span> <strong>{Registration code}</strong><br>
-    </p>
+        </div>
+    </section>
 </template>

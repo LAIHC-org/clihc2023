@@ -51,10 +51,11 @@ export default {
                         <a href="./schedule" class="btn bg-gradient-yellow btn-round btn-lg">Schedule</a>
                         <a href="./video-archives" class="btn bg-gradient-yellow btn-round btn-lg">Video archives</a>
                         -->
-                        
-                        <a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
+                        <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="btn btn-lg  bg-gradient-yellow  btn-round"
+                          >
                           {{ $t("jumbotron.button") }}
-                        </a>
+                        </RouterLink>           
                     </div>
                 </div>
             </div>

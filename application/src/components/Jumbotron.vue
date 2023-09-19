@@ -60,9 +60,11 @@ export default {
 										</strong>
 									</p>
 									<p class="lead pt-2">
-										<a href="https://true-werewolf-eternal.ngrok-free.app/" class="btn btn-lg  bg-gradient-yellow  btn-round">
+										<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="btn btn-lg  bg-gradient-yellow  btn-round"
+											>
 											{{ $t("jumbotron.button") }}
-										</a>
+										</RouterLink>
 										<!--
 										<template v-if="currentComponent">
 											<component :is="currentComponent" />
