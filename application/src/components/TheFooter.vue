@@ -107,16 +107,30 @@
                     <div>
                         <h3 class="text-gradient text-primary text-sm">{{ $t("nav.for_attendees_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
+                            <!--
                             <li class="nav-item">
-                                <span class="nav-link">{{ $t("nav.pending") }}</span>
+                                <RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 
+                                    class="nav-link uline"
+                                >
+                                    {{ $t("nav.getting_started") }}
+                                </RouterLink>
+                            </li>                      
+                            -->
+                            <li class="nav-item">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+                                    class="nav-link uline"
+                                >
+                                    {{ $t("nav.rates_and_registration") }}
+                                </RouterLink>
                             </li>
                             <!--
                             <li class="nav-item">
-                                <a class="nav-link uline" href="./registration">
-                                    Rates & Registration
-                                </a>
-                            </li>
-                            
+                                <RouterLink :to="Tr.i18nRoute({ name: 'accessibility-FAQ' })" 
+                                    class="nav-link uline"
+                                >
+                                    {{ $t("nav.accessibility_faqs") }}
+                                </RouterLink>
+                            </li>                                                        
                             <li class="nav-item">
                                 <a class="nav-link uline" href="./accepted-papers">
                                     Accepted papers

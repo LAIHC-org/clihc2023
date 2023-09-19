@@ -39,11 +39,17 @@
 											{{ $t("about.call") }}
 										</RouterLink>								
 									</th>
-									<td><span class="text-bold text-primary text-gradient">{{ $t("about.open") }}</span></td>
+									<td><span class="text-bold">{{ $t("about.closed") }}</span></td>
 								</tr>
 								<tr>
-									<th scope="row">{{ $t("about.registration") }}</th>
-									<td>{{ $t("nav.pending") }}</td>
+									<th scope="row">
+										<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="uline"
+											>
+											{{ $t("about.registration") }}
+										</RouterLink>										
+									</th>
+									<td><span class="text-bold text-primary text-gradient">{{ $t("about.open") }}</span></td>
 								</tr>
 								<tr>
 									<th scope="row">{{ $t("about.proceedings") }}</th>

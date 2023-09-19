@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 11th EXTENDED<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> <del>August 11th EXTENDED</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-workshops-and-tutorials', hash: '#cwt-dates'})" class="uline">
                 See all important dates
             </RouterLink>            
