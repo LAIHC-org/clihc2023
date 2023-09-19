@@ -101,5 +101,8 @@
         "cwt": "Convocatoria de talleres y tutoriales",
         "sdc": "Competencia de diseño para estudiantes",
         "cgc": "Coloquio de graduados"
+    },
+    "register": {
+        "register_button": "Registra tu comprobante de pago"
     }
 }
