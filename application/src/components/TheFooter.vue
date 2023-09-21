@@ -136,13 +136,15 @@
                                     Accepted papers
                                 </a>
                             </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link uline" href="./schedule">
-                                    Schedule
-                                </a>
-                            </li>
                             -->
+                            <li class="nav-item">
+                                <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+                                    class="nav-link uline"
+                                >
+                                    {{ $t("nav.schedule") }}
+                                </RouterLink>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
