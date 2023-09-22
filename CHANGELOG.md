@@ -211,3 +211,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Fixed
 
 - fix(Content): Corribe el texto del call to action para regsitrar el comprobante de pago
+
+## [2023.1.0.5] - 2023-09-21
+
+### Added
+
+- feat: Agrega la pagina de agenda
+- feat: Agrega agenda de eventos y ponentes principales

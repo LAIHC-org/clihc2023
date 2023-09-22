@@ -222,44 +222,52 @@
 										-->
 									</ul>
 								</li>
-								<!--
 								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
-										id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
-										aria-expanded="false">
-										Program
-										<img src="/assets/img/down-arrow-dark.svg"
-											class="arrow ms-1" alt="">
-									</a>
+									<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+										class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+										id="navbarDropdown3" 
+										role="button" 
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										{{ $t("nav.program") }}
+										<img src="/assets/img/down-arrow-dark.svg" class="arrow ms-1" alt="">
+									</RouterLink>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown3">
 										<li>
-											<a class="dropdown-item border-radius-md" href="./schedule">
+											<RouterLink :to="Tr.i18nRoute({ name: 'schedule' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Schedule
-														</span>
-													</div>
-												</div>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item border-radius-md" href="./keynote-speakers">
-												<div class="d-flex">
-													<div>
-														<span
-															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Keynote speakers
+															{{ $t("nav.schedule") }}
 														</span>
 														<span class="text-sm text-dark">
-															From the international HCI community
+															{{ $t("nav.schedule_message") }}
+														</span>
+													</div>
+												</div>												
+											</RouterLink>
+										</li>
+										<li>
+											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'keynote-speakers' })">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.keynotes") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.keynotes_message") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
+										<!--
 										<li>
 											<a class="dropdown-item border-radius-md" href="./accepted-papers">
 												<div class="d-flex">
@@ -272,8 +280,10 @@
 												</div>
 											</a>
 										</li>
+										-->
 									</ul>
 								</li>
+								<!--
 								<li class="nav-item mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
 										href="./video-archives">
