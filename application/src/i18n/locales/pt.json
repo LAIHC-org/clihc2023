@@ -109,5 +109,9 @@
     },
     "register": {
         "register_button": "Registre seu comprovante de pagamento"
+    },
+    "home": {
+        "keynotes":"Palestrantes principais",
+        "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC."
     }
 }

@@ -89,7 +89,7 @@ export default {
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">
-                    <RouterLink :to="Tr.i18nRoute({ name: 'keynote-speakers', hash: '#philippe-palenque'})" class="uline">
+                    <RouterLink :to="Tr.i18nRoute({ name: 'keynote-speakers', hash: '#philippe-palanque'})" class="uline">
                       Dr. Philippe Palanque 
                     </RouterLink>
                   </div>

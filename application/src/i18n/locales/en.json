@@ -109,5 +109,9 @@
     },
     "register": {
         "register_button": "Register your payment receipt"
+    },
+    "home": {
+        "keynotes":"Keynote speakers",
+        "keynotes_message": "The conference program includes great speakers from the international HCI community."
     }
 }

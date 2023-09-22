@@ -9,6 +9,7 @@ export default {
 </script>
 
 <template>
+    <p class="text-center">Tentative Program (Central Mexico Time) - Subject to Changes</p>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
@@ -47,9 +48,17 @@ export default {
             </div>
         </li>
     </ol>
-
+    
     <h2 id="monday" class="text-primary text-gradient text-center py-4">Monday, October 30th, 2023. <br>Edificio Carolino
     </h2>
+    <ul>
+        <li>Registration</li>
+        <li>Inauguration</li>
+        <li>Keynote Speeches</li>
+        <li>Full & Short Paper Presentations</li>
+        <li>Workshops and Tutorials</li>
+    </ul>    
+    <!--
     <table class="table table-striped">
         <thead>
             <tr>
@@ -78,7 +87,8 @@ export default {
                 <th scope="row">09:30 - 10:00 hrs</th>
                 <td>
                     <p>
-                        Keynote by <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"
+                        Keynote by <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"<br>
+                        <strong>University of Toulouse 3 Paul Sabatier, France</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
@@ -96,6 +106,7 @@ export default {
                 <td>
                     <p>
                         Keynote by <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
                         aria-expanded="false" aria-controls="marisolWong">Abstract</a>
@@ -134,6 +145,7 @@ export default {
                     <p>
                         Keynote by <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
                         Education"
+                        <br><strong>Monash University, Australia</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
                         role="button" aria-expanded="false" aria-controls="robertoMartinez">Abstract</a>
@@ -190,9 +202,20 @@ export default {
             </tr>
         </tbody>
     </table>
-
+    -->
     <h2 id="tuesday" class="text-primary text-gradient text-center py-4"> Tuesday, October 31st, 2023. <br>Facultad de la
         FCC (Auditorio FCC y Posgrado)</h2>
+    
+    <ul>
+        <li>Registration</li>
+        <li>Keynote Speeches</li>
+        <li>Doctoral Colloquium</li>
+        <li>Student Design Competition</li>
+        <li>Full & Short Paper Presentations</li>
+        <li>Poster Exhibition</li>
+        <li>Gala Dinner</li>
+    </ul>
+    <!--
     <table class="table table-striped">
         <thead>
             <tr>
@@ -261,9 +284,19 @@ export default {
             </tr>
         </tbody>
     </table>
-
+    -->
     <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Wednesday, November 1st, 2023.<br>Facultad de la
         FCC (Auditorio FCC y Posgrado)</h2>
+    
+    <ul>
+        <li>Registration</li>
+        <li>Industry Day Event</li>
+        <li>Workshops and Tutorials</li>
+        <li>Student Design Competition</li>
+        <li>Closing Ceremony</li>
+    </ul>    
+
+    <!--
     <table class="table table-striped">
         <thead>
             <tr>
@@ -313,23 +346,26 @@ export default {
             </tr>
         </tbody>
     </table>
-
+    
     <h2 id="thursday" class="text-primary text-gradient text-center py-4">Thursday, November 2nd, 2023.</h2>
+    
     <table class="table table-striped">
         <thead>
             <tr>
                 <th scope="col" class="w-25">Time (CST)</th>
                 <th scope="col">Event</th>
             </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">09:00 - 18:00 hrs</th>
-            <td>
-                <p>
-                    DUAL University Workshop
-                </p>
-            </td>
-        </tr>
-    </tbody>
-</table></template>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">09:00 - 18:00 hrs</th>
+                <td>
+                    <p>
+                        DUAL University Workshop
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    -->
+</template>
