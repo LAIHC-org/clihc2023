@@ -64,7 +64,7 @@
 															{{ $t("nav.cfp") }}
 														</span>
 														<i18n path="nav.cfp_message" tag="span" class="text-sm text-dark">
-															<strong class="text-danger">{{ $t("about.closed") }}</strong>
+															{{ $t("about.closed") }}
 														</i18n>
 													</div>
 												</div>
@@ -81,7 +81,7 @@
 															{{ $t("nav.cpt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cpt_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -98,7 +98,7 @@
 															{{ $t("nav.cwt") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cwt_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -115,7 +115,7 @@
 															{{ $t("nav.sdc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.sdc_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -132,7 +132,7 @@
 															{{ $t("nav.cgc") }}
 														</span>
 														<span class="text-sm text-dark">
-															{{ $t("nav.cgc_message") }}
+															{{ $t("about.closed") }}
 														</span>
 													</div>
 												</div>
@@ -158,98 +158,116 @@
 										
 									</ul>
 								</li>
-								<!--
 								<li class="nav-item dropdown dropdown-hover mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
 										id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
 										aria-expanded="false">
-										Attend
+										{{ $t("nav.for_attendees") }}
 										<img src="/assets/img/down-arrow-dark.svg"
 											class="arrow ms-1" alt="">
 									</a>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown2">
+										<!--
 										<li>
-											<a class="dropdown-item border-radius-md" href="#">
+											<RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Getting started
+															{{ $t("nav.getting_started") }}
 														</span>
-														<span class="text-sm">
-															All you need to know to attend the conference
+														<span class="text-sm text-dark">
+															{{ $t("nav.getting_started_message") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
+										-->
 										<li>
-											<a class="dropdown-item border-radius-md" href="./registration">
+											<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+												class="dropdown-item border-radius-md"
+											>											
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Rates & Registration
+															{{ $t("nav.rates_and_registration") }}
 														</span>
 														<span class="text-sm text-dark">
-															First step to attend
+															{{ $t("nav.rates_and_registration_message") }}
 														</span>														
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
+										<!--
 										<li>
-											<a class="dropdown-item border-radius-md" href="#">
+											<RouterLink :to="Tr.i18nRoute({ name: 'accessibility-FAQ' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Accesibility FAQ
+															{{ $t("nav.accessibility_faqs") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
+										-->
 									</ul>
 								</li>
 								<li class="nav-item dropdown dropdown-hover mx-2">
-									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center" href="#"
-										id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
-										aria-expanded="false">
-										Program
-										<img src="/assets/img/down-arrow-dark.svg"
-											class="arrow ms-1" alt="">
-									</a>
+									<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
+										class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+										id="navbarDropdown3" 
+										role="button" 
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										{{ $t("nav.program") }}
+										<img src="/assets/img/down-arrow-dark.svg" class="arrow ms-1" alt="">
+									</RouterLink>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown3">
 										<li>
-											<a class="dropdown-item border-radius-md" href="./schedule">
+											<RouterLink :to="Tr.i18nRoute({ name: 'schedule' })" 
+												class="dropdown-item border-radius-md"
+											>
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Schedule
-														</span>
-													</div>
-												</div>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item border-radius-md" href="./keynote-speakers">
-												<div class="d-flex">
-													<div>
-														<span
-															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Keynote speakers
+															{{ $t("nav.schedule") }}
 														</span>
 														<span class="text-sm text-dark">
-															From the international HCI community
+															{{ $t("nav.schedule_message") }}
+														</span>
+													</div>
+												</div>												
+											</RouterLink>
+										</li>
+										<li>
+											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'keynote-speakers' })">
+												<div class="d-flex">
+													<div>
+														<span
+															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+															{{ $t("nav.keynotes") }}
+														</span>
+														<span class="text-sm text-dark">
+															{{ $t("nav.keynotes_message") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
+										<!--
 										<li>
 											<a class="dropdown-item border-radius-md" href="./accepted-papers">
 												<div class="d-flex">
@@ -262,9 +280,10 @@
 												</div>
 											</a>
 										</li>
+										-->
 									</ul>
 								</li>
-								
+								<!--
 								<li class="nav-item mx-2">
 									<a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
 										href="./video-archives">

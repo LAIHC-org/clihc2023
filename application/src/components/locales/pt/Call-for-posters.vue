@@ -19,7 +19,7 @@ export default {
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> 7 de agosto PRORROGADA<br>
+            <strong class="text-primary text-gradient">Prazo de envio:</strong> <del>31 de julho</del> <del>11 de agosto PRORROGADA</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
             <RouterLink :to="Tr.i18nRoute({ name: 'call-for-posters', hash: '#cpt-dates'})" class="uline">
                 Veja todas as datas importantes
             </RouterLink>            
@@ -39,7 +39,7 @@ export default {
 
     <h3 id="cpt-dates">Datas Importantes (Pôsteres)</h3>
     <ul>
-        <li>Submissão dos artigos de pôster: <del>31 de julho</del> 7 de agosto PRORROGADA</li>
+        <li>Submissão dos artigos de pôster: <del>31 de julho</del> 11 de agosto PRORROGADA</li>
         <li>Notificação: 28 de agosto</li>
         <li>Versão final: 14 de setembro</li>
         <li>Evento: 30 a 31 de outubro, 1 de novembro</li>

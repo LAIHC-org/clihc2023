@@ -19,7 +19,7 @@
     <ol class="list-group list-group-numbered my-3">
         <li class="list-group-item d-flex justify-content-between align-items-start">
         <div class="ms-2 me-auto">
-            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> August 7th EXTENDED<br>
+            <strong class="text-primary text-gradient">Deadline for submission:</strong> <del>July 31st</del> <del>August 11th EXTENDED</del> <strong class="text-danger"> {{ $t("about.closed") }}</strong><br>
             <RouterLink :to="Tr.i18nRoute({ name: 'graduate-colloquium', hash: '#cgc-dates'})" class="uline">
                 See all important dates
             </RouterLink>            
@@ -121,7 +121,7 @@
     
     <h3 id="cgc-dates">Important Dates (GC)</h3>
     <ul>
-        <li>Submission of GC proposals: <del>July 31st</del> August 7th EXTENDED</li>
+        <li>Submission of GC proposals: <del>July 31st</del> August 11th EXTENDED</li>
         <li>Notification: August 28th</li>
         <li>Camera ready: September 11th</li>
         <li>Graduate Colloquium: TBD</li>
