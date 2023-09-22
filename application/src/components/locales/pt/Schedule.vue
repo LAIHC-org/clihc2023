@@ -79,6 +79,7 @@ export default {
                 <td>
                     <p>
                         Palestra de <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"
+                        <br><strong>Universidade de Toulouse 3 Paul Sabatier, França</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Resumo</a>
@@ -96,6 +97,7 @@ export default {
                 <td>
                     <p>
                         Palestra de <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
                         aria-expanded="false" aria-controls="marisolWong">Resumo</a>
@@ -136,6 +138,7 @@ export default {
                     <p>
                         Palestra de <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
                         Education"
+                        <br><strong>Monash University, Australia</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
                         role="button" aria-expanded="false" aria-controls="robertoMartinez">Resumo</a>

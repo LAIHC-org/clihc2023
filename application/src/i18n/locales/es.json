@@ -109,5 +109,9 @@
     },
     "register": {
         "register_button": "Registra tu comprobante de pago"
+    },
+    "home": {
+        "keynotes":"Ponentes principales",
+        "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC."
     }
 }

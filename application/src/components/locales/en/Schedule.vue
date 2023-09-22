@@ -78,7 +78,8 @@ export default {
                 <th scope="row">09:30 - 10:00 hrs</th>
                 <td>
                     <p>
-                        Keynote by <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"
+                        Keynote by <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"<br>
+                        <strong>University of Toulouse 3 Paul Sabatier, France</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
@@ -96,6 +97,7 @@ export default {
                 <td>
                     <p>
                         Keynote by <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
                         aria-expanded="false" aria-controls="marisolWong">Abstract</a>
@@ -134,6 +136,7 @@ export default {
                     <p>
                         Keynote by <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
                         Education"
+                        <br><strong>Monash University, Australia</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
                         role="button" aria-expanded="false" aria-controls="robertoMartinez">Abstract</a>

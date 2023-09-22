@@ -80,6 +80,7 @@ export default {
                     <p>
                         Conferencia Magistral por <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling
                         User Tasks"
+                        <br><strong>Universidad de Toulouse 3 Paul Sabatier, Francia</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Resumen</a>
@@ -97,6 +98,7 @@ export default {
                 <td>
                     <p>
                         Conferencia Magistral por <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
                         aria-expanded="false" aria-controls="marisolWong">Resumen</a>
@@ -138,6 +140,7 @@ export default {
                     <p>
                         Conferencia Magistral por <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred
                         Approaches in Education"
+                        <br><strong>Monash University, Australia</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
                         role="button" aria-expanded="false" aria-controls="robertoMartinez">Resumen</a>
