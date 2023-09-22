@@ -253,19 +253,19 @@
 											</RouterLink>
 										</li>
 										<li>
-											<a class="dropdown-item border-radius-md" href="./keynote-speakers">
+											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'keynote-speakers' })">
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Keynote speakers
+															{{ $t("nav.keynotes") }}
 														</span>
 														<span class="text-sm text-dark">
-															From the international HCI community
+															{{ $t("nav.keynotes_message") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
 										<!--
 										<li>
