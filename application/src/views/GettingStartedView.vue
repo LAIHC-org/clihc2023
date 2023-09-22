@@ -12,10 +12,10 @@ export default {
   },
   setup() {
     const { locale } = useI18n()
-    const contentComponent = shallowRef(null)
+    const gettingStarted = shallowRef(null)
 
     const loadComponents = async (newLocale) => {
-      contentComponent.value = await getContentForLocale(newLocale)
+      gettingStarted.value = await getContentForLocale(newLocale)
     }
 
     watch(locale, loadComponents, { immediate: true })
@@ -23,18 +23,18 @@ export default {
     async function getContentForLocale(locale) {
       switch (locale) {
         case 'en':
-          return defineAsyncComponent(() => import('@/components/locales/en/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/en/Getting-started.vue'))
         case 'es':
-          return defineAsyncComponent(() => import('@/components/locales/es/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/es/Getting-started.vue'))
         case 'pt':
-          return defineAsyncComponent(() => import('@/components/locales/pt/Rates-and-registration.vue'))
+          return defineAsyncComponent(() => import('@/components/locales/pt/Getting-started.vue'))
         default:
           return null
       }
     }
 
     return {
-      contentComponent,
+      gettingStarted,
       Tr
     }
   }
@@ -43,8 +43,8 @@ export default {
 
 <template>
   <TheHeader>
-    <template #page-name>      
-      {{ $t("nav.rates_and_registration_title") }}
+    <template #page-name>
+      {{ $t("nav.getting_started_title") }}
     </template>
   </TheHeader>
 
@@ -54,8 +54,8 @@ export default {
         <div class="row justify-content-center mt-5">
           <div class="col-lg-8">
 
-            <template v-if="contentComponent">
-              <component :is="contentComponent" />
+            <template v-if="gettingStarted">
+              <component :is="gettingStarted" />
             </template>
 
           </div>
@@ -63,5 +63,4 @@ export default {
       </div>
     </div>
   </section>
-
 </template>

@@ -17,17 +17,29 @@
         "cfp": "Convocatoria de trabajos",
         "cfp_message": "Fecha límite: 3 de julio de 2023",
         "cpt": "Convocatoria de pósteres",
-        "cpt_message": "Fecha límite: 7 de agosto de 2023 EXTENDIDA",
+        "cpt_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "cwt": "Convocatoria de talleres y tutoriales",
-        "cwt_message": "Fecha límite: 7 de agosto de 2023 EXTENDIDA",
+        "cwt_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "sdc": "Competencia de diseño para estudiantes",
-        "sdc_message": "Fecha límite: 7 de agosto de 2023 EXTENDIDA",
+        "sdc_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "cgc": "Coloquio de graduados",
-        "cgc_message": "Fecha límite: 7 de agosto de 2023 EXTENDIDA",
+        "cgc_message": "Fecha límite: 11 de agosto de 2023 EXTENDIDA",
         "accessibility_for_autors": "Recomendaciones de accesibilidad para autores",
         "accessibility_for_autors_message": "Ayúdanos a maximizar la experiencia para todos",
         "for_attendees_title": "Para los asistentes",
         "for_attendees": "Para los asistentes",
+        "getting_started_title": "Primeros pasos",
+        "getting_started": "Primeros pasos",
+        "getting_started_message": "Todo lo que necesitas saber para asistir a la conferencia",
+        "rates_and_registration_title": "Tarifas y registro",
+        "rates_and_registration": "Tarifas y registro",
+        "rates_and_registration_message": "Primer paso para asistir.",
+        "accessibility_faqs": "Preguntas frecuentes sobre accesibilidad",
+        "program": "Programa",
+        "schedule": "Agenda del evento",
+        "schedule_message": "Revisa la agenda de la conferencia",
+        "keynotes": "Ponentes principales",
+        "keynotes_message": "De la comunidad internacional de IHC",
         "pending": "Pendiente",
         "copyright": "© 2023 Conferencia Latinoamericana de Interacción Humano-Computadora, una conferencia de LAIHC.",
         "back_to_top": "Volver arriba"
@@ -35,13 +47,13 @@
     "jumbotron":{
         "conference": "XI Conferencia Latinoamericana de Interacción Humano-Computadora.",
         "date": "30, 31 de octubre y 1 de noviembre",
-        "button": "Convocatoria de participación"
+        "button": "Tarifas e registro"
     },
     "about":{
         "about_title": "Acerca de CLIHC",
         "about_text": "La Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC) es gestionada por la Comunidad Latinoamericana de HCI de SIGCHI (LAIHC). CLIHC es una conferencia destacada que reúne a las comunidades de investigación de HCI de América Latina e internacionales para discutir e intercambiar ideas, métodos, enfoques y técnicas para diseñar experiencias de usuario interactivas, fomentando el intercambio intercultural y la cooperación entre personas con diferentes antecedentes y necesidades. Esta conferencia tiene su origen en Río de Janeiro en 2003 (Brasil), con ediciones posteriores en Cuernavaca en 2005 (México), Río de Janeiro en 2007 (Brasil), Mérida en 2009 (México), Porto de Galinhas en 2011 (Brasil), Guanacaste en 2013 (Costa Rica), Córdoba en 2015 (Argentina), Antigua en 2017 (Guatemala) y Ciudad de Panamá en 2019 (Panamá), y la Conferencia Virtual en 2021 (en línea).",
         "call": "Convocatoria de participación",
-        "registration": "Registro",
+        "registration": "Llamada a registro",
         "proceedings": "Memorias",
         "open": "Abierta",
         "closed": "Cerrada"
@@ -94,5 +106,8 @@
         "cwt": "Convocatoria de talleres y tutoriales",
         "sdc": "Competencia de diseño para estudiantes",
         "cgc": "Coloquio de graduados"
+    },
+    "register": {
+        "register_button": "Registra tu comprobante de pago"
     }
 }
