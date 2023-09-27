@@ -40,6 +40,8 @@
         "schedule_message": "Revise a agenda da conferência",
         "keynotes": "Palestrantes principais",
         "keynotes_message": "Da comunidade internacional de IHC",
+        "accepted_papers": "Artigos aceitos",
+        "accepted_papers_message": "",        
         "pending": "Pendente",
         "copyright": "© 2023 Conferência Latino-Americana de Interação Humano-Computador, uma conferência da LAIHC.",
         "back_to_top": "Voltar ao topo da página"
@@ -113,5 +115,13 @@
     "home": {
         "keynotes":"Palestrantes principais",
         "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC."
+    },
+    "accepted_papers": {
+        "title": "Artigos Aceitos",
+        "full_and_short_papers": "Artigos Completos e Resumos",
+        "posters": "Pôsteres",
+        "graduate_colloquium": "Colóquio de Graduação",
+        "workshops_and_tutorials": "Workshops e Tutoriais",
+        "student_design_competition": "Competição de Design Estudantil"
     }
 }
