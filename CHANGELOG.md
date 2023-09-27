@@ -228,3 +228,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Fixed
 
 - fix: Agenda temporal, y cambios en bio de Dr Roberto
+
+## [2023.1.0.7] - 2023-09-27
+
+### Added
+
+- feat: Accepted papers
+
+## Fixed
+
+- fix(Content): Cambia fecha early bird
