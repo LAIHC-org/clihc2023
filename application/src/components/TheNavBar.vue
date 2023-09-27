@@ -267,20 +267,18 @@
 												</div>
 											</RouterLink>
 										</li>
-										<!--
 										<li>
-											<a class="dropdown-item border-radius-md" href="./accepted-papers">
+											<RouterLink class="dropdown-item border-radius-md" :to="Tr.i18nRoute({ name: 'accepted-papers' })">
 												<div class="d-flex">
 													<div>
 														<span
 															class="fs-6 dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-															Accepted papers
+															{{ $t("nav.accepted_papers") }}
 														</span>
 													</div>
 												</div>
-											</a>
+											</RouterLink>
 										</li>
-										-->
 									</ul>
 								</li>
 								<!--
