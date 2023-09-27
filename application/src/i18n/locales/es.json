@@ -40,6 +40,8 @@
         "schedule_message": "Revisa la agenda de la conferencia",
         "keynotes": "Ponentes principales",
         "keynotes_message": "De la comunidad internacional de IHC",
+        "accepted_papers": "Artículos aceptados",
+        "accepted_papers_message": "",        
         "pending": "Pendiente",
         "copyright": "© 2023 Conferencia Latinoamericana de Interacción Humano-Computadora, una conferencia de LAIHC.",
         "back_to_top": "Volver arriba"
@@ -113,5 +115,13 @@
     "home": {
         "keynotes":"Ponentes principales",
         "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC."
+    },
+    "accepted_papers": {
+        "title": "Artículos aceptados",
+        "full_and_short_papers": "Artículos completos y resúmenes",
+        "posters": "Pósters",
+        "graduate_colloquium": "Coloquio de Graduados",
+        "workshops_and_tutorials": "Talleres y Tutoriales",
+        "student_design_competition": "Competencia de Diseño Estudiantil"
     }
 }
