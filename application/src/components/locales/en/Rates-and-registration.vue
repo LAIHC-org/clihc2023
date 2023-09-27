@@ -113,7 +113,7 @@
 		<li>
 			About discounts
 			<ol type="a">
-				<li>Registrants between September 15 and October 1 can register for Tutorials and Workshops at no additional cost.</li>
+				<li>Registrants between September 15 and October 15 can register for Tutorials and Workshops at no additional cost.</li>
 				<li>50% discount for in-person registration of professors who register 5 students in the in-person mode.</li>
 				<li>100% discount for in-person registration of professors who register 10 students in this mode.</li>
 				<li>50% discount for in-person registration of professors who register 10 students in the virtual mode.</li>

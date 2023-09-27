@@ -113,7 +113,7 @@
 		<li>
 			Sobre descuentos
 			<ol type="a">
-				<li>Registrados entre el 15 de septiembre y 1ero de octubre podrán registrarse en tutoriales y talleres sin cobro adicional</li>
+				<li>Registrados entre el 15 de septiembre y 15 de octubre podrán registrarse en tutoriales y talleres sin cobro adicional</li>
 				<li>50% de descuento para el registro presencial de profesores que registren a 5 estudiantes en modalidad presencial</li>
 				<li>100% de descuento al registro presencial de profesores que registren a 10 estudiantes en esta modalidad</li>
 				<li>50% de descuento al registro presencial de profesores que registren a 10 estudiantes en modalidad virtual</li>
