@@ -835,7 +835,7 @@ export default {
                         {{ $t("organizers.program_committee_title") }}
                     </h2>
                     
-                    <h3 class="h4">Student Design Competition</h3>
+                    <h3 class="h4">{{ $t("accepted_papers.student_design_competition") }}</h3>
                     <ul>
                         <li>Ana Gabriela Sanchez Reyna, Universidad Autónoma de Zacatecas, México</li>
                         <li>Cesar A. Collazos, Universidad del Cauca, Colombia</li>
@@ -845,7 +845,7 @@ export default {
                         <li>Javier Tibau, Escuela Superior Politécnica del Litoral, Ecuador</li>
                     </ul>
 
-                    <h3 class="h4">Workshops and Tutorials</h3>
+                    <h3 class="h4">{{ $t("accepted_papers.workshops_and_tutorials") }}</h3>
                     <ul>
                         <li>Gustavo Constain</li>
                         <li>Wilson Sarmiento, Universidad Militar Nueva Granada, Colombia</li>
@@ -857,7 +857,7 @@ export default {
                         <li>Patricia Paderewski, Universidad de Granada, España</li>
                     </ul>
                     
-                    <h3 class="h4">Posters</h3>
+                    <h3 class="h4">{{ $t("accepted_papers.posters") }}</h3>
                     <ul>
                         <li>María Libertad Aguilar Carlos, Universidad Autónoma de Aguascalientes, México</li>
                         <li>Julio César Enriquez, Universidad Autónoma de Aguascalientes, México</li>
@@ -870,7 +870,7 @@ export default {
                         <li>César Eduardo Velazquez Amador, Universidad Autónoma de Aguascalientes, México</li>
                     </ul>
 
-                    <h3 class="h4">Full & Short Papers</h3>
+                    <h3 class="h4">{{ $t("accepted_papers.full_and_short_papers") }}</h3>
                     <ul>
                         <li>Yuska Aguiar, Universidadade Federal Da Paraíba, Brazil</li>
                         <li>Adriana Alvarado Garcia, IBM</li>

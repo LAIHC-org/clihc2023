@@ -9,13 +9,13 @@ export default {
 </script>
 
 <template>
-    <p class="text-center">Programa Tentativo (Horário da Cidade do México) - Sujeito a Alterações</p>
+    <p class="text-center">Tentative Program (Central Mexico Time) - Subject to Changes</p>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
                 <div class="fw-bold">
                     <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#monday' })" class="uline">
-                        Segunda-feira, 30 de outubro de 2023
+                        Monday, October 30th, 2023
                     </RouterLink>
                 </div>
             </div>
@@ -24,7 +24,7 @@ export default {
             <div class="ms-2 me-auto">
                 <div class="fw-bold">
                     <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#tuesday' })" class="uline">
-                        Terça-feira, 31 de outubro de 2023
+                        Tuesday, October 31st, 2023
                     </RouterLink>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default {
             <div class="ms-2 me-auto">
                 <div class="fw-bold">
                     <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#wednesday' })" class="uline">
-                        Quarta-feira, 1º de novembro de 2023
+                        Wednesday, November 1st, 2023
                     </RouterLink>
                 </div>
             </div>
@@ -42,292 +42,404 @@ export default {
             <div class="ms-2 me-auto">
                 <div class="fw-bold">
                     <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#thursday' })" class="uline">
-                        Quinta-feira, 2 de novembro de 2023
+                        Thursday, November 2nd, 2023
                     </RouterLink>
                 </div>
             </div>
         </li>
     </ol>
+    
+    <h2 id="monday" class="text-primary text-gradient text-center py-4">Monday, October 30th, 2023</h2>
 
-    <h2 id="monday" class="text-primary text-gradient text-center py-4">Segunda-feira, 30 de outubro de 2023. <br>Edificio
-        Carolino</h2>
-
-    <ul>
-        <li>Registro</li>
-        <li>Inauguração</li>
-        <li>Palestras Principais</li>
-        <li>Apresentações de Artigos Completos e Curtos</li>
-        <li>Workshops e Tutoriais</li>
-    </ul> 
-    <!--
     <table class="table table-striped">
         <thead>
             <tr>
-                <th scope="col" class="w-25">Horário (CST)</th>
-                <th scope="col">Evento</th>
+                <th scope="col" class="w-25">Time (CST)</th>
+                <th scope="col">Event</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
-                <td>
-                    <div>
-                        Registro
-                    </div>
-                </td>
-            </tr>
+                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
+            </tr>            
             <tr>
                 <th scope="row">09:00 - 09:30 hrs</th>
                 <td>
                     <div>
-                        Inauguração
+                        Registration + Cultural Presentation (Musicians)
                     </div>
                 </td>
             </tr>
             <tr>
                 <th scope="row">09:30 - 10:00 hrs</th>
                 <td>
-                    <p>
-                        Palestra de <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"
-                        <br><strong>Universidade de Toulouse 3 Paul Sabatier, França</strong>
-                    </p>
-                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
-                        role="button" aria-expanded="false" aria-controls="phillipePalenque">Resumo</a>
-                    <div class="collapse" id="phillipePalenque">
-                        <div class="card card-body">
-                            <p>
-                                Resumo
-                            </p>
-                        </div>
+                    <div>
+                        Inauguration
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">10:15 - 10:45 hrs</th>
-                <td>
-                    <p>
-                        Palestra de <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
-                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
-                    </p>
-                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
-                        aria-expanded="false" aria-controls="marisolWong">Resumo</a>
-                    <div class="collapse" id="marisolWong">
-                        <div class="card card-body">
-                            <p>
-                                O campo da HCI (Interação Humano-Computador) há muito reconhece uma lacuna socio-técnica que
-                                complica o design de tecnologias que possam atender de forma sustentável às necessidades
-                                sociais. Em resposta, um crescente corpo de pesquisa defende o design baseado em ativos, uma
-                                abordagem que busca construir com base no que as pessoas e a comunidade já possuem. O foco
-                                em posicionar as forças, em vez das necessidades, no centro do processo pode complicar as
-                                decisões dos designers sobre quais atividades promover, como conduzi-las e quais resultados
-                                esperar. Nesta palestra, reflito sobre minha jornada tentando aplicar uma abordagem baseada
-                                em ativos ao design, primeiro ao trabalhar com pais latinos nos EUA para reinventar
-                                tecnologias para que os pais se envolvam na educação de seus filhos, depois ao trabalhar com
-                                diferentes comunidades em Guayaquil que buscam na tecnologia uma maneira de inovar e
-                                sustentar seu trabalho, e finalmente, com outros pesquisadores latino-americanos de HCI que
-                                estão tentando tornar visíveis as forças que a região traz para a HCI como disciplina
-                                globalizada. Em particular, exploro os problemas e implicações de se concentrar em ativos
-                                como base para o design, proponho o design centrado na capacidade como uma alternativa mais
-                                realista do que o design baseado em ativos e discuto os compromissos metodológicos e as
-                                mudanças de perspectiva em torno do trabalho, do papel da tecnologia e da transformação que
-                                essa abordagem requer.
-                            </p>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
-                    Pausa para Café
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:30 - 12:00 hrs</th>
-                <td>
-                    <p>
-                        Palestra de <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
-                        Education"
-                        <br><strong>Monash University, Australia</strong>
-                    </p>
-                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
-                        role="button" aria-expanded="false" aria-controls="robertoMartinez">Resumo</a>
-                    <div class="collapse" id="robertoMartinez">
-                        <div class="card card-body">
-                            <p>
-                                À medida que experimentamos uma segunda onda de inovações em Inteligência Artificial (IA),
-                                desenvolvedores de tecnologia em diversos setores estão se unindo para criar ferramentas e
-                                metodologias revolucionárias. Na educação, uma onda de novas ferramentas foi lançada em um
-                                tempo surpreendentemente curto, desafiando práticas convencionais de avaliação e remodelando
-                                como os estudantes demonstram a criação de conhecimento. No entanto, na pressa de abraçar o
-                                futuro, é crucial manter os fatores humanos no cerne desses esforços. Esta palestra
-                                explorará a importância de uma abordagem de design centrada no ser humano na integração da
-                                IA na educação. Uma abordagem centrada no ser humano para o design de inovações em IA não
-                                apenas tem o potencial de melhorar os resultados de aprendizado, mas também de reconhecer,
-                                respeitar e projetar considerando os atributos únicos da cognição e emoção humanas. Este
-                                empreendimento é multidisciplinar, entrelaçando de maneira fluida os fundamentos da
-                                Interação Humano-Computador, design, teoria educacional e ciência de dados. Apresentarei um
-                                estudo de caso autêntico que ilustra o profundo impacto da combinação da expertise humana
-                                com a inteligência artificial. Este estudo gira em torno de um projeto de análise de
-                                aprendizado multimodal, no qual educadores e outros interessados na educação projetaram
-                                colaborativamente uma infraestrutura de captura de dados para apoiar a colaboração
-                                presencial. Neste projeto, vários sensores, incluindo sensores de posicionamento, pulseiras
-                                fisiológicas, dispositivos de áudio e vídeo, foram utilizados para monitorar grupos de
-                                estudantes de enfermagem. O principal objetivo foi co-projetar interfaces que amplificassem
-                                práticas reflexivas e explorassem como a IA pode ser usada para apoiar a educação com
-                                integridade.
-                            </p>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">12:15 - 13:00 hrs</th>
-                <td>
-                    Palestra de Claudia Lopez "Towards inter-disciplinary approaches to re-imagine AI"
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">13:00 - 16:00 hrs</th>
-                <td>
-                    Tour pelo Carolino
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">16:00 - 19:00 hrs</th>
-                <td>
-                    <ul>
-                        <li>Sala 1 - Workshop 1</li>
-                        <li>Sala 2 - Workshop 2</li>
-                        <li>Sala 3 - Workshop 3</li>
-                        <li>Sala 4 - Workshop 4</li>
-                        <li>Sala 5 - Workshop 5</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    -->
-    <h2 id="tuesday" class="text-primary text-gradient text-center py-4"> Terça-feira, 31 de outubro de 2023. <br>Facultad
-        de la FCC (Auditorio FCC y Posgrado)</h2>
-
-    <ul>
-        <li>Registro</li>
-        <li>Palestras Principais</li>
-        <li>Colóquio Doutoral</li>
-        <li>Competição de Design Estudantil</li>
-        <li>Apresentações de Artigos Completos e Curtos</li>
-        <li>Exposição de Pôsteres</li>
-        <li>Jantar de Gala</li>
-    </ul> 
-    <!--
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col" class="w-25">Horário (CST)</th>
-                <th scope="col">Evento</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
-                <td>
-                    <p>
-                        Registro
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">09:00 - 11:00 hrs</th>
-                <td>
-                    <p>
-                        Sessão de Apresentação de Trabalhos 1
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
-                    Pausa para Café
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:30 - 13:30 hrs</th>
-                <td>
-                    <p>Sessão de Apresentação de Trabalhos 2</p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">13:30 - 15:00 hrs</th>
-                <td>
-                    <p>Almoço</p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">15:00 - 17:00 hrs</th>
-                <td>
-                    <p>
-                        Sessão de Apresentação de Trabalhos 3
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">17:00 - 18:00 hrs</th>
-                <td>
-                    <p>
-                        Colóquio Doutoral / SDC / Pôsteres
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">20:00 hrs</th>
-                <td>
-                    <p>
-                        Jantar de Gala
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    -->
-    
-    <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Quarta-feira, 1º de novembro de 2023.<br>Facultad
-        de la FCC (Auditorio FCC y Posgrado)</h2>
-
-    <ul>
-        <li>Registro</li>
-        <li>Evento Dia da Indústria</li>
-        <li>Workshops e Tutoriais</li>
-        <li>Competição de Design Estudantil</li>
-        <li>Cerimônia de Encerramento</li>
-    </ul> 
-    <!--
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col" class="w-25">Horário (CST)</th>
-                <th scope="col">Evento</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
-                <td>
-                    <p>
-                        Registro
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">09:30 - 10:00 hrs</th>
-                <td>
-                    <p>Palestra do Dia da Indústria</p>
                 </td>
             </tr>
             <tr>
                 <th scope="row">10:00 - 11:00 hrs</th>
                 <td>
-                    <p>Pausa para Café</p>
+                    <p>
+                        Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
+                        <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#claudiaLopez"
+                        role="button" aria-expanded="false" aria-controls="claudiaLopez">Abstract</a>
+                    <div class="collapse" id="claudiaLopez">
+                        <div class="card card-body">
+                            <p>
+                                Abstract
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:00 - 11:30 hrs</th>
+                <td>
+                    <div>
+                        Coffee Break
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:00 - 12:30 hrs</th>
+                <td>
+                    <p>
+                        Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
+                        <strong>University of Toulouse 3, France</strong>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
+                        role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
+                    <div class="collapse" id="phillipePalenque">
+                        <div class="card card-body">
+                            <p>
+                                Abstract
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">12:30 - 13:30 hrs</th>
+                <td>
+                    <div>
+                        Recorrido Carolino
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">13:30 - 14:00 hrs</th>
+                <td>
+                    <div>
+                        Hora libre para la comida
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</th>
+            </tr>
+            <tr>
+                <th rowspan="5" scope="row">15:00 - 18:00 hrs</th>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez (Sala 1)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Planning and Conducting Heuristic Evaluations with DUXAIT-NG (Sala 2)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Exploring cultural data from UNESCO using semantic technologies (Sala 3)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models (Sala 4)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Panel Todo Cambia: 
+                    <p><strong>Desafíos y Oportunidades en HCI en LATAM (Salon por definir)</strong></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="tuesday" class="text-primary text-gradient text-center py-4"> Tuesday, October 31st, 2023</h2>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" class="w-25">Time (CST)</th>
+                <th scope="col" colspan="2">Event</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local: Facultad de la FCC (Auditorio FCC)</th>
+            </tr>            
+            <tr>
+                <th scope="row">09:00 - 09:30 hrs</th>
+                <td colspan="2">
+                    <p>
+                        Registration
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">09:30 - 10:30 hrs</th>
+                <td colspan="2">
+                    <p>
+                    Keynote by <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                    <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
+                        aria-expanded="false" aria-controls="marisolWong">Abstract</a>
+                    <div class="collapse" id="marisolWong">
+                        <div class="card card-body">
+                            <p>
+                                The field of HCI has long recognized a socio-technical gap complicating the design of
+                                technologies that can sustainably meet social needs. In response, a growing body of research
+                                advocates for assets-based design, an approach that seeks to build upon what the individuals
+                                and community already have. The emphasis on positioning strengths rather than needs at the
+                                center of the process can complicate designers' decisions on what activities to foster, how
+                                to conduct them, and what outcomes to expect. In this talk, I reflect on my journey trying
+                                to apply an assets-based approach to design when working first with Latin* parents in the
+                                U.S. to reinvent technologies for parents to engage with their children’s education, then
+                                working with different communities in Guayaquil who are seeking in technology a way to
+                                innovate and sustain their work, and finally, with other Latin American HCI researchers who
+                                are trying to render visible the strengths that the region brings to HCI as a globalized
+                                discipline. In particular, I explore the problems and implications of focusing on assets as
+                                the base for design, propose capacity-focused design as a more realistic alternative than
+                                assets-based design, and discuss the methodological commitments and changes of perspective
+                                around work, technology's role, and transformation that this approach requires.
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">10:30 - 11:00 hrs</th>
+                <td  colspan="2">
+                    Cofee Break
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:00 - 12:00 hrs</th>
+                <td  colspan="2">
+                    <p>
+                        Keynote by <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
+                        Education"
+                        <br><strong>Monash University, Australia</strong>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#robertoMartinez"
+                        role="button" aria-expanded="false" aria-controls="robertoMartinez">Abstract</a>
+                    <div class="collapse" id="robertoMartinez">
+                        <div class="card card-body">
+                            <p>
+                                As we experience a second wave of Artificial Intelligence (AI) innovations, technology
+                                developers across various sectors are teaming up to create revolutionary tools and
+                                methodologies. In education, a surge of new tools has been launched in a remarkably short
+                                time, challenging conventional assessment practices and reshaping how students demonstrate
+                                their knowledge creation. Yet, in the rush to embrace the future, it's crucial to keep human
+                                factors at the core of these efforts. This keynote will explore the significance of a
+                                human-centered design approach in integrating AI in education. A human-centered approach to
+                                designing AI innovations not only holds the potential to enhance learning outcomes but also
+                                to acknowledge, respect, and design for the unique attributes of human cognition and
+                                emotion. This undertaking is a multi-disciplinary effort, seamlessly weaving together
+                                foundations of Human-Computer Interaction, design, educational theory, and data science. I
+                                will present an authentic case study that illustrates the profound impact of blending human
+                                expertise with machine intelligence. This study revolves around a multimodal learning
+                                analytics project where educators and other educational stakeholders collaboratively
+                                designed a data capture infrastructure to support face-to-face collaboration. In this
+                                project, multiple sensors—including positioning sensors, physiological wristbands, audio
+                                devices, and video—were utilized to monitor groups of nursing students. The primary aim was
+                                to co-design interfaces that amplify reflective practices and explore how AI can be used to
+                                support education with integrity.
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">12:00 - 14:00 hrs</th>
+                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
+                    Bloque de ponencias                    
+                    <p>
+                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <ul>
+                            <li>Dashboard design for Key Performance Indicators visualization of STEAM government initiatives: A case study</li>
+                            <li>Didactic Alternative based on Augmented Reality for teaching Mazatec Language</li>
+                            <li>Interactive floor´s impact on gross motor abilities in Mexican children with learning and language disabilities</li>
+                            <li>A Serious Game prototype aimed at rescuing the Ixcatecan language using the Design Thinking methodology</li>
+                            <li>Design of a software prototype for listening comprehension of the Ixcatecan language</li>
+                            <li>Measurement of efficiency parameters from the application of STEM Maker teaching: A practical case</li>
+                        </ul>
+
+                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <ul>
+                            <li>A Multilevel Methodology to Assess the Quality of Machine Translators to Brazilian Sign Languages</li>
+                            <li>LA USABILIDAD EN UN SISTEMA DE SEGURIDAD DE MEZCLA DE CRIPTOGRAFIA Y HARDWARE</li>
+                        </ul>
+                    </p>
+                </td>
+                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                    Bloque de ponencias 2
+                    <p>
+                        <strong>Datos</strong>
+                        <ul>
+                            <li>Considerações de Design para Visualização de Dados Sociais em Mapas Web</li>
+                            <li>Personal Data Comics: A Data Storytelling Approach Supporting Personal Data Literacy</li>
+                        </ul>
+
+                        <strong>Negocios, E-Commerce y Manejo de Proyectos</strong>
+                        <ul>
+                            <li>The Perceived Influence of E-Shopping Cues on Customers' Buying Decisions</li>
+                            <li>Redefining e-commerce engagement: exploring the demographic impact of WhatsApp chatbots in the Mexican market</li>
+                            <li>DoTA: DesignOps Teams Assessment em equipes ágeis de desenvolvimento de software em empresa do setor financeiro                        </li>
+                        </ul>
+
+                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <ul>
+                            <li>Beyond the Physical and Virtual for a Socioenactive Interaction</li>
+                            <li>GenQ: Automated Question Generation to Support Caregivers While Reading Stories with Children</li>
+                        </ul>                        
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">14:00 - 15:00 hrs</th>
+                <td colspan="2">
+                    <p>
+                        Lunch
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">15:00 - 17:00 hrs</th>
+                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
+                    Bloque de ponencias 3
+                    <p>
+                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <ul>
+                            <li>Determinando a importância de critérios de acessibilidade para recursos digitais voltados para pessoas com autismo por crowdsourcing</li>
+                            <li>Designing a sign language training platform for hearing healthcare personnel</li>
+                            <li>Codesigning a Spanish literacy platform for deaf children</li>
+                        </ul>
+
+                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <ul>
+                            <li>Exploring Acceptance Factors of a Technology for Textual Production among Deaf Users: A UTAUT2-Based Studya</li>
+                            <li>Applying Heuristic Evaluation with Different Evaluator Profiles: A Comparative Study Between Novice and Expert Specialists</li>
+                        </ul>
+
+                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <ul>
+                            <li>Hybrid Models for Facial Emotion Recognition in Children</li>
+                            <li>Virtual Reality Environment for Surgical Skills Practice for Medical Students</li>
+                            <li>A CASE Tool for the Socially-Aware Persuasive System Design toward enhancing the Human Behavior</li>
+                        </ul>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                        <strong>Coloquio Doctoral  (Salón por definir)</strong>
+                        <ul>
+                            <li>Development of a Multimodal Model for Emotions Recognition in Drivers Using Convolutional Neural Networks</li>
+                            <li>Multimodal Emotion Recognition Model Using AI With the Aim of Addressing Gender-Based Violence</li>
+                            <li>Desarrollo de un Sistema de Seguridad Automotriz para la Detección de Peatones Mediante la Fusión de Información de la Cámara de Reversa y Sensores de Proximidad Usando Redes Neuronales Convolucionales Profundas</li>
+                            <li>Bidirectional communication of emotions between a young user with autism and their assistance dog.</li>
+                            <li>Prototype proposal for an interactive container aimed at primary school children aged 6 to 8 years old to promote plastic collection and sorting.</li>
+                            <li>Design of a Mobile Application Prototype Focused on Physical Activity Management in University Students to Compensate for the Effects of ADHD</li>
+                        </ul>
+
+                        <strong>SDC (Salon por definir)</strong>
+                        <ul>
+                            <li>CycleWiseT: Promoting Menstrual Health to Transform the Lives of Women and Girls Through Technology</li>
+                            <li>piensaRápido: Plataforma Lúdica de Aprendizaje</li>
+                            <li>SafeBikers : Diseño basado en Solidaridad para Un Ciclismo Comunitario Seguro en Ecuador</li>
+                            <li>AmamantApp: Aplicación móvil para Promover la Donación de Leche Materna</li>
+                        </ul>
+
+                        <strong>Posters (Salon por definir)</strong>
+                        <ul>
+                            <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
+                            <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
+                            <li>Learning Interaction User Flow</li>
+                            <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">17:00 - 20:00 hrs</th>
+                <td colspan="2">
+                    <p>
+                        -
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">20:00 hrs</th>
+                <td colspan="2">
+                    <p>
+                        Gala Dinner
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Wednesday, November 1st, 2023</h2>
+    
+    <ul>
+        <li>Registration</li>
+        <li>Industry Day Event</li>
+        <li>Closing Ceremony</li>
+    </ul>    
+
+    <!--
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" class="w-25">Time (CST)</th>
+                <th scope="col">Event</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">08:00 - 09:00 hrs</th>
+                <td>
+                    <p>
+                        Registration
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">09:30 - 10:00 hrs</th>
+                <td>
+                    <p>Industry Day Keynote</p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">10:00 - 11:00 hrs</th>
+                <td>
+                    <p>Cofee Break</p>
                 </td>
             </tr>
             <tr>
@@ -345,27 +457,28 @@ export default {
                 <th scope="row">14:00 hrs </th>
                 <td>
                     <p>
-                        Fecho
+                        Closure
                     </p>
                 </td>
             </tr>
         </tbody>
     </table>
     
-    <h2 id="thursday" class="text-primary text-gradient text-center py-4">Quinta-feira, 2 de novembro de 2023.</h2>
+    <h2 id="thursday" class="text-primary text-gradient text-center py-4">Thursday, November 2nd, 2023.</h2>
+    
     <table class="table table-striped">
         <thead>
             <tr>
-            <th scope="col" class="w-25">Horário (CST)</th>
-            <th scope="col">Evento</th>
-        </tr>
+                <th scope="col" class="w-25">Time (CST)</th>
+                <th scope="col">Event</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
                 <th scope="row">09:00 - 18:00 hrs</th>
                 <td>
                     <p>
-                        Workshop Universidade DUAL
+                        DUAL University Workshop
                     </p>
                 </td>
             </tr>
