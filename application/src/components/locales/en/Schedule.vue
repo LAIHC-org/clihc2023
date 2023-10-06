@@ -49,16 +49,8 @@ export default {
         </li>
     </ol>
     
-    <h2 id="monday" class="text-primary text-gradient text-center py-4">Monday, October 30th, 2023. <br>Edificio Carolino
-    </h2>
-    <ul>
-        <li>Registration</li>
-        <li>Inauguration</li>
-        <li>Keynote Speeches</li>
-        <li>Full & Short Paper Presentations</li>
-        <li>Workshops and Tutorials</li>
-    </ul>    
-    <!--
+    <h2 id="monday" class="text-primary text-gradient text-center py-4">Monday, October 30th, 2023</h2>
+
     <table class="table table-striped">
         <thead>
             <tr>
@@ -68,15 +60,18 @@ export default {
         </thead>
         <tbody>
             <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
+                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
+            </tr>            
+            <tr>
+                <th scope="row">09:00 - 09:30 hrs</th>
                 <td>
                     <div>
-                        Registration
+                        Registration + Cultural Presentation (Musicians)
                     </div>
                 </td>
             </tr>
             <tr>
-                <th scope="row">09:00 - 09:30 hrs</th>
+                <th scope="row">09:30 - 10:00 hrs</th>
                 <td>
                     <div>
                         Inauguration
@@ -84,11 +79,37 @@ export default {
                 </td>
             </tr>
             <tr>
-                <th scope="row">09:30 - 10:00 hrs</th>
+                <th scope="row">10:00 - 11:00 hrs</th>
                 <td>
                     <p>
-                        Keynote by <strong>Phillipe Palanque</strong> "Past, Present and Future in Modeling User Tasks"<br>
-                        <strong>University of Toulouse 3 Paul Sabatier, France</strong>
+                        Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
+                        <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#claudiaLopez"
+                        role="button" aria-expanded="false" aria-controls="claudiaLopez">Abstract</a>
+                    <div class="collapse" id="claudiaLopez">
+                        <div class="card card-body">
+                            <p>
+                                Abstract
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:00 - 11:30 hrs</th>
+                <td>
+                    <div>
+                        Coffee Break
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:00 - 12:30 hrs</th>
+                <td>
+                    <p>
+                        Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
+                        <strong>University of Toulouse 3, France</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
@@ -102,11 +123,85 @@ export default {
                 </td>
             </tr>
             <tr>
-                <th scope="row">10:15 - 10:45 hrs</th>
+                <th scope="row">12:30 - 13:30 hrs</th>
                 <td>
+                    <div>
+                        Recorrido Carolino
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">13:30 - 14:00 hrs</th>
+                <td>
+                    <div>
+                        Hora libre para la comida
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</th>
+            </tr>
+            <tr>
+                <th rowspan="5" scope="row">15:00 - 18:00 hrs</th>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez (Sala 1)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Planning and Conducting Heuristic Evaluations with DUXAIT-NG (Sala 2)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Exploring cultural data from UNESCO using semantic technologies (Sala 3)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Talleres & Tutoriales 
+                    <p><strong>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models (Sala 4)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Panel Todo Cambia: 
+                    <p><strong>Desafíos y Oportunidades en HCI en LATAM (Salon por definir)</strong></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id="tuesday" class="text-primary text-gradient text-center py-4"> Tuesday, October 31st, 2023</h2>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" class="w-25">Time (CST)</th>
+                <th scope="col" colspan="2">Event</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local: Facultad de la FCC (Auditorio FCC)</th>
+            </tr>            
+            <tr>
+                <th scope="row">09:00 - 09:30 hrs</th>
+                <td colspan="2">
                     <p>
-                        Keynote by <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
-                        <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
+                        Registration
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">09:30 - 10:30 hrs</th>
+                <td colspan="2">
+                    <p>
+                    Keynote by <strong>Marisol Wong</strong> "Hacia un Mundo de Muchos Mundos en IHC"
+                    <br><strong>Escuela Superior Politécnica del Litoral, Ecuador</strong>
                     </p>
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#marisolWong" role="button"
                         aria-expanded="false" aria-controls="marisolWong">Abstract</a>
@@ -134,14 +229,14 @@ export default {
                 </td>
             </tr>
             <tr>
-                <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
-                    Coffee Break
+                <th scope="row">10:30 - 11:00 hrs</th>
+                <td  colspan="2">
+                    Cofee Break
                 </td>
             </tr>
             <tr>
-                <th scope="row">11:30 - 12:00 hrs</th>
-                <td>
+                <th scope="row">11:00 - 12:00 hrs</th>
+                <td  colspan="2">
                     <p>
                         Keynote by <strong>Roberto Martínez</strong> "Putting the 'I' in AI: Human-Centred Approaches in
                         Education"
@@ -177,106 +272,131 @@ export default {
                 </td>
             </tr>
             <tr>
-                <th scope="row">12:15 - 13:00 hrs</th>
+                <th scope="row">12:00 - 14:00 hrs</th>
                 <td>
-                    Keynote by Claudia Lopez "Towards inter-disciplinary approaches to re-imagine AI"
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">13:00 - 16:00 hrs</th>
-                <td>
-                    Carolino Tour
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">16:00 - 19:00 hrs</th>
-                <td>
-                    <ul>
-                        <li>Room 1 - Workshop 1</li>
-                        <li>Room 2 - Workshop 2</li>
-                        <li>Room 3 - Workshop 3</li>
-                        <li>Room 4 - Workshop 4</li>
-                        <li>Room 5 - Workshop 5</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    -->
-    <h2 id="tuesday" class="text-primary text-gradient text-center py-4"> Tuesday, October 31st, 2023. <br>Facultad de la
-        FCC (Auditorio FCC y Posgrado)</h2>
-    
-    <ul>
-        <li>Registration</li>
-        <li>Keynote Speeches</li>
-        <li>Doctoral Colloquium</li>
-        <li>Student Design Competition</li>
-        <li>Full & Short Paper Presentations</li>
-        <li>Poster Exhibition</li>
-        <li>Gala Dinner</li>
-    </ul>
-    <!--
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col" class="w-25">Time (CST)</th>
-                <th scope="col">Event</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
-                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
+                    Bloque de ponencias                    
                     <p>
-                        Registration
+                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <ul>
+                            <li>Dashboard design for Key Performance Indicators visualization of STEAM government initiatives: A case study</li>
+                            <li>Didactic Alternative based on Augmented Reality for teaching Mazatec Language</li>
+                            <li>Interactive floor´s impact on gross motor abilities in Mexican children with learning and language disabilities</li>
+                            <li>A Serious Game prototype aimed at rescuing the Ixcatecan language using the Design Thinking methodology</li>
+                            <li>Design of a software prototype for listening comprehension of the Ixcatecan language</li>
+                            <li>Measurement of efficiency parameters from the application of STEM Maker teaching: A practical case</li>
+                        </ul>
+
+                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <ul>
+                            <li>A Multilevel Methodology to Assess the Quality of Machine Translators to Brazilian Sign Languages</li>
+                            <li>LA USABILIDAD EN UN SISTEMA DE SEGURIDAD DE MEZCLA DE CRIPTOGRAFIA Y HARDWARE</li>
+                        </ul>
+                    </p>
+                </td>
+                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                    Bloque de ponencias 2
+                    <p>
+                        <strong>Datos</strong>
+                        <ul>
+                            <li>Considerações de Design para Visualização de Dados Sociais em Mapas Web</li>
+                            <li>Personal Data Comics: A Data Storytelling Approach Supporting Personal Data Literacy</li>
+                        </ul>
+
+                        <strong>Negocios, E-Commerce y Manejo de Proyectos</strong>
+                        <ul>
+                            <li>The Perceived Influence of E-Shopping Cues on Customers' Buying Decisions</li>
+                            <li>Redefining e-commerce engagement: exploring the demographic impact of WhatsApp chatbots in the Mexican market</li>
+                            <li>DoTA: DesignOps Teams Assessment em equipes ágeis de desenvolvimento de software em empresa do setor financeiro                        </li>
+                        </ul>
+
+                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <ul>
+                            <li>Beyond the Physical and Virtual for a Socioenactive Interaction</li>
+                            <li>GenQ: Automated Question Generation to Support Caregivers While Reading Stories with Children</li>
+                        </ul>                        
                     </p>
                 </td>
             </tr>
             <tr>
-                <th scope="row">09:00 - 11:00 hrs</th>
-                <td>
+                <th scope="row">14:00 - 15:00 hrs</th>
+                <td colspan="2">
                     <p>
-                        Paper Session 1
+                        Lunch
                     </p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
-                    Cofee Break
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:30 - 13:30 hrs</th>
-                <td>
-                    <p>Paper Session 2</p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">13:30 - 15:00 hrs</th>
-                <td>
-                    <p>Lunch</p>
                 </td>
             </tr>
             <tr>
                 <th scope="row">15:00 - 17:00 hrs</th>
                 <td>
+                    <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
+                    Bloque de ponencias 3
                     <p>
-                        Paper Session 3
+                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <ul>
+                            <li>Determinando a importância de critérios de acessibilidade para recursos digitais voltados para pessoas com autismo por crowdsourcing</li>
+                            <li>Designing a sign language training platform for hearing healthcare personnel</li>
+                            <li>Codesigning a Spanish literacy platform for deaf children</li>
+                        </ul>
+
+                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <ul>
+                            <li>Exploring Acceptance Factors of a Technology for Textual Production among Deaf Users: A UTAUT2-Based Studya</li>
+                            <li>Applying Heuristic Evaluation with Different Evaluator Profiles: A Comparative Study Between Novice and Expert Specialists</li>
+                        </ul>
+
+                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <ul>
+                            <li>Hybrid Models for Facial Emotion Recognition in Children</li>
+                            <li>Virtual Reality Environment for Surgical Skills Practice for Medical Students</li>
+                            <li>A CASE Tool for the Socially-Aware Persuasive System Design toward enhancing the Human Behavior</li>
+                        </ul>
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                        <strong>Coloquio Doctoral  (Salón por definir)</strong>
+                        <ul>
+                            <li>Development of a Multimodal Model for Emotions Recognition in Drivers Using Convolutional Neural Networks</li>
+                            <li>Multimodal Emotion Recognition Model Using AI With the Aim of Addressing Gender-Based Violence</li>
+                            <li>Desarrollo de un Sistema de Seguridad Automotriz para la Detección de Peatones Mediante la Fusión de Información de la Cámara de Reversa y Sensores de Proximidad Usando Redes Neuronales Convolucionales Profundas</li>
+                            <li>Bidirectional communication of emotions between a young user with autism and their assistance dog.</li>
+                            <li>Prototype proposal for an interactive container aimed at primary school children aged 6 to 8 years old to promote plastic collection and sorting.</li>
+                            <li>Design of a Mobile Application Prototype Focused on Physical Activity Management in University Students to Compensate for the Effects of ADHD</li>
+                        </ul>
+
+                        <strong>SDC (Salon por definir)</strong>
+                        <ul>
+                            <li>CycleWiseT: Promoting Menstrual Health to Transform the Lives of Women and Girls Through Technology</li>
+                            <li>piensaRápido: Plataforma Lúdica de Aprendizaje</li>
+                            <li>SafeBikers : Diseño basado en Solidaridad para Un Ciclismo Comunitario Seguro en Ecuador</li>
+                            <li>AmamantApp: Aplicación móvil para Promover la Donación de Leche Materna</li>
+                        </ul>
+
+                        <strong>Posters (Salon por definir)</strong>
+                        <ul>
+                            <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
+                            <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
+                            <li>Learning Interaction User Flow</li>
+                            <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
+                        </ul>
                     </p>
                 </td>
             </tr>
             <tr>
-                <th scope="row">17:00 - 18:00 hrs</th>
-                <td>
+                <th scope="row">17:00 - 20:00 hrs</th>
+                <td colspan="2">
                     <p>
-                        Doctoral Colloquium / SDC / Posters
+                        -
                     </p>
                 </td>
             </tr>
+
             <tr>
                 <th scope="row">20:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <p>
                         Gala Dinner
                     </p>
@@ -284,15 +404,12 @@ export default {
             </tr>
         </tbody>
     </table>
-    -->
-    <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Wednesday, November 1st, 2023.<br>Facultad de la
-        FCC (Auditorio FCC y Posgrado)</h2>
+
+    <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Wednesday, November 1st, 2023</h2>
     
     <ul>
         <li>Registration</li>
         <li>Industry Day Event</li>
-        <li>Workshops and Tutorials</li>
-        <li>Student Design Competition</li>
         <li>Closing Ceremony</li>
     </ul>    
 
