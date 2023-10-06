@@ -238,3 +238,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Fixed
 
 - fix(Content): Cambia fecha early bird
+
+## [2023.1.0.8] - 2023-10-6
+
+### Added
+
+- feat(Content): Agrega Program Committee
