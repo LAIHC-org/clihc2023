@@ -244,3 +244,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - feat(Content): Agrega Program Committee
+
+## [2023.1.0.9] - 2023-10-6
+
+### Added
+
+- fix(Content): Corrige idioma en Program Commitee
+- fix(Content): Modifica la agenda, disponible solo en inglés
