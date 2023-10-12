@@ -55,16 +55,16 @@ export default {
         <thead>
             <tr>
                 <th scope="col" class="w-25">Time (CST)</th>
-                <th scope="col">Event</th>
+                <th scope="col" colspan="2">Event</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
             </tr>            
             <tr>
                 <th scope="row">09:00 - 09:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Registration + Cultural Presentation (Musicians)
                     </div>
@@ -72,7 +72,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">09:30 - 10:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Inauguration
                     </div>
@@ -80,7 +80,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">10:00 - 11:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <p>
                         Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
                         <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
@@ -98,7 +98,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Coffee Break
                     </div>
@@ -106,7 +106,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">11:00 - 12:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <p>
                         Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
                         <strong>University of Toulouse 3, France</strong>
@@ -124,7 +124,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">12:30 - 13:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Carolino Tour
                     </div>
@@ -132,46 +132,40 @@ export default {
             </tr>
             <tr>
                 <th scope="row">13:30 - 14:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Lunch Break
                     </div>
                 </td>
             </tr>
             <tr>
-                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</th>
-            </tr>
-            <tr>
-                <th rowspan="5" scope="row">15:00 - 18:00 hrs</th>
+                <th scope="row">15:00 - 18:00 hrs</th>
                 <td>
-                    Workshops & Tutorials 
-                    <p><strong>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez (Sala 1)</strong></p>
+                    <strong class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</strong><br>
+                    <strong>Workshops & Tutorials</strong>
+                    <ul>
+                        <li>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez <strong>(Sala 1)</strong></li>
+                        <li>Planning and Conducting Heuristic Evaluations with DUXAIT-NG <strong>(Sala 2)</strong></li>
+                        <li>Exploring cultural data from UNESCO using semantic technologies <strong>(Sala 3)</strong></li>
+                        <li>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models <strong>(Sala 4)</strong></li>
+                    </ul>
+
+                    <strong>Panel Everything Changes</strong>
+                    <ul>
+                        <li>Challenges and Opportunities in HCI in LATAM <strong>(Location to be determined)</strong></li>
+                    </ul>
                 </td>
-            </tr>
-            <tr>
                 <td>
-                    Workshops & Tutorials 
-                    <p><strong>Planning and Conducting Heuristic Evaluations with DUXAIT-NG (Sala 2)</strong></p>
+                    <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                    <strong>Posters</strong>
+                    <ul>
+                        <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
+                        <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
+                        <li>Learning Interaction User Flow</li>
+                        <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
+                    </ul>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    Workshops & Tutorials 
-                    <p><strong>Exploring cultural data from UNESCO using semantic technologies (Sala 3)</strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Workshops & Tutorials 
-                    <p><strong>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models (Sala 4)</strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Panel Everything Changes: 
-                    <p><strong>Challenges and Opportunities in HCI in LATAM (Location to be determined)</strong></p>
-                </td>
-            </tr>
+            </tr>                
         </tbody>
     </table>
 
@@ -373,14 +367,6 @@ export default {
                             <li>piensaRápido: Plataforma Lúdica de Aprendizaje</li>
                             <li>SafeBikers : Diseño basado en Solidaridad para Un Ciclismo Comunitario Seguro en Ecuador</li>
                             <li>AmamantApp: Aplicación móvil para Promover la Donación de Leche Materna</li>
-                        </ul>
-
-                        <strong>Posters (Location to be determined)</strong>
-                        <ul>
-                            <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
-                            <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
-                            <li>Learning Interaction User Flow</li>
-                            <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
                         </ul>
                     </p>
                 </td>
