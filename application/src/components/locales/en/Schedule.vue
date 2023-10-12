@@ -149,11 +149,6 @@ export default {
                         <li>Exploring cultural data from UNESCO using semantic technologies <strong>(Sala 3)</strong></li>
                         <li>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models <strong>(Sala 4)</strong></li>
                     </ul>
-
-                    <strong>Panel Everything Changes</strong>
-                    <ul>
-                        <li>Challenges and Opportunities in HCI in LATAM <strong>(Location to be determined)</strong></li>
-                    </ul>
                 </td>
                 <td>
                     <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
@@ -165,7 +160,18 @@ export default {
                         <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
                     </ul>
                 </td>
-            </tr>                
+            </tr>
+            <tr>
+                <th scope="row">18:00 - 20:00 hrs</th>
+                <td colspan="2">
+                    <div>
+                        <strong>Panel Everything Changes</strong>
+                        <ul>
+                            <li>Challenges and Opportunities in HCI in LATAM <strong>(San Jerónimo Building, room to be defined.)</strong></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>                          
         </tbody>
     </table>
 

@@ -55,16 +55,16 @@ export default {
         <thead>
             <tr>
                 <th scope="col" class="w-25">Time (CST)</th>
-                <th scope="col">Event</th>
+                <th scope="col" colspan="2">Event</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local: Edificio Carolino, Centro</th>
             </tr>            
             <tr>
                 <th scope="row">09:00 - 09:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Registration + Cultural Presentation (Musicians)
                     </div>
@@ -72,7 +72,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">09:30 - 10:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Inauguration
                     </div>
@@ -80,7 +80,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">10:00 - 11:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <p>
                         Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
                         <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
@@ -98,7 +98,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">11:00 - 11:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
                         Coffee Break
                     </div>
@@ -106,7 +106,7 @@ export default {
             </tr>
             <tr>
                 <th scope="row">11:00 - 12:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <p>
                         Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
                         <strong>University of Toulouse 3, France</strong>
@@ -124,54 +124,54 @@ export default {
             </tr>
             <tr>
                 <th scope="row">12:30 - 13:30 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
-                        Recorrido Carolino
+                        Carolino Tour
                     </div>
                 </td>
             </tr>
             <tr>
                 <th scope="row">13:30 - 14:00 hrs</th>
-                <td>
+                <td colspan="2">
                     <div>
-                        Hora libre para la comida
+                        Lunch Break
                     </div>
                 </td>
             </tr>
             <tr>
-                <th scope="col" colspan="2" class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</th>
-            </tr>
-            <tr>
-                <th rowspan="5" scope="row">15:00 - 18:00 hrs</th>
+                <th scope="row">15:00 - 18:00 hrs</th>
                 <td>
-                    Talleres & Tutoriales 
-                    <p><strong>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez (Sala 1)</strong></p>
+                    <strong class="text-center text-primary text-gradient">Local: DCyTIC 2, BUAP</strong><br>
+                    <strong>Workshops & Tutorials</strong>
+                    <ul>
+                        <li>Data Storytelling: Revolutionising Human-Data Interaction or Just Passing Hype?, Roberto Martínez <strong>(Sala 1)</strong></li>
+                        <li>Planning and Conducting Heuristic Evaluations with DUXAIT-NG <strong>(Sala 2)</strong></li>
+                        <li>Exploring cultural data from UNESCO using semantic technologies <strong>(Sala 3)</strong></li>
+                        <li>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models <strong>(Sala 4)</strong></li>
+                    </ul>
+                </td>
+                <td>
+                    <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
+                    <strong>Posters</strong>
+                    <ul>
+                        <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
+                        <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
+                        <li>Learning Interaction User Flow</li>
+                        <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
+                    </ul>
                 </td>
             </tr>
             <tr>
-                <td>
-                    Talleres & Tutoriales 
-                    <p><strong>Planning and Conducting Heuristic Evaluations with DUXAIT-NG (Sala 2)</strong></p>
+                <th scope="row">18:00 - 20:00 hrs</th>
+                <td colspan="2">
+                    <div>
+                        <strong>Panel Everything Changes</strong>
+                        <ul>
+                            <li>Challenges and Opportunities in HCI in LATAM <strong>(San Jerónimo Building, room to be defined.)</strong></li>
+                        </ul>
+                    </div>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    Talleres & Tutoriales 
-                    <p><strong>Exploring cultural data from UNESCO using semantic technologies (Sala 3)</strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Talleres & Tutoriales 
-                    <p><strong>Applications of Instance-Based Learning Theory: Using the SpeedyIBL Library to Construct Computational Models (Sala 4)</strong></p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Panel Todo Cambia: 
-                    <p><strong>Desafíos y Oportunidades en HCI en LATAM (Salon por definir)</strong></p>
-                </td>
-            </tr>
+            </tr>                          
         </tbody>
     </table>
 
@@ -275,9 +275,9 @@ export default {
                 <th scope="row">12:00 - 14:00 hrs</th>
                 <td>
                     <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
-                    Bloque de ponencias                    
+                    Paper Sessions                    
                     <p>
-                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <strong>Education, Inclusion, and Accessibility</strong>
                         <ul>
                             <li>Dashboard design for Key Performance Indicators visualization of STEAM government initiatives: A case study</li>
                             <li>Didactic Alternative based on Augmented Reality for teaching Mazatec Language</li>
@@ -287,7 +287,7 @@ export default {
                             <li>Measurement of efficiency parameters from the application of STEM Maker teaching: A practical case</li>
                         </ul>
 
-                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <strong>Technology Adoption and Evaluation</strong>
                         <ul>
                             <li>A Multilevel Methodology to Assess the Quality of Machine Translators to Brazilian Sign Languages</li>
                             <li>LA USABILIDAD EN UN SISTEMA DE SEGURIDAD DE MEZCLA DE CRIPTOGRAFIA Y HARDWARE</li>
@@ -296,22 +296,22 @@ export default {
                 </td>
                 <td>
                     <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
-                    Bloque de ponencias 2
+                    Paper Sessions 2
                     <p>
-                        <strong>Datos</strong>
+                        <strong>Data</strong>
                         <ul>
                             <li>Considerações de Design para Visualização de Dados Sociais em Mapas Web</li>
                             <li>Personal Data Comics: A Data Storytelling Approach Supporting Personal Data Literacy</li>
                         </ul>
 
-                        <strong>Negocios, E-Commerce y Manejo de Proyectos</strong>
+                        <strong>Business, E-Commerce, and Project Management</strong>
                         <ul>
                             <li>The Perceived Influence of E-Shopping Cues on Customers' Buying Decisions</li>
                             <li>Redefining e-commerce engagement: exploring the demographic impact of WhatsApp chatbots in the Mexican market</li>
                             <li>DoTA: DesignOps Teams Assessment em equipes ágeis de desenvolvimento de software em empresa do setor financeiro                        </li>
                         </ul>
 
-                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <strong>Communication, Emotions, and Social Interactions</strong>
                         <ul>
                             <li>Beyond the Physical and Virtual for a Socioenactive Interaction</li>
                             <li>GenQ: Automated Question Generation to Support Caregivers While Reading Stories with Children</li>
@@ -331,22 +331,22 @@ export default {
                 <th scope="row">15:00 - 17:00 hrs</th>
                 <td>
                     <strong class="text-center text-primary text-gradient">Local: Auditorio FCC</strong><br>
-                    Bloque de ponencias 3
+                    Paper Sessions 3
                     <p>
-                        <strong>Educación, Inclusión y Accesibilidad</strong>
+                        <strong>Education, Inclusion, and Accessibility</strong>
                         <ul>
                             <li>Determinando a importância de critérios de acessibilidade para recursos digitais voltados para pessoas com autismo por crowdsourcing</li>
                             <li>Designing a sign language training platform for hearing healthcare personnel</li>
                             <li>Codesigning a Spanish literacy platform for deaf children</li>
                         </ul>
 
-                        <strong>Adopción y Evaluación de Tecnologías</strong>
+                        <strong>Technology Adoption and Evaluation</strong>
                         <ul>
                             <li>Exploring Acceptance Factors of a Technology for Textual Production among Deaf Users: A UTAUT2-Based Studya</li>
                             <li>Applying Heuristic Evaluation with Different Evaluator Profiles: A Comparative Study Between Novice and Expert Specialists</li>
                         </ul>
 
-                        <strong>Comunicación, Emociones e Interacciones Sociales</strong>
+                        <strong>Communication, Emotions, and Social Interactions</strong>
                         <ul>
                             <li>Hybrid Models for Facial Emotion Recognition in Children</li>
                             <li>Virtual Reality Environment for Surgical Skills Practice for Medical Students</li>
@@ -357,7 +357,7 @@ export default {
                 <td>
                     <p>
                         <strong class="text-center text-primary text-gradient">Local: Posgrado</strong><br>
-                        <strong>Coloquio Doctoral  (Salón por definir)</strong>
+                        <strong>Doctoral Colloquium (Location to be determined)</strong>
                         <ul>
                             <li>Development of a Multimodal Model for Emotions Recognition in Drivers Using Convolutional Neural Networks</li>
                             <li>Multimodal Emotion Recognition Model Using AI With the Aim of Addressing Gender-Based Violence</li>
@@ -367,20 +367,12 @@ export default {
                             <li>Design of a Mobile Application Prototype Focused on Physical Activity Management in University Students to Compensate for the Effects of ADHD</li>
                         </ul>
 
-                        <strong>SDC (Salon por definir)</strong>
+                        <strong>SDC (Location to be determined)</strong>
                         <ul>
                             <li>CycleWiseT: Promoting Menstrual Health to Transform the Lives of Women and Girls Through Technology</li>
                             <li>piensaRápido: Plataforma Lúdica de Aprendizaje</li>
                             <li>SafeBikers : Diseño basado en Solidaridad para Un Ciclismo Comunitario Seguro en Ecuador</li>
                             <li>AmamantApp: Aplicación móvil para Promover la Donación de Leche Materna</li>
-                        </ul>
-
-                        <strong>Posters (Salon por definir)</strong>
-                        <ul>
-                            <li>A Guide to Plain Language Data Visualizations: Guidelines for More Understandable Chart Design</li>
-                            <li>What do Portuguese-Libras automatic translation application users care about? An analysis of user comments to improve application accessibility by the quality assurance team</li>
-                            <li>Learning Interaction User Flow</li>
-                            <li>Improving User Experience: Designing an Intuitive and Visually Appealing Interface for University First Contact and Ombudsman Services for the Centro Universitario del Sur</li>
                         </ul>
                     </p>
                 </td>
