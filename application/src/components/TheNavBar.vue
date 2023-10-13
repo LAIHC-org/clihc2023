@@ -168,7 +168,6 @@
 									</a>
 									<ul class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg"
 										aria-labelledby="navbarDropdown2">
-										<!--
 										<li>
 											<RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 
 												class="dropdown-item border-radius-md"
@@ -186,7 +185,6 @@
 												</div>
 											</RouterLink>
 										</li>
-										-->
 										<li>
 											<RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
 												class="dropdown-item border-radius-md"
