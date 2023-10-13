@@ -9,7 +9,6 @@ export default {
 </script>
 
 <template>
-    <p class="text-center">Tentative Program (Central Mexico Time) - Subject to Changes</p>
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
@@ -34,15 +33,6 @@ export default {
                 <div class="fw-bold">
                     <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#wednesday' })" class="uline">
                         Wednesday, November 1st, 2023
-                    </RouterLink>
-                </div>
-            </div>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-                <div class="fw-bold">
-                    <RouterLink :to="Tr.i18nRoute({ name: 'schedule', hash: '#thursday' })" class="uline">
-                        Thursday, November 2nd, 2023
                     </RouterLink>
                 </div>
             </div>
@@ -85,6 +75,7 @@ export default {
                         Keynote by <strong>Claudia Lopez</strong> "Towards inter-disciplinary approaches to re-imagine AI"<br>
                         <strong>Federico Santa María Technical University (UTFSM), Chile</strong>
                     </p>
+                    <!--
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#claudiaLopez"
                         role="button" aria-expanded="false" aria-controls="claudiaLopez">Abstract</a>
                     <div class="collapse" id="claudiaLopez">
@@ -94,6 +85,7 @@ export default {
                             </p>
                         </div>
                     </div>
+                    -->
                 </td>
             </tr>
             <tr>
@@ -111,6 +103,7 @@ export default {
                         Keynote by <strong>Phillipe Palanque </strong> "Past, Present and Future in Modeling User Tasks"<br>
                         <strong>University of Toulouse 3, France</strong>
                     </p>
+                    <!--
                     <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#phillipePalenque"
                         role="button" aria-expanded="false" aria-controls="phillipePalenque">Abstract</a>
                     <div class="collapse" id="phillipePalenque">
@@ -120,6 +113,7 @@ export default {
                             </p>
                         </div>
                     </div>
+                    -->
                 </td>
             </tr>
             <tr>
@@ -399,13 +393,6 @@ export default {
 
     <h2 id="wednesday" class="text-primary text-gradient text-center py-4">Wednesday, November 1st, 2023</h2>
     
-    <ul>
-        <li>Registration</li>
-        <li>Industry Day Event</li>
-        <li>Closing Ceremony</li>
-    </ul>    
-
-    <!--
     <table class="table table-striped">
         <thead>
             <tr>
@@ -415,7 +402,10 @@ export default {
         </thead>
         <tbody>
             <tr>
-                <th scope="row">08:00 - 09:00 hrs</th>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local: Tec de Monterrey, Campus Puebla</th>
+            </tr>             
+            <tr>
+                <th scope="row">09:30 - 09:50 hrs</th>
                 <td>
                     <p>
                         Registration
@@ -423,58 +413,186 @@ export default {
                 </td>
             </tr>
             <tr>
-                <th scope="row">09:30 - 10:00 hrs</th>
+                <th scope="row">09:50 - 10:00 hrs</th>
                 <td>
-                    <p>Industry Day Keynote</p>
+                    <p>Opening of Industry Day</p>
                 </td>
             </tr>
             <tr>
-                <th scope="row">10:00 - 11:00 hrs</th>
-                <td>
-                    <p>Cofee Break</p>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">11:00 - 14:00 hrs</th>
-                <td>
-                    <ul>
-                        <li>Workshop 1</li>
-                        <li>Workshop 2</li>
-                        <li>Workshop 3</li>
-                        <li>Workshop 4</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">14:00 hrs </th>
+                <th scope="row">10:00 - 10:45 hrs</th>
                 <td>
                     <p>
-                        Closure
+                        <strong>El rol del diseño en la facilitación del codiseño</strong><br>
+                        Sebastián Valenzuela<br>
+                        Design Lead<br>
+                        <span class="fw-bold">Sky Airline</span>
                     </p>
                 </td>
             </tr>
+            <tr>
+                <th scope="row">10:50 - 11:10 hrs</th>
+                <td>
+                    <p>
+                        <strong>TBD</strong><br>
+                        <span class="fw-bold">IBM</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:15 - 11:35 hrs</th>
+                <td>
+                    <p>
+                        <strong>Angustia, fracaso y llanto; la vida después de la escuela</strong><br>
+                        Remedios Méndez<br>
+                        UX Writer<br>
+                        <span class="fw-bold">RGP</span>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#remediosMendez" role="button"
+                        aria-expanded="false" aria-controls="remediosMendez">Abstract</a>
+                    <div class="collapse" id="remediosMendez">
+                        <div class="card card-body">
+                            <p>
+                                A brief history of how to change the world by speaking nicely.
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">11:40 - 12:00 hrs</th>
+                <td>
+                    <p>
+                        Coffee break
+                    </p>
+                </td>
+            </tr>            
+            <tr>
+                <th scope="row">12:05 - 12:25 hrs</th>
+                <td>
+                    <p>
+                        <strong>El journey de un Product Designer: perspectivas del trabajo en equipo en la práctica profesional</strong><br>
+                        Griselda Legaria<br>
+                        Product Designer<br>
+                        <span class="fw-bold">Serbatic</span>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#servatic" role="button"
+                        aria-expanded="false" aria-controls="servatic">Abstract</a>
+                    <div class="collapse" id="servatic">
+                        <div class="card card-body">
+                            <p>
+                                The role of a Product Designer is present in companies during the phases of digital product development. Collaborating with other stakeholders is a key factor in adding value to the product's design. We cannot become experts in everything, but we can collaborate to generate comprehensive solutions!
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">12:30 - 13:15 hrs</th>
+                <td>
+                    <p>
+                        <strong>Analizando las interacciones humanas en la era de la Inteligencia Artificial</strong><br>
+                        Santi Cantalejo / Julio Pedrazuela<br>
+                        <span class="fw-bold">The Cocktail</span>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#theCocktail" role="button"
+                        aria-expanded="false" aria-controls="theCocktail">Abstract</a>
+                    <div class="collapse" id="theCocktail">
+                        <div class="card card-body">
+                            <p>
+                                In this talk, we will, in an instructive way, explore the implications of HCI through the lens of behavioral economics to understand how human expectations, biases, and cognitive processes are evolving in an era where there may not necessarily be humans behind digital content and interactions.
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">13:20 - 14:00 hrs</th>
+                <td>
+                    <p>
+                        Panel de preguntas y respuestas
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">14:00 - 14:10 hrs</th>
+                <td>
+                    <p>
+                        Clausura del Industry Day
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">14:10 - 14:30 hrs</th>
+                <td>
+                    <p>
+                        Networking
+                    </p>
+                </td>
+            </tr>            
         </tbody>
     </table>
-    
-    <h2 id="thursday" class="text-primary text-gradient text-center py-4">Thursday, November 2nd, 2023.</h2>
-    
+
+    <h3 class="text-primary text-gradient text-center py-4">Workshops</h3>
+
     <table class="table table-striped">
         <thead>
             <tr>
                 <th scope="col" class="w-25">Time (CST)</th>
-                <th scope="col">Event</th>
+                <th scope="col" colspan="2">Event</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row">09:00 - 18:00 hrs</th>
-                <td>
+                <th scope="row">9:30 - 10:00 hrs</th>
+                <td colspan="2">
                     <p>
-                        DUAL University Workshop
+                        Registration
                     </p>
                 </td>
             </tr>
+            <tr>
+                <th scope="row">10:00 - 12:00 hrs</th>
+                <td>
+                    <p>
+                        <strong class="text-center text-primary text-gradient">Room to be determined <br> Tec de Monterrey, Campus Puebla.</strong><br>
+                        <strong>Diseño de futuros: enfrentando retos globales a través de la innovación</strong><br>
+                        Luis Carlos Aceves <br>
+                        Business Development & Corporate Affairs Manager<br>
+                        <span class="fw-bold">Skye Group</span>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#skyeGroup" role="button"
+                        aria-expanded="false" aria-controls="skyeGroup">Abstract</a>
+                    <div class="collapse" id="skyeGroup">
+                        <div class="card card-body">
+                            <p>
+                                In this talk-workshop, we will address the principles for innovation through strategic design, particularly reviewing the foundations of futures design to understand how it can help us prospect and design long-term solutions.
+                            </p>
+                        </div>
+                    </div>
+                </td>                
+                <td rowspan="2">
+                    <p>
+                        <strong class="text-center text-primary text-gradient">Room to be determined <br> Tec de Monterrey, Campus Puebla.</strong><br>
+                        <strong>Introducción a Jobs to be Done: Conecta con las necesidades de las personas usuarias</strong><br>
+                        Sarai Prado / Nefer Daniela Romero / Zaira Cuecuecha<br>
+                        <span class="fw-bold">Sperientia [Studio + Lab] ®</span>
+                    </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#sperientia" role="button"
+                        aria-expanded="false" aria-controls="sperientia">Abstract</a>
+                    <div class="collapse" id="sperientia">
+                        <div class="card card-body">
+                            <p>
+                                This workshop is designed for students interested in creating products and services, as well as implementing human-centered design. We will introduce a methodology that allows us to understand people's needs from the root. By identifying Jobs to Be Done, we can better satisfy those needs, find opportunities for innovation, and disruption in the market.
+                            </p>
+                        </div>
+                    </div>
+                </td>                
+            </tr>
+            <tr>
+                <th scope="row">12:00 - 14:00 hrs</th>
+                <td> - </td>
+            </tr>
         </tbody>
-    </table>
-    -->
+    </table>    
+        
 </template>
