@@ -834,7 +834,96 @@ export default {
                     <h2 id="program-committee" class="text-primary text-gradient text-center py-4 mt-5">
                         {{ $t("organizers.program_committee_title") }}
                     </h2>
-                    <p>{{ $t("nav.pending") }}</p>
+                    
+                    <h3 class="h4">{{ $t("accepted_papers.student_design_competition") }}</h3>
+                    <ul>
+                        <li>Ana Gabriela Sanchez Reyna, Universidad Autónoma de Zacatecas, México</li>
+                        <li>Cesar A. Collazos, Universidad del Cauca, Colombia</li>
+                        <li>Jorge A. Morgan Benita, Universidad Autónoma de Zacatecas, México</li>
+                        <li>Huizilopoztli Luna-García, Universidad Autónoma de Zacatecas, México</li>
+                        <li>Libertad Aguilar, Universidad Autónoma de Aguascalientes, Mexico</li>
+                        <li>Javier Tibau, Escuela Superior Politécnica del Litoral, Ecuador</li>
+                    </ul>
+
+                    <h3 class="h4">{{ $t("accepted_papers.workshops_and_tutorials") }}</h3>
+                    <ul>
+                        <li>Gustavo Constain</li>
+                        <li>Wilson Sarmiento, Universidad Militar Nueva Granada, Colombia</li>
+                        <li>Freddy Paz, Pontificia Pontificia Universidad Católica del Perú, Peru</li>
+                        <li>Diego Torres, Universidad Nacional de La Plata, Argentina</li>
+                        <li>Valeria Farinazzo, Universidade Presbiteriana Mackenzie, Brasil</li>
+                        <li>Andres Rodriguez, Universidad Nacional de La Plata, Argentina</li>
+                        <li>Jaime Muñoz, Universidad Autónoma de Aguascalientes, México </li>
+                        <li>Patricia Paderewski, Universidad de Granada, España</li>
+                    </ul>
+                    
+                    <h3 class="h4">{{ $t("accepted_papers.posters") }}</h3>
+                    <ul>
+                        <li>María Libertad Aguilar Carlos, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>Julio César Enriquez, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>José Eder Guzmán Mendoza, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>Victor Hugo Menéndez Domínguez, Universidad Autónoma de Yucatán, México</li>
+                        <li>Jaime Muñoz-Arteaga, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>Humberto Muñoz Bautista</li>
+                        <li>Miguel Angel Ortiz Esparza</li>
+                        <li>Pablo Torres Torres Carrion, Universidad Técnica Particular de Loja, Ecuador</li>
+                        <li>César Eduardo Velazquez Amador, Universidad Autónoma de Aguascalientes, México</li>
+                    </ul>
+
+                    <h3 class="h4">{{ $t("accepted_papers.full_and_short_papers") }}</h3>
+                    <ul>
+                        <li>Yuska Aguiar, Universidadade Federal Da Paraíba, Brazil</li>
+                        <li>Adriana Alvarado Garcia, IBM</li>
+                        <li>Teresita De Jesús Álvarez, Universidad Autónoma de Baja California Sur, México</li>
+                        <li>Eráclito Argolo, Universidade Federal do Maranhão, Brazil</li>
+                        <li>Luis Rodrigo Barba Guamas, Universidad Técnica Particular de Loja, Ecuador</li>
+                        <li>Helton Biscaro, Universidade de São Paulo, Brazil</li>
+                        <li>Luciana Borges, Universidade Federal de Mato Grosso, Brazil</li>
+                        <li>Luciana Brito, Universidade Federal do Rio de Janeiro, Brasil</li>
+                        <li>Héctor Miguel Camarillo-Abad, Universidad de las Américas Puebla, Mexico</li>
+                        <li>Karina Caro, Universidad Autónoma de Baja California, México</li>
+                        <li>Julio César Ponce, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>Joelma Choma, Universidade Federal de São Carlos, Brazil</li>
+                        <li>Cesar Collazos, Universidad del Cauca, Colombia</li>
+                        <li>Heitor Costa, Universidade Federal de Lavras, Brazil</li>
+                        <li>Dagoberto Cruz-Sandoval, University of California San Diego, United States</li>
+                        <li>Ana C. M. T. G. de Oliveira, FATEC Ipiranga, Brasil</li>
+                        <li>Juan Domínguez, Universidad Autónoma del Carmen, México</li>
+                        <li>Victor Domínguez, Universidad Autónoma de Yucatán, Mexico </li>
+                        <li>Nestor Duque, Universidad Nacional de Colombia, Colombia</li>
+                        <li>Silvia Fajardo-Flores, Universidad de Colima, México</li>
+                        <li>Mayara Figueiredo, University of California Irvine, USA</li>
+                        <li>Karina Figueroa, Universidad MIchoacana, Mexico</li>
+                        <li>André Freire, Universidade Federal de Lavras, Brazil</li>
+                        <li>Ludmilla Galvao, Universidade Federal do Paraná, Brazil</li>
+                        <li>Maria Elena García Diaz, Universidad Nacional de Asunción, Paraguay</li>
+                        <li>Cléber Gimenez Corrêa, Universidad Tecnológica Federal de Paraná, Brazil</li>
+                        <li>Yosly Caridad Hernández Bieliukas, Universidad Central de Venezuela, Venezuela</li>
+                        <li>Huizilopoztli Luna-García, Universidad Autónoma de Zacatecas, México</li>
+                        <li>Cristiano Maciel, Universidade Federal de Mato Grosso, Brazil</li>
+                        <li>Gerardo Matturro, Universidad ORT Uruguay, Uruguay</li>
+                        <li>Marcelo Medeiros Eler, Universidade de São Paulo, Brazil</li>
+                        <li>Victoria Meza, Universidad Autónoma de Baja California, México</li>
+                        <li>Carlos Hitoshi Morimoto, Universidade de São Paulo, Brazil</li>
+                        <li>Regina Motz, Universidad de la Republica, Uruguay</li>
+                        <li>Ricardo Nakamura, Universidade de São Paulo, Brazil</li>
+                        <li>Fátima Nunes, Universidade de São Paulo, Brazil</li>
+                        <li>Claudia Perez-Lezama, Tec de Monterrey, Mexico</li>
+                        <li>Monica Perusquía-Hernández, NARA Institute of Science and Technology, Japan</li>
+                        <li>Luis Roberto Ramos Aguiar, Universidad Autónoma de Aguascalientes, México</li>
+                        <li>Pedro Reynolds-Cuéllar, MIT, USA</li>
+                        <li>Kamila Rodrigues, Universidade de São Paulo, Brazil</li>
+                        <li>Germania Rodriguez, Universidad Técnica Particular de Loja, Ecuador</li>
+                        <li>Daniel José Salas Alvarez, Universidad De Córdoba, Colombia</li>
+                        <li>Wilson Javier Sarmiento, Universidad Militar Nueva Granada, Colombia</li>
+                        <li>Lucineide Silva, Universidade Federal de Mato Grosso do Sul, Brazil</li>
+                        <li>Antonio Silva Sprock, Universidad Central de Venezuela, Venezuela</li>
+                        <li>Leandro Soares Guedes, Università della Svizzera italiana, Switzerland</li>
+                        <li>Terezinha Souza, Universidade Federal de Mato Grosso, Brazil</li>
+                        <li>Fernando Urgiles, Universidad Politécnica Salesiana, Ecuador</li>
+                        <li>Rodrigo Zacarias, Universidade Federal do Estado do Rio de Janeiro, Brazil</li>
+                        <li>David Rivas, Escuela Superior Politécnica del Ejército, Ecuador</li>
+                    </ul>
                 <p>
                     <RouterLink :to="Tr.i18nRoute({ name: 'organizers', hash: '#top'})" class="uline">
                         {{ $t("nav.back_to_top") }}
