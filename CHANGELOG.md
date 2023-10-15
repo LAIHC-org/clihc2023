@@ -257,3 +257,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Fixed
 
 - fix(Content): Cambia la agenda
+
+## [2023.1.0.11] - 2023-10-14
+
+## Fixed
+
+- feat(Content): 🔨 Cambia organizacion de tabla de talleres del industry day, se agregaron sponsors en el home
