@@ -114,7 +114,9 @@
     },
     "home": {
         "keynotes":"Palestrantes principais",
-        "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC."
+        "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC.",
+        "sponsors": "Agradecimento Especial",
+        "sponsors_message": "Queremos agradecer aos nossos patrocinadores."
     },
     "accepted_papers": {
         "title": "Artigos Aceitos",

@@ -506,23 +506,25 @@ export default {
         <thead>
             <tr>
                 <th scope="col" class="w-25">Horário (CST) </th>
-                <th scope="col" colspan="2">Event</th>
+                <th scope="col">Event</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <th scope="row">9:30 - 10:00 hrs</th>
-                <td colspan="2">
+                <td>
                     <p>
                         Registro
                     </p>
                 </td>
             </tr>
             <tr>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local a ser determinado - Tec de Monterrey, Campus Puebla</th>
+            </tr>            
+            <tr>
                 <th scope="row">10:00 - 12:00 hrs</th>
                 <td>
                     <p>
-                        <strong class="text-center text-primary text-gradient">Local a ser determinado <br> Tec de Monterrey, Campus Puebla.</strong><br>
                         <strong>Diseño de futuros: enfrentando retos globales a través de la innovación</strong><br>
                         Luis Carlos Aceves <br>
                         Business Development & Corporate Affairs Manager<br>
@@ -538,9 +540,14 @@ export default {
                         </div>
                     </div>
                 </td>                
-                <td rowspan="2">
+            </tr>
+            <tr>
+                <th scope="col" colspan="3" class="text-center text-primary text-gradient">Local a ser determinado - Tec de Monterrey, Campus Puebla</th>
+            </tr>            
+            <tr>
+                <th scope="row">10:00 - 14:00 hrs</th>
+                <td>
                     <p>
-                        <strong class="text-center text-primary text-gradient">Local a ser determinado <br> Tec de Monterrey, Campus Puebla.</strong><br>
                         <strong>Introducción a Jobs to be Done: Conecta con las necesidades de las personas usuarias</strong><br>
                         Sarai Prado / Nefer Daniela Romero / Zaira Cuecuecha<br>
                         <span class="fw-bold">Sperientia [Studio + Lab] ®</span>
@@ -555,10 +562,6 @@ export default {
                         </div>
                     </div>
                 </td>                
-            </tr>
-            <tr>
-                <th scope="row">12:00 - 14:00 hrs</th>
-                <td> - </td>
             </tr>
         </tbody>
     </table>    

@@ -113,8 +113,10 @@
         "register_button": "Register your payment receipt"
     },
     "home": {
-        "keynotes":"Keynote speakers",
-        "keynotes_message": "The conference program includes great speakers from the international HCI community."
+        "keynotes": "Keynote speakers",
+        "keynotes_message": "The conference program includes great speakers from the international HCI community.",
+        "sponsors": "Special Thanks",
+        "sponsors_message": "We want to thank to our sponsors."
     },
     "accepted_papers": {
         "title": "Accepted Papers",

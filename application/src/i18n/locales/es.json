@@ -114,7 +114,9 @@
     },
     "home": {
         "keynotes":"Ponentes principales",
-        "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC."
+        "keynotes_message": "El programa de la conferencia incluye destacados ponentes de la comunidad internacional de IHC.",
+        "sponsors": "Agradecimiento especial",
+        "sponsors_message": "Queremos agradecer a nuestros patrocinadores."
     },
     "accepted_papers": {
         "title": "Artículos aceptados",
