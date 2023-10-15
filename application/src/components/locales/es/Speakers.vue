@@ -17,20 +17,20 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
         </template>
 
         <p>
-            El Dr. Roberto Martínez-Maldonado obtuvo su doctorado en Tecnologías de la Información en la Universidad de
-            Sídney en 2014. Actualmente, es Profesor Senior de Analítica de Aprendizaje e Interacción Humano-Computadora en
-            la Facultad de Tecnología de la Información y Coordinador del Centro de Analítica de Aprendizaje en la
-            Universidad Monash, Melbourne, VIC, Australia. Es coautor de numerosos artículos de investigación. Es el primer
-            australiano en recibir la Beca de Investigación de la Fundación Jacobs con sede en Suiza (2021–23) por su
-            investigación pionera en Inteligencia Artificial Centrada en el Ser Humano en Educación. Su investigación se
-            centra en avanzar en la comprensión de cuestiones sociotécnicas en torno al uso de la inteligencia artificial en
-            la educación, promoviendo el uso de metodologías centradas en el ser humano para crear interfaces de analítica
-            de aprendizaje con integridad y mejorar los espacios auténticos de aprendizaje con capacidades de cómputo
-            multimodal intensivo en datos. Ha sido Presidente del Programa de la Conferencia Internacional sobre Analítica
-            de Aprendizaje y Conocimiento y de la Conferencia Internacional de Inteligencia Artificial en Educación, y es
-            regularmente Presidente Asociado del subcomité de Aprendizaje y Educación de la Conferencia SIGCHI sobre
-            Factores Humanos en Sistemas Computacionales. Es Editor Asociado de la Revista Internacional de Inteligencia
-            Artificial en Educación.
+            El Dr. Roberto Martínez-Maldonado obtuvo el grado de Doctor en Tecnologías de la Información de la Universidad
+            de Sídney en 2014. Actualmente es Profesor Senior de Analítica de Aprendizaje e Interacción Humano-Computadora
+            en la Facultad de Tecnología de la Información y Coordinador del Centro de Analítica de Aprendizaje de la
+            Universidad de Monash, Melbourne, VIC, Australia. Es coautor de numerosos artículos de investigación. Es el
+            primer australiano/mexicano en recibir la Beca de Investigación de la Jacobs Foundation con sede en Suiza
+            (2021–23) por su investigación pionera en Inteligencia Artificial Centrada en el Ser Humano en Educación. Su
+            investigación se centra en avanzar en la comprensión de cuestiones socio-técnicas en torno al uso de la
+            inteligencia artificial en la educación, promoviendo el uso de metodologías centradas en el ser humano para
+            crear interfaces de análisis de aprendizaje con integridad y mejorar espacios de aprendizaje auténtico con
+            capacidades de cómputo de datos multimodales intensivos. Ha sido Presidente del Programa de la Conferencia
+            Internacional sobre Analítica de Aprendizaje y Conocimiento y de la Conferencia Internacional de Inteligencia
+            Artificial en Educación, y es un Asociado Regular del subcomité de Aprendizaje y Educación de la Conferencia
+            SIGCHI sobre Factores Humanos en Sistemas Informáticos. Es Editor Asociado de la Revista Internacional de
+            Inteligencia Artificial en Educación.
         </p>
     </SpeakerLargeItem>
 
@@ -106,15 +106,14 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             departamento de Confiabilidad de Software y Sistemas en el IRIT (Laboratorio de Investigación en Ciencias de la
             Computación de Toulouse). Durante muchos años, ha participado en proyectos de investigación en el área de
             Sistemas de Comando y Control en múltiples dominios, incluyendo drones, interfaces multimodales para cabinas
-            militares, sistemas de segmento terrestre en salas de control de satélites, estaciones de control de tráfico
-            aéreo, seguridad de vuelo para plataformas de lanzamiento y más. En la aviación civil, trabajó en problemas de
-            especificación y certificación de nuevas cabinas interactivas (que deben cumplir con la norma de especificación
-            ARINC 661) de aviones grandes como el Airbus A350, con un enfoque reciente en interacciones multitáctiles. En
-            todos estos dominios, el modelado conjunto del comportamiento del sistema interactivo y las tareas del usuario
-            fue un aspecto clave para evaluar y garantizar la compatibilidad entre el trabajo de los operadores y las
-            herramientas proporcionadas para realizar este trabajo. Ha editado y coeditado más de veinte libros o actas de
-            conferencias y ha coautorado más de 200 publicaciones arbitradas en conferencias y revistas internacionales. Es
-            miembro de la Academia CHI de ACM SIGCHI y presidente de la Asamblea Técnica de IFIP.
-        </p>
-    </SpeakerLargeItem>
-</template>
+        militares, sistemas de segmento terrestre en salas de control de satélites, estaciones de control de tráfico
+        aéreo, seguridad de vuelo para plataformas de lanzamiento y más. En la aviación civil, trabajó en problemas de
+        especificación y certificación de nuevas cabinas interactivas (que deben cumplir con la norma de especificación
+        ARINC 661) de aviones grandes como el Airbus A350, con un enfoque reciente en interacciones multitáctiles. En
+        todos estos dominios, el modelado conjunto del comportamiento del sistema interactivo y las tareas del usuario
+        fue un aspecto clave para evaluar y garantizar la compatibilidad entre el trabajo de los operadores y las
+        herramientas proporcionadas para realizar este trabajo. Ha editado y coeditado más de veinte libros o actas de
+        conferencias y ha coautorado más de 200 publicaciones arbitradas en conferencias y revistas internacionales. Es
+        miembro de la Academia CHI de ACM SIGCHI y presidente de la Asamblea Técnica de IFIP.
+    </p>
+</SpeakerLargeItem></template>

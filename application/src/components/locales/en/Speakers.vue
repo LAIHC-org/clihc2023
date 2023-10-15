@@ -20,9 +20,9 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             Dr. Roberto Martinez-Maldonado received the Ph.D. degree in Information Technologies from the University of
             Sydney in 2014. He is currently a Senior Lecturer of Learning Analytics and Human-Computer Interaction with the
             Faculty of Information Technology and Coordinator of the Centre for Learning Analytics with Monash University,
-            Melbourne, VIC, Australia. He is a co-author of numerous research papers. He is the first Australian to win the
-            Swiss-based Jacobs Foundation Research Fellowship (2021–23) for his pioneering research in Human-Centred AI in
-            Education. His research focuses on advancing the understanding of socio-technical issues around the use of
+            Melbourne, VIC, Australia. He is a co-author of numerous research papers. He is the first Australian/Mexican to
+            win the Swiss-based Jacobs Foundation Research Fellowship (2021–23) for his pioneering research in Human-Centred
+            AI in Education. His research focuses on advancing the understanding of socio-technical issues around the use of
             artificial intelligence in education, promoting the use of human-centred methodologies to create learning
             analytics interfaces with integrity and enhancing authentic learning spaces with multimodal data-intensive
             computing capabilities. He has been Program Chair of the International Conference on Learning Analytics and
@@ -104,13 +104,12 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             many years, he has been involved in research projects in the area of Command and Control Systems in multiple
             domains, including drones, multimodal interfaces for military cockpits, ground segment systems in satellite
             control rooms, Air Traffic Control workstations, Flight safety for launchpads, and more. In civil aviation, he
-            worked on the specification and certification issues of new interactive cockpits (that have to be compliant with
-            the ARINC 661 specification standard) of large airplanes such as the Airbus A350, with a recent focus on
-            multi-touch interactions. In all these domains, the joint modeling of the interactive system behavior and user
-            tasks was a key aspect to assess and ensure compatibility between operators’ work and the tools provided to them
-            to perform this work. He has edited and co-edited more than twenty books or conference proceedings and
-            co-authored more than 200 refereed publications in international conferences and journals. He is a member of ACM
-            SIGCHI CHI Academy and chair of the IFIP Technical Assembly.
-        </p>
-    </SpeakerLargeItem>
-</template>
+        worked on the specification and certification issues of new interactive cockpits (that have to be compliant with
+        the ARINC 661 specification standard) of large airplanes such as the Airbus A350, with a recent focus on
+        multi-touch interactions. In all these domains, the joint modeling of the interactive system behavior and user
+        tasks was a key aspect to assess and ensure compatibility between operators’ work and the tools provided to them
+        to perform this work. He has edited and co-edited more than twenty books or conference proceedings and
+        co-authored more than 200 refereed publications in international conferences and journals. He is a member of ACM
+        SIGCHI CHI Academy and chair of the IFIP Technical Assembly.
+    </p>
+</SpeakerLargeItem></template>

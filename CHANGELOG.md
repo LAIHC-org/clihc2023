@@ -218,3 +218,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - feat: Agrega la pagina de agenda
 - feat: Agrega agenda de eventos y ponentes principales
+
+## [2023.1.0.6] - 2023-09-22
+
+### Added
+
+- feat: Keynotespeakers en el home
+
+## Fixed
+
+- fix: Agenda temporal, y cambios en bio de Dr Roberto
+
+## [2023.1.0.7] - 2023-09-27
+
+### Added
+
+- feat: Accepted papers
+
+## Fixed
+
+- fix(Content): Cambia fecha early bird
+
+## [2023.1.0.8] - 2023-10-6
+
+### Added
+
+- feat(Content): Agrega Program Committee
+
+## [2023.1.0.9] - 2023-10-6
+
+### Added
+
+- fix(Content): Corrige idioma en Program Commitee
+- fix(Content): Modifica la agenda, disponible solo en inglés
+
+## [2023.1.0.10] - 2023-10-13
+
+## Fixed
+
+- fix(Content): Cambia la agenda

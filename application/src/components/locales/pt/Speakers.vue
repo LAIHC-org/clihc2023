@@ -17,19 +17,19 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
         </template>
 
         <p>
-            O Dr. Roberto Martinez-Maldonado obteve o grau de Doutor em Tecnologias da Informação pela Universidade de
+            O Dr. Roberto Martinez-Maldonado recebeu o grau de Doutor em Tecnologias da Informação pela Universidade de
             Sydney em 2014. Atualmente, ele é Professor Sênior de Análise de Aprendizado e Interação Humano-Computador na
-            Faculdade de Tecnologia da Informação e Coordenador do Centro de Análise de Aprendizado da Universidade Monash,
-            Melbourne, VIC, Austrália. Ele é coautor de numerosos artigos de pesquisa. Ele é o primeiro australiano a
-            receber a Bolsa de Pesquisa da Fundação Jacobs, com sede na Suíça (2021–23), por sua pesquisa pioneira em IA
-            Centrada no Humano na Educação. Sua pesquisa se concentra em avançar na compreensão de questões sociotécnicas
-            relacionadas ao uso da inteligência artificial na educação, promovendo o uso de metodologias centradas no ser
-            humano para criar interfaces de análise de aprendizado com integridade e aprimorar espaços autênticos de
-            aprendizado com capacidades de computação multimodal intensiva em dados. Ele foi Presidente do Programa da
-            Conferência Internacional sobre Análise de Aprendizado e Conhecimento e da Conferência Internacional de
-            Inteligência Artificial em Educação, e é regularmente Presidente Associado do subcomitê de Aprendizado e
-            Educação da Conferência SIGCHI sobre Fatores Humanos em Sistemas Computacionais. Ele é Editor Associado da
-            Revista Internacional de Inteligência Artificial em Educação.
+            Faculdade de Tecnologia da Informação e Coordenador do Centro de Análise de Aprendizado da Universidade de
+            Monash, Melbourne, VIC, Austrália. Ele é coautor de inúmeros artigos de pesquisa. Ele é o primeiro
+            australiano/mexicano a receber a Bolsa de Pesquisa da Jacobs Foundation, sediada na Suíça (2021–23), por sua
+            pesquisa pioneira em IA Centrada no Ser Humano na Educação. Sua pesquisa se concentra em avançar na compreensão
+            de questões sócio-técnicas relacionadas ao uso de inteligência artificial na educação, promovendo o uso de
+            metodologias centradas no ser humano para criar interfaces de análise de aprendizado com integridade e aprimorar
+            espaços autênticos de aprendizado com capacidades de computação de dados multimodais intensivos. Ele foi
+            Presidente do Programa da Conferência Internacional de Análise de Aprendizado e Conhecimento e da Conferência
+            Internacional de Inteligência Artificial em Educação, e é um Associado Regular do subcomitê de Aprendizado e
+            Educação da Conferência SIGCHI sobre Fatores Humanos em Sistemas Computacionais. Ele é Editor Associado do
+            International Journal of Artificial Intelligence in Education.
         </p>
     </SpeakerLargeItem>
 
@@ -105,14 +105,13 @@ import SpeakerLargeItem from '@/components/SpeakerLargeItem.vue'
             Toulouse). Por muitos anos, ele esteve envolvido em projetos de pesquisa na área de Sistemas de Comando e
             Controle em múltiplos domínios, incluindo drones, interfaces multimodais para cockpits militares, sistemas de
             segmento terrestre em salas de controle de satélites, estações de controle de tráfego aéreo, segurança de voo
-            para plataformas de lançamento e muito mais. Na aviação civil, trabalhou em questões de especificação e
-            certificação de novos cockpits interativos (que precisam estar em conformidade com a especificação padrão ARINC
-            661) de grandes aeronaves, como o Airbus A350, com um foco recente em interações multitouch. Em todos esses
-            domínios, a modelagem conjunta do comportamento do sistema interativo e das tarefas do usuário foi um
-            aspecto-chave para avaliar e garantir a compatibilidade entre o trabalho dos operadores e as ferramentas
-            fornecidas para realizar esse trabalho. Ele editou e coeditou mais de vinte livros ou atas de conferências e
-            coautorou mais de 200 publicações arbitradas em conferências e revistas internacionais. Ele é membro da Academia
-            CHI da ACM SIGCHI e presidente da Assembleia Técnica da IFIP.
-        </p>
-    </SpeakerLargeItem>
-</template>
+        para plataformas de lançamento e muito mais. Na aviação civil, trabalhou em questões de especificação e
+        certificação de novos cockpits interativos (que precisam estar em conformidade com a especificação padrão ARINC
+        661) de grandes aeronaves, como o Airbus A350, com um foco recente em interações multitouch. Em todos esses
+        domínios, a modelagem conjunta do comportamento do sistema interativo e das tarefas do usuário foi um
+        aspecto-chave para avaliar e garantir a compatibilidade entre o trabalho dos operadores e as ferramentas
+        fornecidas para realizar esse trabalho. Ele editou e coeditou mais de vinte livros ou atas de conferências e
+        coautorou mais de 200 publicações arbitradas em conferências e revistas internacionais. Ele é membro da Academia
+        CHI da ACM SIGCHI e presidente da Assembleia Técnica da IFIP.
+    </p>
+</SpeakerLargeItem></template>

@@ -113,7 +113,7 @@
 		<li>
 			Sobre descontos
 			<ol type="a">
-				<li>Os registrantes entre 15 de setembro e 1º de outubro podem se inscrever em Tutoriais e Oficinas sem custos adicionais.</li>
+				<li>Os registrantes entre 15 de setembro e 15 de outubro podem se inscrever em Tutoriais e Oficinas sem custos adicionais.</li>
 				<li>Desconto de 50% para o registro presencial de professores que registrem 5 estudantes no modo presencial.</li>
 				<li>Desconto de 100% para o registro presencial de professores que registrem 10 estudantes neste modo.</li>
 				<li>Desconto de 50% para o registro presencial de professores que registrem 10 estudantes no modo virtual.</li>

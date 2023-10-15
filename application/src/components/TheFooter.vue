@@ -130,13 +130,13 @@
                                 >
                                     {{ $t("nav.accessibility_faqs") }}
                                 </RouterLink>
-                            </li>                                                        
-                            <li class="nav-item">
-                                <a class="nav-link uline" href="./accepted-papers">
-                                    Accepted papers
-                                </a>
                             </li>
-                            -->
+                            -->                                                        
+                            <li class="nav-item">
+                                <RouterLink class="nav-link uline" :to="Tr.i18nRoute({ name: 'accepted-papers' })">
+                                    {{ $t("nav.accepted_papers") }}
+                                </RouterLink>
+                            </li>                            
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
                                     class="nav-link uline"
@@ -155,7 +155,7 @@
                             {{ $t("nav.copyright") }}
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.1.0.5</a>
+                            <a class="uline" href="CHANGELOG.md">v2023.1.0.10</a>
                         </p>
                     </div>
                 </div>
