@@ -422,18 +422,29 @@ export default {
                 <th scope="row">10:00 - 10:45 hrs</th>
                 <td>
                     <p>
-                        <strong>El rol del diseño en la facilitación del codiseño</strong><br>
+                        <strong>Co-creación de valor: la actitud que impulsa al diseño</strong><br>
                         Sebastián Valenzuela<br>
-                        Design Lead<br>
+                        Head of Design Chapter Sky Airline<br>
                         <span class="fw-bold">Sky Airline</span>
                     </p>
+                    <a class="btn bg-gradient-primary btn-round" data-bs-toggle="collapse" href="#sebastianValenzuela" role="button"
+                        aria-expanded="false" aria-controls="sebastianValenzuela">Abstract</a>
+                    <div class="collapse" id="sebastianValenzuela">
+                        <div class="card card-body">
+                            <p>
+                                In this talk, we will explore the fundamental role of design in organizational contexts where its value was not fully recognized. Understanding the context strengthens our work as designers, enabling us to drive the co-creation of value with the various actors in the system and, consequently, facilitate the incorporation of co-design into airline operations and practices.
+                            </p>
+                        </div>
+                    </div>                    
                 </td>
             </tr>
             <tr>
                 <th scope="row">10:50 - 11:10 hrs</th>
                 <td>
                     <p>
-                        <strong>TBD</strong><br>
+                        <strong>Integrando métodos y perspectivas de Interacción Humano- Computadora en el desarrollo responsable de Inteligencia Artificial</strong><br>
+                        Adriana Alvarado <br>
+                        Research Scientist<br>
                         <span class="fw-bold">IBM</span>
                     </p>
                 </td>
