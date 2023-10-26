@@ -107,7 +107,6 @@
                     <div>
                         <h3 class="text-gradient text-primary text-sm">{{ $t("nav.for_attendees_title") }}</h3>
                         <ul class="flex-column ms-n3 nav">
-                            <!--
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'getting-started' })" 
                                     class="nav-link uline"
@@ -115,7 +114,6 @@
                                     {{ $t("nav.getting_started") }}
                                 </RouterLink>
                             </li>                      
-                            -->
                             <li class="nav-item">
                                 <RouterLink :to="Tr.i18nRoute({ name: 'registration' })" 
                                     class="nav-link uline"
@@ -155,7 +153,7 @@
                             {{ $t("nav.copyright") }}
                         </p>
                         <p class="my-0  text-sm">
-                            <a class="uline" href="CHANGELOG.md">v2023.1.0.11</a>
+                            <a class="uline" href="CHANGELOG.md">v2023.1.0.12</a>
                         </p>
                     </div>
                 </div>
