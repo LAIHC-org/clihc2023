@@ -116,7 +116,9 @@
         "keynotes": "Keynote speakers",
         "keynotes_message": "The conference program includes great speakers from the international HCI community.",
         "sponsors": "Special Thanks",
-        "sponsors_message": "We want to thank to our sponsors."
+        "sponsors_message": "We want to thank to our sponsors.",
+        "virtual_venues": "Virtual Venues",
+        "virtual_venues_message": "Universities participating as Virtual Venues in CLIHC 2023."
     },
     "accepted_papers": {
         "title": "Accepted Papers",

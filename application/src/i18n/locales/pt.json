@@ -116,7 +116,9 @@
         "keynotes":"Palestrantes principais",
         "keynotes_message": "O programa da conferência inclui excelentes palestrantes da comunidade internacional de IHC.",
         "sponsors": "Agradecimento Especial",
-        "sponsors_message": "Queremos agradecer aos nossos patrocinadores."
+        "sponsors_message": "Queremos agradecer aos nossos patrocinadores.",
+        "virtual_venues": "Sedes Virtuais",
+        "virtual_venues_message": "Universidades que participam como Sedes Virtuais no CLIHC 2023."
     },
     "accepted_papers": {
         "title": "Artigos Aceitos",
