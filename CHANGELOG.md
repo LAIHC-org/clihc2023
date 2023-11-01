@@ -273,3 +273,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Fixed
 
 - fix(Content): Cambios solicitados por Vicman
+
+## [2023.1.0.13] - 2023-11-1
+
+## Added
+
+- feat(Content): Agrega sedes virtuales en el home
