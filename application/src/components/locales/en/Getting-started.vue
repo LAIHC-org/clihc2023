@@ -29,6 +29,7 @@ export default {
 				payments with or without an invoice.
 			</div>
 		</li>
+		<!--
 		<li class="list-group-item d-flex justify-content-between align-items-start">
 			<div class="ms-2 me-auto">
 				<div class="fw-bold">
@@ -64,6 +65,7 @@ export default {
 				Find answers to the most common questions you may have about your participation in the conference.
 			</div>
 		</li>
+		-->
 	</ol>
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Registration and Payment:</h2>
@@ -101,7 +103,7 @@ export default {
 				workshops, and it must be done separately.</strong></p>
 </div>
 
-
+<!--
 <h2 id="accommodation" class="mt-5 h3">Accommodation:</h2>
 <p>
 	Pending
@@ -115,4 +117,6 @@ export default {
 <h2 id="frequently-asked-questions" class="mt-5 h3">Frequently Asked Questions:</h2>
 <p>
 	Pending
-</p></template>
+</p>
+-->
+</template>

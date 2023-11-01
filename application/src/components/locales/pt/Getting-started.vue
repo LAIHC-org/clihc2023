@@ -25,6 +25,7 @@ export default {
 				Obtenha informações sobre como se inscrever e pagar, garantindo a sua presença no CLIHC 2023, com instruções para pagamentos com ou sem fatura.
 			</div>
 		</li>
+		<!--
 		<li class="list-group-item d-flex justify-content-between align-items-start">
 			<div class="ms-2 me-auto">
 				<div class="fw-bold">
@@ -58,6 +59,7 @@ export default {
 				Encontre respostas para as perguntas mais comuns que você possa ter sobre a sua participação na conferência.
 			</div>
 		</li>
+		-->
 	</ol>
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Inscrição e Pagamento:</h2>
@@ -82,7 +84,7 @@ export default {
 		<p>Certifique-se de enviar todas as informações necessárias para gerar as faturas de forma oportuna. Além disso, <strong>observe que o pagamento da inscrição na conferência é um pré-requisito para se inscrever em tutoriais e oficinas, e deve ser feito separadamente.</strong></p>
 	</div>
 
-
+	<!--
 	<h2 id="accommodation" class="mt-5 h3">Acomodação</h2>
 	<p>
 		Pendente
@@ -97,4 +99,5 @@ export default {
 	<p>
 		Pendente
 	</p>
+	-->
 </template>

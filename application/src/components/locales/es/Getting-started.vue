@@ -29,6 +29,7 @@ export default {
 				pagos con o sin factura.
 			</div>
 		</li>
+		<!--
 		<li class="list-group-item d-flex justify-content-between align-items-start">
 			<div class="ms-2 me-auto">
 				<div class="fw-bold">
@@ -64,6 +65,7 @@ export default {
 				Encuentre respuestas a las preguntas más comunes que pueda tener sobre su participación en la conferencia.
 			</div>
 		</li>
+		-->
 	</ol>
 
 	<h2 id="rates-and-registration" class="mt-5 h3">Registro y Pago</h2>
@@ -97,7 +99,7 @@ export default {
 			talleres, y debe realizarse por separado.</strong></p>
 	</div>
 
-
+<!--
 	<h2 id="accommodation" class="mt-5 h3">Hospedaje</h2>
 <p>
 	Pendiente
@@ -111,4 +113,6 @@ export default {
 <h2 id="frequently-asked-questions" class="mt-5 h3">Preguntas Frecuentes</h2>
 <p>
 	Pendiente
-</p></template>
+</p>
+-->
+</template>
