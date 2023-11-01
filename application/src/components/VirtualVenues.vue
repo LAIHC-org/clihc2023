@@ -36,6 +36,7 @@ export default {
                                 </div>
                             </template>                                
                             <template #name>
+                                <a href="https://itson.mx/Paginas/index.aspx" class="uline">Instituto Tecnológico de Sonora</a>
                             </template>
                         </SponsorItem> 
 
@@ -49,6 +50,7 @@ export default {
                                 </div>
                             </template>                                
                             <template #name>
+                                <a href="https://www.uabc.mx/" class="uline">Universidad Autónoma de Baja California</a>
                             </template>
                         </SponsorItem>
 
@@ -62,19 +64,21 @@ export default {
                                 </div>
                             </template>                                
                             <template #name>
+                                <a href="https://www.uaslp.mx/" class="uline">Universidad Autónoma de San Luis Potosí</a>
                             </template>
                         </SponsorItem>
 
                         <SponsorItem>
                             <template #image>
-                                <img src="/assets/img/logos/uap.png" alt="" class="img-fluid shadow rounded-3">
+                                <img src="/assets/img/logos/umsnh.png" alt="" class="img-fluid shadow rounded-3">
                             </template>
                             <template #image-shadow>
                                 <div class="colored-shadow"
-                                    style="background-image: url(&quot;./assets/img/logos/uap.png&quot;);">
+                                    style="background-image: url(&quot;./assets/img/logos/umsnh.png&quot;);">
                                 </div>
                             </template>                                
                             <template #name>
+                                <a href="https://www.umich.mx/" class="uline">Universidad Michoacana de San Nicolás de Hidalgo</a>
                             </template>
                         </SponsorItem>
 
@@ -86,8 +90,9 @@ export default {
                                 <div class="colored-shadow"
                                     style="background-image: url(&quot;./assets/img/logos/unca.png&quot;);">
                                 </div>
-                            </template>                                
+                            </template> 
                             <template #name>
+                                <a href="https://www.unca.edu.mx/" class="uline">Universidad de la Cañada</a>
                             </template>
                         </SponsorItem>
 
@@ -101,6 +106,7 @@ export default {
                                 </div>
                             </template>                                
                             <template #name>
+                                <a href="https://www.uppuebla.edu.mx/" class="uline">Universidad Politécnica de Puebla</a>
                             </template>
                         </SponsorItem>                        
 
