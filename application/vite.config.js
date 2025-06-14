@@ -1,4 +1,4 @@
-import { fileURLToPath, URL } from 'url'
+  import { fileURLToPath, URL } from 'url'
 import { resolve, dirname } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     emptyOutDir: false,
   },
-  base: "",
+  base: "/",
   plugins: [
     vue(),
     VueI18nPlugin({
